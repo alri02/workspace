@@ -1,0 +1,37 @@
+enable_transports('corba', 'mqueue', 'typelib')
+self.extended_states = true
+
+self.disable_namespace "test"
+
+# We want this file to apply the default extensions as they were defined during
+# generation, *not* the ones that are currently setup for the given project. 
+#
+# So, override the list of default extensions by the ones that were used at
+# generation. Revert with pop_default_extensions_state at the end of the file
+defaults = %w[metadata_support]
+Spec::TaskContext.push_default_extensions_state(defaults)
+
+using_typekit "std"
+using_typekit "base"
+
+name "aggregator"
+
+import_types_from "base"
+using_library "aggregator"
+import_types_from "aggregator/StreamAlignerStatus.hpp"
+import_types_from "aggregator/TimestampEstimatorStatus.hpp"
+
+
+typekit do
+    if type_export_policy == :used
+        # We assume that, if the caller wants a 'used' type policy, it means he
+        # wants partial exports. Move to 'selected'. oroGen would have changed
+        # it to 'all'
+        type_export_policy :selected
+    end
+
+    export_types '/aggregator/StreamAlignerStatus',
+        '/aggregator/TimestampEstimatorStatus'
+end	
+
+Spec::TaskContext.pop_default_extensions_state

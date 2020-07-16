@@ -1,0 +1,18 @@
+# Generated from orogen/lib/orogen/templates/typekit/corba/transport-corba.pc
+
+prefix=/home/alveena/workspace/install/base/orogen/types
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos/types
+includedir=${prefix}/include/orocos
+
+project_name=base
+deffile=${prefix}/share/orogen/base.orogen
+type_registry=${prefix}/share/orogen/base.tlb
+corba_idl_requires=std
+
+Name: baseCorbaTransport
+Version: 0.1
+Description: base types support for the Orocos type system
+Libs: -L${libdir} -lbase-transport-corba-gnulinux
+Cflags: -I${includedir}
+

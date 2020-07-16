@@ -1,0 +1,60 @@
+/* Generated from orogen/lib/orogen/templates/typekit/corba/Types.idl */
+
+#ifndef __OROGEN_TYPEKIT_AGGREGATOR_IDL__
+#define __OROGEN_TYPEKIT_AGGREGATOR_IDL__
+
+#include <base/transports/corba/baseTypes.idl>
+#include <std/transports/corba/stdTypes.idl>
+
+module orogen {
+    module aggregator {
+        module Corba {
+            struct TimestampEstimatorStatus {
+                ::orogen::base::Corba::Time stamp;
+                ::orogen::base::Corba::Time period;
+                ::orogen::base::Corba::Time latency;
+                ::orogen::base::Corba::Time time_raw;
+                ::orogen::base::Corba::Time reference_time_raw;
+                long lost_samples_total;
+                long lost_samples;
+                long window_size;
+                long window_capacity;
+                ::orogen::base::Corba::Time base_time;
+                ::orogen::base::Corba::Time base_time_reset_offset;
+                long expected_losses;
+                long rejected_expected_losses;
+            };
+            struct StreamStatus {
+                unsigned long long buffer_size;
+                unsigned long long buffer_fill;
+                unsigned long long samples_received;
+                unsigned long long samples_processed;
+                unsigned long long samples_dropped_buffer_full;
+                unsigned long long samples_dropped_late_arriving;
+                unsigned long long samples_backward_in_time;
+                ::orogen::base::Corba::Time latest_data_time;
+                ::orogen::base::Corba::Time earliest_data_time;
+                ::orogen::base::Corba::Time latest_sample_time;
+                boolean active;
+                string name;
+                long long priority;
+            };
+            typedef sequence<::orogen::aggregator::Corba::StreamStatus> vector__aggregator_StreamStatus_;
+            struct StreamAlignerStatus {
+                ::orogen::base::Corba::Time time;
+                string name;
+                ::orogen::base::Corba::Time current_time;
+                ::orogen::base::Corba::Time latest_time;
+                unsigned long long samples_dropped_late_arriving;
+                ::orogen::aggregator::Corba::vector__aggregator_StreamStatus_ streams;
+            };
+
+        };
+
+    };
+
+};
+
+
+#endif
+

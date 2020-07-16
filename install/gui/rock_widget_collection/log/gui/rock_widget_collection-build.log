@@ -1,0 +1,468 @@
+
+2020-03-29 04:32:12 +0200: running
+    cmake .
+with environment:
+  'AUTOPROJ_CURRENT_ROOT'='/home/alveena/workspace'
+  'BUNDLER_ORIG_BUNDLER_VERSION'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_BIN_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_GEMFILE'='/home/alveena/workspace/.autoproj/Gemfile'
+  'BUNDLER_ORIG_GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'BUNDLER_ORIG_GEM_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_MANPATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_PATH'='/home/alveena/workspace/gui/vizkit/bin:/home/alveena/workspace/tools/roby/bin:/home/alveena/workspace/base/scripts/bin:/home/alveena/workspace/tools/pocolog/bin:/home/alveena/workspace/tools/orocos.rb/bin:/home/alveena/workspace/tools/metaruby/bin:/home/alveena/workspace/tools/orogen/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'BUNDLER_ORIG_RB_USER_INSTALL'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYLIB'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYOPT'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLE_BIN_PATH'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/exe/bundle'
+  'BUNDLE_GEMFILE'='/home/alveena/workspace/install/gems/Gemfile'
+  'CLUTTER_IM_MODULE'='xim'
+  'CMAKE_PREFIX_PATH'='/home/alveena/workspace/install/drivers/aggregator:/home/alveena/workspace/install/perception/frame_helper:/home/alveena/workspace/tools/utilrb:/home/alveena/workspace/install/rtt_typelib:/home/alveena/workspace/install/typelib:/home/alveena/workspace/install/perception/jpeg_conversion:/home/alveena/workspace/install/base/types:/home/alveena/workspace/install/gui/osgviz:/home/alveena/workspace/install/gui/vizkit3d:/home/alveena/workspace/install/external/sisl:/home/alveena/workspace/install/base/logging:/home/alveena/workspace/install/base/cmake:/home/alveena/workspace/install/rtt'
+  'COLORTERM'='truecolor'
+  'DBUS_SESSION_BUS_ADDRESS'='unix:path=/run/user/1000/bus'
+  'DESKTOP_AUTOSTART_ID'='10d9adc6bfef662ab9158544517269288000000012480007'
+  'DESKTOP_SESSION'='ubuntu'
+  'DISPLAY'=':0'
+  'GDMSESSION'='ubuntu'
+  'GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'GNOME_DESKTOP_SESSION_ID'='this-is-deprecated'
+  'GNOME_SHELL_SESSION_MODE'='ubuntu'
+  'GNOME_TERMINAL_SCREEN'='/org/gnome/Terminal/screen/5515c39b_d33f_4371_91f4_d855164d5f45'
+  'GNOME_TERMINAL_SERVICE'=':1.69'
+  'GPG_AGENT_INFO'='/run/user/1000/gnupg/S.gpg-agent:0:1'
+  'GTK_IM_MODULE'='ibus'
+  'GTK_MODULES'='gail:atk-bridge'
+  'HOME'='/home/alveena'
+  'IM_CONFIG_PHASE'='2'
+  'LANG'='en_US.UTF-8'
+  'LC_ADDRESS'='de_DE.UTF-8'
+  'LC_IDENTIFICATION'='de_DE.UTF-8'
+  'LC_MEASUREMENT'='de_DE.UTF-8'
+  'LC_MONETARY'='de_DE.UTF-8'
+  'LC_NAME'='de_DE.UTF-8'
+  'LC_NUMERIC'='de_DE.UTF-8'
+  'LC_PAPER'='de_DE.UTF-8'
+  'LC_TELEPHONE'='de_DE.UTF-8'
+  'LC_TIME'='de_DE.UTF-8'
+  'LD_LIBRARY_PATH'='/home/alveena/workspace/install/drivers/aggregator/lib:/home/alveena/workspace/install/rtt/lib:/home/alveena/workspace/install/rtt_typelib/lib:/home/alveena/workspace/install/typelib/lib:/home/alveena/workspace/install/perception/jpeg_conversion/lib:/home/alveena/workspace/install/perception/frame_helper/lib:/home/alveena/workspace/install/gui/osgviz/lib:/home/alveena/workspace/install/gui/vizkit3d/lib:/home/alveena/workspace/install/external/sisl/lib:/home/alveena/workspace/install/base/logging/lib:/home/alveena/workspace/install/base/types/lib'
+  'LESSCLOSE'='/usr/bin/lesspipe %s %s'
+  'LESSOPEN'='| /usr/bin/lesspipe %s'
+  'LOGNAME'='alveena'
+  'LS_COLORS'='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+  'OLDPWD'='/home/alveena'
+  'ORBInitRef'='NameService=corbaname::127.0.0.1'
+  'OROCOS_TARGET'='gnulinux'
+  'OROGEN_PLUGIN_PATH'=''
+  'OSG_FILE_PATH'=''
+  'PATH'='/home/alveena/workspace/install/perception/jpeg_conversion/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'PKG_CONFIG_PATH'='/home/alveena/workspace/install/drivers/aggregator/lib/pkgconfig:/home/alveena/workspace/install/rtt/lib/pkgconfig:/home/alveena/workspace/install/rtt_typelib/lib/pkgconfig:/home/alveena/workspace/install/typelib/lib/pkgconfig:/home/alveena/workspace/install/perception/jpeg_conversion/lib/pkgconfig:/home/alveena/workspace/install/perception/frame_helper/lib/pkgconfig:/home/alveena/workspace/install/gui/osgviz/lib/pkgconfig:/home/alveena/workspace/install/gui/vizkit3d/lib/pkgconfig:/home/alveena/workspace/install/base/logging/lib/pkgconfig:/home/alveena/workspace/install/base/types/lib/pkgconfig'
+  'PWD'='/home/alveena/workspace'
+  'PYTHONUSERBASE'='/home/alveena/workspace/install/pip'
+  'QT4_IM_MODULE'='xim'
+  'QT_ACCESSIBILITY'='1'
+  'QT_IM_MODULE'='xim'
+  'QT_PLUGIN_PATH'='/home/alveena/workspace/install/gui/vizkit3d/lib/qt:/home/alveena/workspace/install/base/types/lib/qt'
+  'RBENV_SHELL'='bash'
+  'ROBY_PLUGIN_PATH'='/home/alveena/workspace/base/scripts/lib/rock/roby_plugin.rb'
+  'ROCK_BUNDLE_PATH'=''
+  'ROCK_PREFIX'='/home/alveena/workspace/install/base/orogen/types/share/rock'
+  'RUBYLIB'='/home/alveena/workspace/tools/utilrb/lib:/home/alveena/workspace/install/typelib/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/typelib/lib/ruby/2.5.0:/home/alveena/workspace/install/perception/jpeg_conversion/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/perception/jpeg_conversion/lib/ruby/2.5.0:/home/alveena/workspace/install/perception/frame_helper/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/perception/frame_helper/lib/ruby/2.5.0:/home/alveena/workspace/install/base/types/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/base/types/lib/ruby/2.5.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-12.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/i18n-1.8.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/minitest-5.14.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thread_safe-0.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tzinfo-1.2.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/zeitwerk-2.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/activesupport-6.0.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/equatable-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-color-0.4.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/pastel-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-cursor-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/necromancer-0.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timers-4.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-screen-0.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/wisper-2.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-reader-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-prompt-0.15.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/standard:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/core:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/utilrb-3.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autobuild-1.20.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/backports-3.17.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/ffi-1.12.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ffi-1.12.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-inotify-0.10.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thor-0.20.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-spinner-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xdg-2.2.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autoproj-2.12.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/uber-0.0.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hooks-0.4.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autorespawn-0.6.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/debug_inspector-0.0.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/debug_inspector-0.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/binding_of_caller-0.8.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/binding_of_caller-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/builder-3.2.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/concurrent-ruby-ext-1.0.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/daemons-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/unf_ext-0.0.7.6:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf_ext-0.0.7.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf-0.1.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/domain_name-0.5.20190701/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-core-0.4.9/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-equalizer-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-configurable-0.11.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-container-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-inflector-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-logic-1.0.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-types-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/eventmachine-1.2.7:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/eventmachine-1.2.7/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/fakefs-1.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/flexmock-2.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ruby2_keywords-0.0.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-1.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-grape-1.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-2.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-accept-0.4.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/grape-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-3.22.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/yard-0.9.24/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-yard-0.1.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-accept-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-cookie-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/kramdown-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/lazy_priority_queue-0.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-data-3.2019.1009/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-3.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/msgpack-1.3.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/msgpack-1.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/netrc-0.11.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/optimist-3.0.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/qtbindings-4.8.6.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/qtbindings-4.8.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-compiler-0.8.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-readline-0.5.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rbtrace-0.4.12:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rest-client-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stream-0.5.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rgl-0.5.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rice-2.2.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rice-2.2.0/ruby/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/stackprof-0.2.15:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stackprof-0.2.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/state_machine-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-ansi-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode-display_width-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode_utils-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-0.1.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/thin-1.7.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thin-1.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timecop-0.9.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-table-0.10.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/websocket-1.2.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xmlrpc-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib'
+  'RUBYOPT'='-r/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib/bundler/setup'
+  'SESSION_MANAGER'='local/alveena-HP-ENVY:@/tmp/.ICE-unix/1248,unix/alveena-HP-ENVY:/tmp/.ICE-unix/1248'
+  'SHELL'='/bin/bash'
+  'SHLVL'='1'
+  'SSH_AGENT_PID'='1325'
+  'SSH_AUTH_SOCK'='/run/user/1000/keyring/ssh'
+  'TERM'='xterm-256color'
+  'TEXTDOMAIN'='im-config'
+  'TEXTDOMAINDIR'='/usr/share/locale/'
+  'TYPELIB_CXX_LOADER'='castxml'
+  'TYPELIB_PLUGIN_PATH'='/home/alveena/workspace/install/typelib/lib/typelib'
+  'TYPELIB_RUBY_PLUGIN_PATH'=''
+  'USER'='alveena'
+  'USERNAME'='alveena'
+  'VIZKIT_PLUGIN_RUBY_PATH'='/home/alveena/workspace/install/gui/vizkit3d/lib:/home/alveena/workspace/install/base/types/lib'
+  'VTE_VERSION'='5202'
+  'WINDOWPATH'='1'
+  'XAUTHORITY'='/run/user/1000/gdm/Xauthority'
+  'XDG_CONFIG_DIRS'='/etc/xdg/xdg-ubuntu:/etc/xdg'
+  'XDG_CURRENT_DESKTOP'='ubuntu:GNOME'
+  'XDG_DATA_DIRS'='/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+  'XDG_MENU_PREFIX'='gnome-'
+  'XDG_RUNTIME_DIR'='/run/user/1000'
+  'XDG_SEAT'='seat0'
+  'XDG_SESSION_DESKTOP'='ubuntu'
+  'XDG_SESSION_ID'='1'
+  'XDG_SESSION_TYPE'='x11'
+  'XDG_VTNR'='1'
+  'XMODIFIERS'='@im=ibus'
+  '_'='/home/alveena/workspace/.autoproj/bin/amake'
+
+2020-03-29 04:32:12 +0200: running
+    cmake .
+in directory /home/alveena/workspace/gui/rock_widget_collection/build
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Export include dir: '/home/alveena/workspace/gui/rock_widget_collection/build/include/_rock_widget_collection_/rock_widget_collection' already exists
+-- Found Qt4: /usr/bin/qmake (found version "4.8.7") 
+-- Found Qt4: /usr/bin/qmake (found version "4.8.7") 
+pkg-config: /home/alveena/workspace/gui/rock_widget_collection/src/stream_aligner_widget/stream_aligner_widget.pc.in is not available for configuration
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alveena/workspace/gui/rock_widget_collection/build
+Exit: pid 2539 exit 0
+
+2020-03-29 04:32:13 +0200: running
+    make --jobserver-fds=7,8 -j
+with environment:
+  'AUTOPROJ_CURRENT_ROOT'='/home/alveena/workspace'
+  'BUNDLER_ORIG_BUNDLER_VERSION'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_BIN_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_GEMFILE'='/home/alveena/workspace/.autoproj/Gemfile'
+  'BUNDLER_ORIG_GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'BUNDLER_ORIG_GEM_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_MANPATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_PATH'='/home/alveena/workspace/gui/vizkit/bin:/home/alveena/workspace/tools/roby/bin:/home/alveena/workspace/base/scripts/bin:/home/alveena/workspace/tools/pocolog/bin:/home/alveena/workspace/tools/orocos.rb/bin:/home/alveena/workspace/tools/metaruby/bin:/home/alveena/workspace/tools/orogen/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'BUNDLER_ORIG_RB_USER_INSTALL'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYLIB'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYOPT'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLE_BIN_PATH'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/exe/bundle'
+  'BUNDLE_GEMFILE'='/home/alveena/workspace/install/gems/Gemfile'
+  'CLUTTER_IM_MODULE'='xim'
+  'CMAKE_PREFIX_PATH'='/home/alveena/workspace/install/drivers/aggregator:/home/alveena/workspace/install/perception/frame_helper:/home/alveena/workspace/tools/utilrb:/home/alveena/workspace/install/rtt_typelib:/home/alveena/workspace/install/typelib:/home/alveena/workspace/install/perception/jpeg_conversion:/home/alveena/workspace/install/base/types:/home/alveena/workspace/install/gui/osgviz:/home/alveena/workspace/install/gui/vizkit3d:/home/alveena/workspace/install/external/sisl:/home/alveena/workspace/install/base/logging:/home/alveena/workspace/install/base/cmake:/home/alveena/workspace/install/rtt'
+  'COLORTERM'='truecolor'
+  'DBUS_SESSION_BUS_ADDRESS'='unix:path=/run/user/1000/bus'
+  'DESKTOP_AUTOSTART_ID'='10d9adc6bfef662ab9158544517269288000000012480007'
+  'DESKTOP_SESSION'='ubuntu'
+  'DISPLAY'=':0'
+  'GDMSESSION'='ubuntu'
+  'GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'GNOME_DESKTOP_SESSION_ID'='this-is-deprecated'
+  'GNOME_SHELL_SESSION_MODE'='ubuntu'
+  'GNOME_TERMINAL_SCREEN'='/org/gnome/Terminal/screen/5515c39b_d33f_4371_91f4_d855164d5f45'
+  'GNOME_TERMINAL_SERVICE'=':1.69'
+  'GPG_AGENT_INFO'='/run/user/1000/gnupg/S.gpg-agent:0:1'
+  'GTK_IM_MODULE'='ibus'
+  'GTK_MODULES'='gail:atk-bridge'
+  'HOME'='/home/alveena'
+  'IM_CONFIG_PHASE'='2'
+  'LANG'='en_US.UTF-8'
+  'LC_ADDRESS'='de_DE.UTF-8'
+  'LC_IDENTIFICATION'='de_DE.UTF-8'
+  'LC_MEASUREMENT'='de_DE.UTF-8'
+  'LC_MONETARY'='de_DE.UTF-8'
+  'LC_NAME'='de_DE.UTF-8'
+  'LC_NUMERIC'='de_DE.UTF-8'
+  'LC_PAPER'='de_DE.UTF-8'
+  'LC_TELEPHONE'='de_DE.UTF-8'
+  'LC_TIME'='de_DE.UTF-8'
+  'LD_LIBRARY_PATH'='/home/alveena/workspace/install/drivers/aggregator/lib:/home/alveena/workspace/install/rtt/lib:/home/alveena/workspace/install/rtt_typelib/lib:/home/alveena/workspace/install/typelib/lib:/home/alveena/workspace/install/perception/jpeg_conversion/lib:/home/alveena/workspace/install/perception/frame_helper/lib:/home/alveena/workspace/install/gui/osgviz/lib:/home/alveena/workspace/install/gui/vizkit3d/lib:/home/alveena/workspace/install/external/sisl/lib:/home/alveena/workspace/install/base/logging/lib:/home/alveena/workspace/install/base/types/lib'
+  'LESSCLOSE'='/usr/bin/lesspipe %s %s'
+  'LESSOPEN'='| /usr/bin/lesspipe %s'
+  'LOGNAME'='alveena'
+  'LS_COLORS'='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+  'OLDPWD'='/home/alveena'
+  'ORBInitRef'='NameService=corbaname::127.0.0.1'
+  'OROCOS_TARGET'='gnulinux'
+  'OROGEN_PLUGIN_PATH'=''
+  'OSG_FILE_PATH'=''
+  'PATH'='/home/alveena/workspace/install/perception/jpeg_conversion/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'PKG_CONFIG_PATH'='/home/alveena/workspace/install/drivers/aggregator/lib/pkgconfig:/home/alveena/workspace/install/rtt/lib/pkgconfig:/home/alveena/workspace/install/rtt_typelib/lib/pkgconfig:/home/alveena/workspace/install/typelib/lib/pkgconfig:/home/alveena/workspace/install/perception/jpeg_conversion/lib/pkgconfig:/home/alveena/workspace/install/perception/frame_helper/lib/pkgconfig:/home/alveena/workspace/install/gui/osgviz/lib/pkgconfig:/home/alveena/workspace/install/gui/vizkit3d/lib/pkgconfig:/home/alveena/workspace/install/base/logging/lib/pkgconfig:/home/alveena/workspace/install/base/types/lib/pkgconfig'
+  'PWD'='/home/alveena/workspace'
+  'PYTHONUSERBASE'='/home/alveena/workspace/install/pip'
+  'QT4_IM_MODULE'='xim'
+  'QT_ACCESSIBILITY'='1'
+  'QT_IM_MODULE'='xim'
+  'QT_PLUGIN_PATH'='/home/alveena/workspace/install/gui/vizkit3d/lib/qt:/home/alveena/workspace/install/base/types/lib/qt'
+  'RBENV_SHELL'='bash'
+  'ROBY_PLUGIN_PATH'='/home/alveena/workspace/base/scripts/lib/rock/roby_plugin.rb'
+  'ROCK_BUNDLE_PATH'=''
+  'ROCK_PREFIX'='/home/alveena/workspace/install/base/orogen/types/share/rock'
+  'RUBYLIB'='/home/alveena/workspace/tools/utilrb/lib:/home/alveena/workspace/install/typelib/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/typelib/lib/ruby/2.5.0:/home/alveena/workspace/install/perception/jpeg_conversion/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/perception/jpeg_conversion/lib/ruby/2.5.0:/home/alveena/workspace/install/perception/frame_helper/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/perception/frame_helper/lib/ruby/2.5.0:/home/alveena/workspace/install/base/types/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/base/types/lib/ruby/2.5.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-12.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/i18n-1.8.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/minitest-5.14.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thread_safe-0.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tzinfo-1.2.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/zeitwerk-2.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/activesupport-6.0.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/equatable-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-color-0.4.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/pastel-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-cursor-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/necromancer-0.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timers-4.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-screen-0.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/wisper-2.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-reader-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-prompt-0.15.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/standard:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/core:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/utilrb-3.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autobuild-1.20.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/backports-3.17.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/ffi-1.12.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ffi-1.12.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-inotify-0.10.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thor-0.20.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-spinner-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xdg-2.2.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autoproj-2.12.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/uber-0.0.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hooks-0.4.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autorespawn-0.6.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/debug_inspector-0.0.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/debug_inspector-0.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/binding_of_caller-0.8.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/binding_of_caller-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/builder-3.2.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/concurrent-ruby-ext-1.0.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/daemons-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/unf_ext-0.0.7.6:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf_ext-0.0.7.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf-0.1.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/domain_name-0.5.20190701/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-core-0.4.9/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-equalizer-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-configurable-0.11.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-container-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-inflector-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-logic-1.0.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-types-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/eventmachine-1.2.7:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/eventmachine-1.2.7/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/fakefs-1.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/flexmock-2.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ruby2_keywords-0.0.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-1.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-grape-1.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-2.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-accept-0.4.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/grape-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-3.22.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/yard-0.9.24/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-yard-0.1.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-accept-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-cookie-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/kramdown-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/lazy_priority_queue-0.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-data-3.2019.1009/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-3.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/msgpack-1.3.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/msgpack-1.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/netrc-0.11.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/optimist-3.0.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/qtbindings-4.8.6.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/qtbindings-4.8.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-compiler-0.8.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-readline-0.5.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rbtrace-0.4.12:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rest-client-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stream-0.5.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rgl-0.5.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rice-2.2.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rice-2.2.0/ruby/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/stackprof-0.2.15:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stackprof-0.2.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/state_machine-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-ansi-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode-display_width-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode_utils-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-0.1.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/thin-1.7.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thin-1.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timecop-0.9.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-table-0.10.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/websocket-1.2.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xmlrpc-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib'
+  'RUBYOPT'='-r/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib/bundler/setup'
+  'SESSION_MANAGER'='local/alveena-HP-ENVY:@/tmp/.ICE-unix/1248,unix/alveena-HP-ENVY:/tmp/.ICE-unix/1248'
+  'SHELL'='/bin/bash'
+  'SHLVL'='1'
+  'SSH_AGENT_PID'='1325'
+  'SSH_AUTH_SOCK'='/run/user/1000/keyring/ssh'
+  'TERM'='xterm-256color'
+  'TEXTDOMAIN'='im-config'
+  'TEXTDOMAINDIR'='/usr/share/locale/'
+  'TYPELIB_CXX_LOADER'='castxml'
+  'TYPELIB_PLUGIN_PATH'='/home/alveena/workspace/install/typelib/lib/typelib'
+  'TYPELIB_RUBY_PLUGIN_PATH'=''
+  'USER'='alveena'
+  'USERNAME'='alveena'
+  'VIZKIT_PLUGIN_RUBY_PATH'='/home/alveena/workspace/install/gui/vizkit3d/lib:/home/alveena/workspace/install/base/types/lib'
+  'VTE_VERSION'='5202'
+  'WINDOWPATH'='1'
+  'XAUTHORITY'='/run/user/1000/gdm/Xauthority'
+  'XDG_CONFIG_DIRS'='/etc/xdg/xdg-ubuntu:/etc/xdg'
+  'XDG_CURRENT_DESKTOP'='ubuntu:GNOME'
+  'XDG_DATA_DIRS'='/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+  'XDG_MENU_PREFIX'='gnome-'
+  'XDG_RUNTIME_DIR'='/run/user/1000'
+  'XDG_SEAT'='seat0'
+  'XDG_SESSION_DESKTOP'='ubuntu'
+  'XDG_SESSION_ID'='1'
+  'XDG_SESSION_TYPE'='x11'
+  'XDG_VTNR'='1'
+  'XMODIFIERS'='@im=ibus'
+  '_'='/home/alveena/workspace/.autoproj/bin/amake'
+
+2020-03-29 04:32:13 +0200: running
+    make --jobserver-fds=7,8 -j
+in directory /home/alveena/workspace/gui/rock_widget_collection/build
+[  1%] Generating moc_StreamAlignerWidgetPlugin.cxx
+[  1%] Generating artificial_horizon/moc_orientationplugin.cxx
+[  2%] Generating moc_StreamAlignerWidget.cxx
+[  2%] Generating qrc_resources.cxx
+Scanning dependencies of target stream_aligner_widget
+[  3%] Generating image_view_old/moc_ImageViewOld.cxx
+[  3%] Building CXX object src/stream_aligner_widget/CMakeFiles/stream_aligner_widget.dir/StreamAlignerWidget.cpp.o
+[  3%] Generating image_view_old/moc_ImageViewOldGL.cxx
+[  4%] Generating image_view_old/moc_ImageViewOldPlugin.cxx
+[  4%] Generating generic_widgets/moc_DrawItem.cxx
+[  5%] Generating generic_widgets/moc_RectangleItem.cxx
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/RectangleItem.h:0: Note: No relevant classes found. No output generated.
+[  5%] Generating generic_widgets/moc_FillItem.cxx
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/FillItem.h:0: Note: No relevant classes found. No output generated.
+[  6%] Generating generic_widgets/moc_LineItem.cxx
+[  7%] Generating generic_widgets/moc_TextItem.cxx
+[  7%] Generating generic_widgets/moc_PointItem.cxx
+[  8%] Generating generic_widgets/moc_EllipseItem.cxx
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/EllipseItem.h:0: Note: No relevant classes found. No output generated.
+[  8%] Generating generic_widgets/moc_PolygonItem.cxx
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/PolygonItem.h:0: Note: No relevant classes found. No output generated.
+[  9%] Generating generic_widgets/moc_PolylineItem.cxx
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/PolylineItem.h:0: Note: No relevant classes found. No output generated.
+[  9%] Generating sonar_view/moc_SonarView.cxx
+[ 10%] Generating sonar_view/moc_SonarViewGL.cxx
+[ 10%] Generating sonar_view/moc_SonarViewPlugin.cxx
+[ 11%] Generating range_view/moc_RangeView.cxx
+[ 12%] Generating range_view/moc_RangeViewGL.cxx
+[ 12%] Generating range_view/moc_RangeViewPlugin.cxx
+[ 13%] Generating moc_RockWidgetCollection.cxx
+[ 13%] Generating multi_view/moc_MultiViewWidget.cxx
+[ 14%] Generating multi_view/moc_WidgetButton.cxx
+[ 14%] Generating multi_view/moc_MultiViewPlugin.cxx
+[ 15%] Generating multi_view/moc_MultiWidget.cxx
+[ 15%] Generating multi_view/moc_MultiWidgetPlugin.cxx
+[ 16%] Generating multi_view/moc_WidgetButtonPlugin.cxx
+[ 17%] Building CXX object src/stream_aligner_widget/CMakeFiles/stream_aligner_widget.dir/StreamAlignerWidgetPlugin.cpp.o
+[ 18%] Generating virtual_joystick/moc_VirtualJoystick.cxx
+[ 18%] Generating virtual_joystick/moc_VirtualJoystickPlugin.cxx
+[ 19%] Generating generic_widgets/moc_PaintWidget.cxx
+[ 19%] Generating generic_widgets/moc_RockSlider.cxx
+[ 20%] Generating generic_widgets/moc_RockSliderPlugin.cxx
+[ 20%] Generating artificial_horizon/moc_artificialhorizon.cxx
+[ 21%] Generating artificial_horizon/moc_artificialhorizonplugin.cxx
+[ 21%] Generating plot2d/moc_Plot2d.cxx
+[ 22%] Generating plot2d/moc_qcustomplot.cxx
+[ 23%] Generating plot2d/moc_Plot2dPlugin.cxx
+[ 23%] Generating 2dvis/moc_qwaterfalldisplay.cxx
+[ 24%] Generating 2dvis/moc_WaterwallDisplayPlugin.cxx
+[ 24%] Generating timeline/moc_Timeline.cxx
+[ 24%] Building CXX object src/stream_aligner_widget/CMakeFiles/stream_aligner_widget.dir/moc_StreamAlignerWidget.cxx.o
+[ 25%] Generating timeline/moc_TestWidget.cxx
+[ 25%] Generating timeline/moc_TimelinePlugin.cxx
+[ 26%] Generating timeline/moc_Slider.cxx
+[ 26%] Generating timeline/moc_SlideBarItem.cxx
+[ 27%] Generating image_view/moc_ImageView.cxx
+[ 28%] Generating image_view/moc_ImageViewPlugin.cxx
+[ 28%] Generating image_view/moc_ContextMenuGraphicsWidget.cxx
+[ 29%] Generating progress_indicator/moc_ProgressIndicator.cxx
+[ 29%] Generating progress_indicator/moc_ProgressIndicatorPlugin.cxx
+[ 30%] Building CXX object src/stream_aligner_widget/CMakeFiles/stream_aligner_widget.dir/moc_StreamAlignerWidgetPlugin.cxx.o
+[ 31%] Generating sonar_widget/moc_SonarPlot.cxx
+[ 31%] Generating sonar_widget/moc_SonarWidget.cxx
+[ 32%] Generating sonar_widget/moc_SonarWidgetPlugin.cxx
+[ 32%] Generating artificial_horizon/moc_compass.cxx
+[ 33%] Generating artificial_horizon/moc_compassplugin.cxx
+[ 34%] Generating artificial_horizon/moc_orientation.cxx
+[ 34%] Linking CXX shared library libstream_aligner_widget.so
+[ 34%] Built target stream_aligner_widget
+[ 35%] Generating moc_test.cxx
+Scanning dependencies of target testWidget
+[ 35%] Building CXX object src/stream_aligner_widget/CMakeFiles/testWidget.dir/test.cpp.o
+Scanning dependencies of target rock_widget_collection
+[ 36%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/range_view/RangeView.cc.o
+[ 37%] Building CXX object src/stream_aligner_widget/CMakeFiles/testWidget.dir/moc_test.cxx.o
+[ 38%] Linking CXX executable testWidget
+[ 38%] Built target testWidget
+[ 38%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/range_view/RangeViewGL.cc.o
+[ 39%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/range_view/RangeViewPlugin.cc.o
+/home/alveena/workspace/gui/rock_widget_collection/src/range_view/RangeViewGL.cc: In member function ‘virtual void RangeViewGL::paintGL()’:
+/home/alveena/workspace/gui/rock_widget_collection/src/range_view/RangeViewGL.cc:207:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<data.size();i++){
+              ~^~~~~~~~~~~~
+[ 39%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view_old/ImageViewOld.cc.o
+[ 40%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view_old/ImageViewOldGL.cc.o
+[ 40%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view_old/ImageViewOldPlugin.cc.o
+[ 41%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view_old/main.cc.o
+[ 42%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_view/SonarView.cc.o
+[ 42%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_view/SonarViewGL.cc.o
+[ 43%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_view/SonarViewPlugin.cc.o
+/home/alveena/workspace/gui/rock_widget_collection/src/sonar_view/SonarViewGL.cc: In constructor ‘SonarViewGL::SonarViewGL(ImageViewOld&, unsigned int)’:
+/home/alveena/workspace/gui/rock_widget_collection/src/sonar_view/SonarViewGL.cc:54:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<maximumBearings;i++){
+              ~^~~~~~~~~~~~~~~~
+/home/alveena/workspace/gui/rock_widget_collection/src/sonar_view/SonarViewGL.cc: In member function ‘void SonarViewGL::reset(double)’:
+/home/alveena/workspace/gui/rock_widget_collection/src/sonar_view/SonarViewGL.cc:78:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<maximumBearings;i++){
+              ~^~~~~~~~~~~~~~~~
+/home/alveena/workspace/gui/rock_widget_collection/src/sonar_view/SonarViewGL.cc:88:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<maximumBearings;i++){
+              ~^~~~~~~~~~~~~~~~
+/home/alveena/workspace/gui/rock_widget_collection/src/sonar_view/SonarViewGL.cc: In member function ‘void SonarViewGL::setData(std::vector<unsigned char>, int)’:
+/home/alveena/workspace/gui/rock_widget_collection/src/sonar_view/SonarViewGL.cc:110:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(bearing < 0 || bearing > maximumBearings){
+                    ~~~~~~~~^~~~~~~~~~~~~~~~~
+/home/alveena/workspace/gui/rock_widget_collection/src/sonar_view/SonarViewGL.cc: In member function ‘virtual void SonarViewGL::paintGL()’:
+/home/alveena/workspace/gui/rock_widget_collection/src/sonar_view/SonarViewGL.cc:485:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int i=0;i<maximumBearings;i++){
+                  ~^~~~~~~~~~~~~~~~
+/home/alveena/workspace/gui/rock_widget_collection/src/sonar_view/SonarViewGL.cc:490:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int i=0;i<maximumBearings;i++){
+                  ~^~~~~~~~~~~~~~~~
+[ 43%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/MultiViewPlugin.cc.o
+[ 44%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/MultiViewWidget.cc.o
+[ 44%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/MultiWidgetPlugin.cc.o
+/home/alveena/workspace/gui/rock_widget_collection/src/multi_view/MultiViewWidget.cc: In member function ‘void MultiViewWidget::addWidget(const QString&, QWidget*, const QIcon&, bool, int)’:
+/home/alveena/workspace/gui/rock_widget_collection/src/multi_view/MultiViewWidget.cc:198:15: warning: enumeration value ‘Default’ not handled in switch [-Wswitch]
+         switch(currentWidget->getPosition())
+               ^
+[ 45%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/WidgetButton.cc.o
+[ 45%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/WidgetButtonPlugin.cc.o
+[ 46%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/multimain.cc.o
+[ 47%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/ArrowItem.cc.o
+[ 47%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/DrawItem.cc.o
+[ 48%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/EllipseItem.cc.o
+In file included from /home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/DrawItem.cc:8:0:
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/DrawItem.h: In constructor ‘DrawItem::DrawItem(int, int, int, const QColor&)’:
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/DrawItem.h:196:10: warning: ‘DrawItem::brender_on_opengl’ will be initialized after [-Wreorder]
+     bool brender_on_opengl;
+          ^~~~~~~~~~~~~~~~~
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/DrawItem.h:193:11: warning:   ‘float DrawItem::position_factor_x’ [-Wreorder]
+     float position_factor_x;
+           ^~~~~~~~~~~~~~~~~
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/DrawItem.cc:11:1: warning:   when initialized here [-Wreorder]
+ DrawItem::DrawItem(int posX, int posY, int groupNr, const QColor &color):
+ ^~~~~~~~
+[ 48%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/FillItem.cc.o
+[ 49%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/LineItem.cc.o
+[ 49%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/PaintWidget.cc.o
+[ 50%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/PointItem.cc.o
+[ 50%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/PolygonItem.cc.o
+[ 51%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/PolylineItem.cc.o
+In file included from /home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/PolylineItem.cc:13:0:
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/PolylineItem.h: In constructor ‘PolylineItem::PolylineItem(const QColor&, int, const QList<QPoint>&)’:
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/PolylineItem.h:76:19: warning: ‘PolylineItem::points’ will be initialized after [-Wreorder]
+     QList<QPoint> points;
+                   ^~~~~~
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/PolylineItem.cc:16:51: warning:   base ‘FillItem’ [-Wreorder]
+     : points(points),FillItem(0, 0, groupNr, color)
+                                                   ^
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/PolylineItem.cc:15:1: warning:   when initialized here [-Wreorder]
+ PolylineItem::PolylineItem(const QColor &color, int groupNr, const QList<QPoint> &points)
+ ^~~~~~~~~~~~
+[ 52%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/RectangleItem.cc.o
+[ 52%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/RockSlider.cc.o
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/RockSlider.cc: In member function ‘void RockSlider::paint_p(QPainter*)’:
+/home/alveena/workspace/gui/rock_widget_collection/src/generic_widgets/RockSlider.cc:51:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i=0;i<markers.size();i++){
+                 ~^~~~~~~~~~~~~~~
+[ 53%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/RockSliderPlugin.cc.o
+[ 53%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/TextItem.cc.o
+[ 54%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/virtual_joystick/VirtualJoystick.cc.o
+[ 54%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/virtual_joystick/VirtualJoystickPlugin.cc.o
+[ 55%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/plot2d/Plot2d.cc.o
+[ 55%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/plot2d/Plot2dPlugin.cc.o
+[ 56%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/plot2d/qcustomplot.cc.o
+[ 57%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/2dvis/WaterwallDisplayPlugin.cc.o
+[ 57%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/2dvis/qwaterfalldisplay.cc.o
+/home/alveena/workspace/gui/rock_widget_collection/src/2dvis/qwaterfalldisplay.cc: In member function ‘void QWaterfallDisplay::pushDataUint8(const char*, int)’:
+/home/alveena/workspace/gui/rock_widget_collection/src/2dvis/qwaterfalldisplay.cc:263:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (length > m_cols) {
+         ~~~~~~~^~~~~~~~
+/home/alveena/workspace/gui/rock_widget_collection/src/2dvis/qwaterfalldisplay.cc:270:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(i=0;i<length;i++)
+                 ~^~~~~~~
+[ 58%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/BoundarySlider.cc.o
+[ 58%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/IndexSlider.cc.o
+[ 59%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/SlideBarItem.cc.o
+[ 59%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/Slider.cc.o
+[ 60%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/Timeline.cc.o
+[ 60%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/TimelinePlugin.cc.o
+[ 61%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view/ContextMenuGraphicsWidget.cc.o
+[ 62%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view/GraphicsPointsItem.cc.o
+[ 62%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view/ImageView.cc.o
+[ 63%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view/ImageViewPlugin.cc.o
+[ 63%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/progress_indicator/ProgressIndicator.cc.o
+[ 64%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/progress_indicator/ProgressIndicatorPlugin.cc.o
+[ 64%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_widget/SonarPlot.cc.o
+[ 65%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_widget/SonarWidget.cc.o
+[ 65%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_widget/SonarWidgetPlugin.cc.o
+[ 66%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/RockWidgetCollection.cc.o
+[ 67%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/artificialhorizon.cc.o
+[ 67%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/artificialhorizonplugin.cc.o
+[ 68%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/compass.cc.o
+[ 68%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/compassplugin.cc.o
+[ 69%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/orientation.cc.o
+[ 69%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/orientationplugin.cc.o
+[ 70%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/qrc_resources.cxx.o
+[ 70%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view_old/moc_ImageViewOld.cxx.o
+[ 71%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view_old/moc_ImageViewOldGL.cxx.o
+[ 72%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view_old/moc_ImageViewOldPlugin.cxx.o
+[ 72%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_DrawItem.cxx.o
+[ 73%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_RectangleItem.cxx.o
+[ 73%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_FillItem.cxx.o
+[ 74%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_LineItem.cxx.o
+[ 74%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_TextItem.cxx.o
+[ 75%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_PointItem.cxx.o
+[ 75%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_EllipseItem.cxx.o
+[ 76%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_PolygonItem.cxx.o
+[ 77%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_PolylineItem.cxx.o
+[ 77%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_view/moc_SonarView.cxx.o
+[ 78%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_view/moc_SonarViewGL.cxx.o
+[ 78%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_view/moc_SonarViewPlugin.cxx.o
+[ 79%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/range_view/moc_RangeView.cxx.o
+[ 79%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/range_view/moc_RangeViewGL.cxx.o
+[ 80%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/range_view/moc_RangeViewPlugin.cxx.o
+[ 80%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/moc_RockWidgetCollection.cxx.o
+[ 81%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/moc_MultiViewWidget.cxx.o
+[ 82%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/moc_WidgetButton.cxx.o
+[ 82%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/moc_MultiViewPlugin.cxx.o
+[ 83%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/moc_MultiWidget.cxx.o
+[ 83%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/moc_MultiWidgetPlugin.cxx.o
+[ 84%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/multi_view/moc_WidgetButtonPlugin.cxx.o
+[ 84%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/virtual_joystick/moc_VirtualJoystick.cxx.o
+[ 85%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/virtual_joystick/moc_VirtualJoystickPlugin.cxx.o
+[ 85%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_PaintWidget.cxx.o
+[ 86%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_RockSlider.cxx.o
+[ 87%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/generic_widgets/moc_RockSliderPlugin.cxx.o
+[ 87%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/moc_artificialhorizon.cxx.o
+[ 88%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/moc_artificialhorizonplugin.cxx.o
+[ 88%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/plot2d/moc_Plot2d.cxx.o
+[ 89%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/plot2d/moc_qcustomplot.cxx.o
+[ 89%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/plot2d/moc_Plot2dPlugin.cxx.o
+[ 90%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/2dvis/moc_qwaterfalldisplay.cxx.o
+[ 90%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/2dvis/moc_WaterwallDisplayPlugin.cxx.o
+[ 91%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/moc_Timeline.cxx.o
+[ 92%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/moc_TestWidget.cxx.o
+[ 92%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/moc_TimelinePlugin.cxx.o
+[ 93%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/moc_Slider.cxx.o
+[ 93%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/timeline/moc_SlideBarItem.cxx.o
+[ 94%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view/moc_ImageView.cxx.o
+[ 94%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view/moc_ImageViewPlugin.cxx.o
+[ 95%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/image_view/moc_ContextMenuGraphicsWidget.cxx.o
+[ 95%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/progress_indicator/moc_ProgressIndicator.cxx.o
+[ 96%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/progress_indicator/moc_ProgressIndicatorPlugin.cxx.o
+[ 97%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_widget/moc_SonarPlot.cxx.o
+[ 97%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_widget/moc_SonarWidget.cxx.o
+[ 98%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/sonar_widget/moc_SonarWidgetPlugin.cxx.o
+[ 98%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/moc_compass.cxx.o
+[ 99%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/moc_compassplugin.cxx.o
+[ 99%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/moc_orientation.cxx.o
+[100%] Building CXX object src/CMakeFiles/rock_widget_collection.dir/artificial_horizon/moc_orientationplugin.cxx.o
+[100%] Linking CXX shared library librock_widget_collection.so
+[100%] Built target rock_widget_collection
+Exit: pid 2570 exit 0

@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: osgtest
+Description: 
+Version: 0.1
+Requires:  openscenegraph
+Libs: -L${libdir} -losgtest 
+Cflags: -I${includedir} 
+

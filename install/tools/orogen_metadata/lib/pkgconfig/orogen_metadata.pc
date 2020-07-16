@@ -1,0 +1,11 @@
+prefix=/home/alveena/workspace/install/tools/orogen_metadata
+exec_prefix=/home/alveena/workspace/install/tools/orogen_metadata
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: 
+Description: 
+Version: 1.0
+Requires: 
+Cflags: -I${includedir} 
+

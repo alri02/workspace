@@ -1,0 +1,16 @@
+prefix=/home/alveena/workspace/install/tools/logger
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos
+includedir=${prefix}/include/orocos
+binfile=${prefix}/bin/rock_logger
+
+project_name=logger
+deffile=${prefix}/share/orogen/logger.orogen
+typekits=logger base std
+deployed_tasks=logger
+deployed_tasks_with_models=logger,logger::Logger
+
+Name: rock_logger
+Version: 0.0
+Description: the static deployment defined for the rock_logger deployment
+

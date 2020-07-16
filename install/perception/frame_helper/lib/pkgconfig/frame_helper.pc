@@ -1,0 +1,11 @@
+prefix=/home/alveena/workspace/install/perception/frame_helper
+exec_prefix=/home/alveena/workspace/install/perception/frame_helper
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: frame_helper
+Description: 
+Version: 1.0
+Requires: opencv
+Libs: -L${libdir} -lframe_helper
+Cflags: -I${includedir}

@@ -1,0 +1,10 @@
+prefix=/home/alveena/workspace/install/gui/rock_widget_collection
+exec_prefix=/home/alveena/workspace/install/gui/rock_widget_collection
+libdir=${prefix}/lib/qt/designer/
+includedir=${prefix}/include
+
+Name: rock_widget_collection
+Description: 
+Version: 0.1
+Libs: -L${libdir} -lrock_widget_collection
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/typelib
+exec_prefix=/home/alveena/workspace/install/typelib
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: typelib
+Description: Type model and manipulation library
+Version: 1.1
+Requires:
+Libs: -L${libdir} -ltypeLib
+Cflags: -I${includedir}
+

@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/tools/logger
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos
+includedir=${prefix}/include/orocos
+
+project_name=logger
+deffile=${prefix}/share/orogen/logger.orogen
+type_registry=${prefix}/share/orogen/logger.tlb
+
+Name: logger
+Version: 0.0
+Description: the definition file for the orogen project itself

@@ -1,0 +1,48 @@
+enable_transports('corba', 'mqueue', 'typelib')
+self.extended_states = true
+
+self.disable_namespace "test"
+
+# We want this file to apply the default extensions as they were defined during
+# generation, *not* the ones that are currently setup for the given project. 
+#
+# So, override the list of default extensions by the ones that were used at
+# generation. Revert with pop_default_extensions_state at the end of the file
+defaults = %w[metadata_support]
+Spec::TaskContext.push_default_extensions_state(defaults)
+
+using_typekit "std"
+using_typekit "base"
+using_typekit "logger"
+
+name "transformer"
+
+using_library "transformer"
+import_types_from "base"
+import_types_from "BroadcastTypes.hpp"
+import_types_from "transformer/TransformationStatus.hpp"
+typekit do
+    # This one is actually for the transformer plugin, but we want to avoid
+    # adding a new package just for that
+    export_types '/std/vector</base/samples/RigidBodyState>'
+    export_types '/transformer/TransformerStatus'
+end	
+
+# Task that allows to broadcast transformer information, mostly used for GUI
+task_context "Task" do
+    # Sets the configuration that should be broadcasted
+    operation('setConfiguration').
+        arg("configuration", "transformer/ConfigurationState")
+
+    # Outputs a snapshot of all the port-to-frame associations declared at a
+    # certain point in time. The port is declared so that
+    #
+    #   port_frame_associations.connect_to(input_port, :init => true)
+    #
+    # will send the last known state to the input port
+    output_port "configuration_state", "transformer/ConfigurationState"
+end
+
+simple_deployment 'transformer_broadcaster', 'transformer::Task'
+
+Spec::TaskContext.pop_default_extensions_state

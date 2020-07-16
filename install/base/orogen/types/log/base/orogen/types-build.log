@@ -1,0 +1,558 @@
+
+2020-03-29 04:34:30 +0200: running
+    cmake .
+with environment:
+  'AUTOPROJ_CURRENT_ROOT'='/home/alveena/workspace'
+  'BUNDLER_ORIG_BUNDLER_VERSION'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_BIN_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_GEMFILE'='/home/alveena/workspace/.autoproj/Gemfile'
+  'BUNDLER_ORIG_GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'BUNDLER_ORIG_GEM_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_MANPATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_PATH'='/home/alveena/workspace/gui/vizkit/bin:/home/alveena/workspace/tools/roby/bin:/home/alveena/workspace/base/scripts/bin:/home/alveena/workspace/tools/pocolog/bin:/home/alveena/workspace/tools/orocos.rb/bin:/home/alveena/workspace/tools/metaruby/bin:/home/alveena/workspace/tools/orogen/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'BUNDLER_ORIG_RB_USER_INSTALL'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYLIB'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYOPT'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLE_BIN_PATH'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/exe/bundle'
+  'BUNDLE_GEMFILE'='/home/alveena/workspace/install/gems/Gemfile'
+  'CLUTTER_IM_MODULE'='xim'
+  'CMAKE_PREFIX_PATH'='/home/alveena/workspace/install/base/orogen/std:/home/alveena/workspace/install/base/types:/home/alveena/workspace/install/tools/service_discovery:/home/alveena/workspace/tools/orogen:/home/alveena/workspace/install/tools/orogen_metadata:/home/alveena/workspace/install/gui/osgviz:/home/alveena/workspace/install/gui/vizkit3d:/home/alveena/workspace/install/external/sisl:/home/alveena/workspace/install/base/logging:/home/alveena/workspace/tools/utilrb:/home/alveena/workspace/install/typelib:/home/alveena/workspace/install/base/cmake:/home/alveena/workspace/install/rtt'
+  'COLORTERM'='truecolor'
+  'DBUS_SESSION_BUS_ADDRESS'='unix:path=/run/user/1000/bus'
+  'DESKTOP_AUTOSTART_ID'='10d9adc6bfef662ab9158544517269288000000012480007'
+  'DESKTOP_SESSION'='ubuntu'
+  'DISPLAY'=':0'
+  'GDMSESSION'='ubuntu'
+  'GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'GNOME_DESKTOP_SESSION_ID'='this-is-deprecated'
+  'GNOME_SHELL_SESSION_MODE'='ubuntu'
+  'GNOME_TERMINAL_SCREEN'='/org/gnome/Terminal/screen/5515c39b_d33f_4371_91f4_d855164d5f45'
+  'GNOME_TERMINAL_SERVICE'=':1.69'
+  'GPG_AGENT_INFO'='/run/user/1000/gnupg/S.gpg-agent:0:1'
+  'GTK_IM_MODULE'='ibus'
+  'GTK_MODULES'='gail:atk-bridge'
+  'HOME'='/home/alveena'
+  'IM_CONFIG_PHASE'='2'
+  'LANG'='en_US.UTF-8'
+  'LC_ADDRESS'='de_DE.UTF-8'
+  'LC_IDENTIFICATION'='de_DE.UTF-8'
+  'LC_MEASUREMENT'='de_DE.UTF-8'
+  'LC_MONETARY'='de_DE.UTF-8'
+  'LC_NAME'='de_DE.UTF-8'
+  'LC_NUMERIC'='de_DE.UTF-8'
+  'LC_PAPER'='de_DE.UTF-8'
+  'LC_TELEPHONE'='de_DE.UTF-8'
+  'LC_TIME'='de_DE.UTF-8'
+  'LD_LIBRARY_PATH'='/home/alveena/workspace/install/tools/service_discovery/lib:/home/alveena/workspace/install/rtt_typelib/lib:/home/alveena/workspace/install/rtt/lib:/home/alveena/workspace/install/gui/osgviz/lib:/home/alveena/workspace/install/gui/vizkit3d/lib:/home/alveena/workspace/install/external/sisl/lib:/home/alveena/workspace/install/base/logging/lib:/home/alveena/workspace/install/base/types/lib:/home/alveena/workspace/install/typelib/lib'
+  'LESSCLOSE'='/usr/bin/lesspipe %s %s'
+  'LESSOPEN'='| /usr/bin/lesspipe %s'
+  'LOGNAME'='alveena'
+  'LS_COLORS'='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+  'OLDPWD'='/home/alveena'
+  'ORBInitRef'='NameService=corbaname::127.0.0.1'
+  'OROCOS_TARGET'='gnulinux'
+  'OROGEN_PLUGIN_PATH'='/home/alveena/workspace/install/tools/orogen_metadata/share/orogen/plugins'
+  'OSG_FILE_PATH'=''
+  'PATH'='/home/alveena/workspace/install/tools/service_discovery/bin:/home/alveena/workspace/tools/metaruby/bin:/home/alveena/workspace/tools/orogen/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'PKG_CONFIG_PATH'='/home/alveena/workspace/install/tools/service_discovery/lib/pkgconfig:/home/alveena/workspace/install/rtt_typelib/lib/pkgconfig:/home/alveena/workspace/install/rtt/lib/pkgconfig:/home/alveena/workspace/install/base/orogen/std/lib/pkgconfig:/home/alveena/workspace/install/gui/osgviz/lib/pkgconfig:/home/alveena/workspace/install/gui/vizkit3d/lib/pkgconfig:/home/alveena/workspace/install/base/logging/lib/pkgconfig:/home/alveena/workspace/install/base/types/lib/pkgconfig:/home/alveena/workspace/install/typelib/lib/pkgconfig:/home/alveena/workspace/install/tools/orogen_metadata/lib/pkgconfig'
+  'PWD'='/home/alveena/workspace'
+  'PYTHONUSERBASE'='/home/alveena/workspace/install/pip'
+  'QT4_IM_MODULE'='xim'
+  'QT_ACCESSIBILITY'='1'
+  'QT_IM_MODULE'='xim'
+  'QT_PLUGIN_PATH'='/home/alveena/workspace/install/gui/vizkit3d/lib/qt:/home/alveena/workspace/install/base/types/lib/qt'
+  'RBENV_SHELL'='bash'
+  'ROBY_PLUGIN_PATH'='/home/alveena/workspace/base/scripts/lib/rock/roby_plugin.rb'
+  'ROCK_BUNDLE_PATH'=''
+  'ROCK_PREFIX'='/home/alveena/workspace/install/base/orogen/types/share/rock'
+  'RUBYLIB'='/home/alveena/workspace/install/tools/service_discovery/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/tools/service_discovery/lib/ruby/2.5.0:/home/alveena/workspace/tools/metaruby/lib:/home/alveena/workspace/tools/orogen/lib:/home/alveena/workspace/install/base/types/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/base/types/lib/ruby/2.5.0:/home/alveena/workspace/tools/utilrb/lib:/home/alveena/workspace/install/typelib/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/typelib/lib/ruby/2.5.0:/home/alveena/workspace/install/tools/orogen_metadata/lib/ruby/2.5.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-12.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/i18n-1.8.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/minitest-5.14.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thread_safe-0.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tzinfo-1.2.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/zeitwerk-2.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/activesupport-6.0.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/equatable-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-color-0.4.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/pastel-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-cursor-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/necromancer-0.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timers-4.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-screen-0.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/wisper-2.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-reader-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-prompt-0.15.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/standard:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/core:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/utilrb-3.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autobuild-1.20.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/backports-3.17.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/ffi-1.12.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ffi-1.12.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-inotify-0.10.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thor-0.20.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-spinner-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xdg-2.2.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autoproj-2.12.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/uber-0.0.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hooks-0.4.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autorespawn-0.6.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/debug_inspector-0.0.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/debug_inspector-0.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/binding_of_caller-0.8.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/binding_of_caller-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/builder-3.2.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/concurrent-ruby-ext-1.0.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/daemons-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/unf_ext-0.0.7.6:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf_ext-0.0.7.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf-0.1.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/domain_name-0.5.20190701/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-core-0.4.9/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-equalizer-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-configurable-0.11.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-container-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-inflector-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-logic-1.0.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-types-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/eventmachine-1.2.7:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/eventmachine-1.2.7/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/fakefs-1.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/flexmock-2.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ruby2_keywords-0.0.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-1.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-grape-1.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-2.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-accept-0.4.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/grape-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-3.22.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/yard-0.9.24/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-yard-0.1.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-accept-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-cookie-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/kramdown-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/lazy_priority_queue-0.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-data-3.2019.1009/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-3.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/msgpack-1.3.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/msgpack-1.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/netrc-0.11.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/optimist-3.0.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/qtbindings-4.8.6.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/qtbindings-4.8.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-compiler-0.8.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-readline-0.5.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rbtrace-0.4.12:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rest-client-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stream-0.5.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rgl-0.5.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rice-2.2.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rice-2.2.0/ruby/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/stackprof-0.2.15:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stackprof-0.2.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/state_machine-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-ansi-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode-display_width-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode_utils-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-0.1.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/thin-1.7.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thin-1.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timecop-0.9.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-table-0.10.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/websocket-1.2.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xmlrpc-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib'
+  'RUBYOPT'='-r/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib/bundler/setup'
+  'SESSION_MANAGER'='local/alveena-HP-ENVY:@/tmp/.ICE-unix/1248,unix/alveena-HP-ENVY:/tmp/.ICE-unix/1248'
+  'SHELL'='/bin/bash'
+  'SHLVL'='1'
+  'SSH_AGENT_PID'='1325'
+  'SSH_AUTH_SOCK'='/run/user/1000/keyring/ssh'
+  'TERM'='xterm-256color'
+  'TEXTDOMAIN'='im-config'
+  'TEXTDOMAINDIR'='/usr/share/locale/'
+  'TYPELIB_CXX_LOADER'='castxml'
+  'TYPELIB_PLUGIN_PATH'='/home/alveena/workspace/install/typelib/lib/typelib'
+  'TYPELIB_RUBY_PLUGIN_PATH'=''
+  'USER'='alveena'
+  'USERNAME'='alveena'
+  'VIZKIT_PLUGIN_RUBY_PATH'='/home/alveena/workspace/install/gui/vizkit3d/lib:/home/alveena/workspace/install/base/types/lib'
+  'VTE_VERSION'='5202'
+  'WINDOWPATH'='1'
+  'XAUTHORITY'='/run/user/1000/gdm/Xauthority'
+  'XDG_CONFIG_DIRS'='/etc/xdg/xdg-ubuntu:/etc/xdg'
+  'XDG_CURRENT_DESKTOP'='ubuntu:GNOME'
+  'XDG_DATA_DIRS'='/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+  'XDG_MENU_PREFIX'='gnome-'
+  'XDG_RUNTIME_DIR'='/run/user/1000'
+  'XDG_SEAT'='seat0'
+  'XDG_SESSION_DESKTOP'='ubuntu'
+  'XDG_SESSION_ID'='1'
+  'XDG_SESSION_TYPE'='x11'
+  'XDG_VTNR'='1'
+  'XMODIFIERS'='@im=ibus'
+  '_'='/home/alveena/workspace/.autoproj/bin/amake'
+
+2020-03-29 04:34:30 +0200: running
+    cmake .
+in directory /home/alveena/workspace/base/orogen/types/build
+-- running on Linux, implementing the __orogen_getTID() operation on all tasks
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- documentation generation disabled
+-- Orocos reports in /home/alveena/workspace/install/rtt/include/rtt/transports/corba/rtt-corba-config.h to use the OMNIORB
+-- - Detected OROCOS_TARGET environment variable. Using: gnulinux
+-- Orocos-RTT found in /home/alveena/workspace/install/rtt/lib/cmake/orocos-rtt/orocos-rtt-gnulinux-libraries.cmake
+-- Found orocos-rtt 2.8.3 for the gnulinux target. Available transports: corba mqueue
+-- - Found requested orocos-rtt components: rtt-transport-mqueue
+-- boost/test found ... building test suite
+-- FindRuby: looking for config.h
+-- did not find Yard, the Ruby packages won't generate documentation
+-- Ruby library found: /home/alveena/.rbenv/versions/2.5.1/lib/libruby.so
+-- found Ruby version 2.5.1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alveena/workspace/base/orogen/types/build
+Exit: pid 5079 exit 0
+
+2020-03-29 04:34:33 +0200: running
+    make --jobserver-fds=7,8 -j
+with environment:
+  'AUTOPROJ_CURRENT_ROOT'='/home/alveena/workspace'
+  'BUNDLER_ORIG_BUNDLER_VERSION'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_BIN_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_GEMFILE'='/home/alveena/workspace/.autoproj/Gemfile'
+  'BUNDLER_ORIG_GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'BUNDLER_ORIG_GEM_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_MANPATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_PATH'='/home/alveena/workspace/gui/vizkit/bin:/home/alveena/workspace/tools/roby/bin:/home/alveena/workspace/base/scripts/bin:/home/alveena/workspace/tools/pocolog/bin:/home/alveena/workspace/tools/orocos.rb/bin:/home/alveena/workspace/tools/metaruby/bin:/home/alveena/workspace/tools/orogen/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'BUNDLER_ORIG_RB_USER_INSTALL'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYLIB'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYOPT'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLE_BIN_PATH'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/exe/bundle'
+  'BUNDLE_GEMFILE'='/home/alveena/workspace/install/gems/Gemfile'
+  'CLUTTER_IM_MODULE'='xim'
+  'CMAKE_PREFIX_PATH'='/home/alveena/workspace/install/base/orogen/std:/home/alveena/workspace/install/base/types:/home/alveena/workspace/install/tools/service_discovery:/home/alveena/workspace/tools/orogen:/home/alveena/workspace/install/tools/orogen_metadata:/home/alveena/workspace/install/gui/osgviz:/home/alveena/workspace/install/gui/vizkit3d:/home/alveena/workspace/install/external/sisl:/home/alveena/workspace/install/base/logging:/home/alveena/workspace/tools/utilrb:/home/alveena/workspace/install/typelib:/home/alveena/workspace/install/base/cmake:/home/alveena/workspace/install/rtt'
+  'COLORTERM'='truecolor'
+  'DBUS_SESSION_BUS_ADDRESS'='unix:path=/run/user/1000/bus'
+  'DESKTOP_AUTOSTART_ID'='10d9adc6bfef662ab9158544517269288000000012480007'
+  'DESKTOP_SESSION'='ubuntu'
+  'DISPLAY'=':0'
+  'GDMSESSION'='ubuntu'
+  'GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'GNOME_DESKTOP_SESSION_ID'='this-is-deprecated'
+  'GNOME_SHELL_SESSION_MODE'='ubuntu'
+  'GNOME_TERMINAL_SCREEN'='/org/gnome/Terminal/screen/5515c39b_d33f_4371_91f4_d855164d5f45'
+  'GNOME_TERMINAL_SERVICE'=':1.69'
+  'GPG_AGENT_INFO'='/run/user/1000/gnupg/S.gpg-agent:0:1'
+  'GTK_IM_MODULE'='ibus'
+  'GTK_MODULES'='gail:atk-bridge'
+  'HOME'='/home/alveena'
+  'IM_CONFIG_PHASE'='2'
+  'LANG'='en_US.UTF-8'
+  'LC_ADDRESS'='de_DE.UTF-8'
+  'LC_IDENTIFICATION'='de_DE.UTF-8'
+  'LC_MEASUREMENT'='de_DE.UTF-8'
+  'LC_MONETARY'='de_DE.UTF-8'
+  'LC_NAME'='de_DE.UTF-8'
+  'LC_NUMERIC'='de_DE.UTF-8'
+  'LC_PAPER'='de_DE.UTF-8'
+  'LC_TELEPHONE'='de_DE.UTF-8'
+  'LC_TIME'='de_DE.UTF-8'
+  'LD_LIBRARY_PATH'='/home/alveena/workspace/install/tools/service_discovery/lib:/home/alveena/workspace/install/rtt_typelib/lib:/home/alveena/workspace/install/rtt/lib:/home/alveena/workspace/install/gui/osgviz/lib:/home/alveena/workspace/install/gui/vizkit3d/lib:/home/alveena/workspace/install/external/sisl/lib:/home/alveena/workspace/install/base/logging/lib:/home/alveena/workspace/install/base/types/lib:/home/alveena/workspace/install/typelib/lib'
+  'LESSCLOSE'='/usr/bin/lesspipe %s %s'
+  'LESSOPEN'='| /usr/bin/lesspipe %s'
+  'LOGNAME'='alveena'
+  'LS_COLORS'='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+  'OLDPWD'='/home/alveena'
+  'ORBInitRef'='NameService=corbaname::127.0.0.1'
+  'OROCOS_TARGET'='gnulinux'
+  'OROGEN_PLUGIN_PATH'='/home/alveena/workspace/install/tools/orogen_metadata/share/orogen/plugins'
+  'OSG_FILE_PATH'=''
+  'PATH'='/home/alveena/workspace/install/tools/service_discovery/bin:/home/alveena/workspace/tools/metaruby/bin:/home/alveena/workspace/tools/orogen/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'PKG_CONFIG_PATH'='/home/alveena/workspace/install/tools/service_discovery/lib/pkgconfig:/home/alveena/workspace/install/rtt_typelib/lib/pkgconfig:/home/alveena/workspace/install/rtt/lib/pkgconfig:/home/alveena/workspace/install/base/orogen/std/lib/pkgconfig:/home/alveena/workspace/install/gui/osgviz/lib/pkgconfig:/home/alveena/workspace/install/gui/vizkit3d/lib/pkgconfig:/home/alveena/workspace/install/base/logging/lib/pkgconfig:/home/alveena/workspace/install/base/types/lib/pkgconfig:/home/alveena/workspace/install/typelib/lib/pkgconfig:/home/alveena/workspace/install/tools/orogen_metadata/lib/pkgconfig'
+  'PWD'='/home/alveena/workspace'
+  'PYTHONUSERBASE'='/home/alveena/workspace/install/pip'
+  'QT4_IM_MODULE'='xim'
+  'QT_ACCESSIBILITY'='1'
+  'QT_IM_MODULE'='xim'
+  'QT_PLUGIN_PATH'='/home/alveena/workspace/install/gui/vizkit3d/lib/qt:/home/alveena/workspace/install/base/types/lib/qt'
+  'RBENV_SHELL'='bash'
+  'ROBY_PLUGIN_PATH'='/home/alveena/workspace/base/scripts/lib/rock/roby_plugin.rb'
+  'ROCK_BUNDLE_PATH'=''
+  'ROCK_PREFIX'='/home/alveena/workspace/install/base/orogen/types/share/rock'
+  'RUBYLIB'='/home/alveena/workspace/install/tools/service_discovery/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/tools/service_discovery/lib/ruby/2.5.0:/home/alveena/workspace/tools/metaruby/lib:/home/alveena/workspace/tools/orogen/lib:/home/alveena/workspace/install/base/types/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/base/types/lib/ruby/2.5.0:/home/alveena/workspace/tools/utilrb/lib:/home/alveena/workspace/install/typelib/lib/ruby/2.5.0/x86_64-linux:/home/alveena/workspace/install/typelib/lib/ruby/2.5.0:/home/alveena/workspace/install/tools/orogen_metadata/lib/ruby/2.5.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-12.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/i18n-1.8.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/minitest-5.14.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thread_safe-0.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tzinfo-1.2.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/zeitwerk-2.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/activesupport-6.0.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/equatable-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-color-0.4.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/pastel-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-cursor-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/necromancer-0.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timers-4.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-screen-0.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/wisper-2.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-reader-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-prompt-0.15.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/standard:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/core:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/utilrb-3.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autobuild-1.20.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/backports-3.17.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/ffi-1.12.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ffi-1.12.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-inotify-0.10.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thor-0.20.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-spinner-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xdg-2.2.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autoproj-2.12.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/uber-0.0.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hooks-0.4.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autorespawn-0.6.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/debug_inspector-0.0.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/debug_inspector-0.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/binding_of_caller-0.8.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/binding_of_caller-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/builder-3.2.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/concurrent-ruby-ext-1.0.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/daemons-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/unf_ext-0.0.7.6:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf_ext-0.0.7.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf-0.1.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/domain_name-0.5.20190701/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-core-0.4.9/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-equalizer-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-configurable-0.11.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-container-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-inflector-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-logic-1.0.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-types-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/eventmachine-1.2.7:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/eventmachine-1.2.7/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/fakefs-1.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/flexmock-2.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ruby2_keywords-0.0.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-1.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-grape-1.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-2.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-accept-0.4.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/grape-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-3.22.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/yard-0.9.24/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-yard-0.1.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-accept-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-cookie-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/kramdown-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/lazy_priority_queue-0.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-data-3.2019.1009/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-3.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/msgpack-1.3.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/msgpack-1.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/netrc-0.11.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/optimist-3.0.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/qtbindings-4.8.6.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/qtbindings-4.8.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-compiler-0.8.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-readline-0.5.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rbtrace-0.4.12:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rest-client-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stream-0.5.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rgl-0.5.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rice-2.2.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rice-2.2.0/ruby/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/stackprof-0.2.15:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stackprof-0.2.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/state_machine-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-ansi-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode-display_width-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode_utils-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-0.1.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/thin-1.7.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thin-1.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timecop-0.9.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-table-0.10.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/websocket-1.2.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xmlrpc-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib'
+  'RUBYOPT'='-r/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib/bundler/setup'
+  'SESSION_MANAGER'='local/alveena-HP-ENVY:@/tmp/.ICE-unix/1248,unix/alveena-HP-ENVY:/tmp/.ICE-unix/1248'
+  'SHELL'='/bin/bash'
+  'SHLVL'='1'
+  'SSH_AGENT_PID'='1325'
+  'SSH_AUTH_SOCK'='/run/user/1000/keyring/ssh'
+  'TERM'='xterm-256color'
+  'TEXTDOMAIN'='im-config'
+  'TEXTDOMAINDIR'='/usr/share/locale/'
+  'TYPELIB_CXX_LOADER'='castxml'
+  'TYPELIB_PLUGIN_PATH'='/home/alveena/workspace/install/typelib/lib/typelib'
+  'TYPELIB_RUBY_PLUGIN_PATH'=''
+  'USER'='alveena'
+  'USERNAME'='alveena'
+  'VIZKIT_PLUGIN_RUBY_PATH'='/home/alveena/workspace/install/gui/vizkit3d/lib:/home/alveena/workspace/install/base/types/lib'
+  'VTE_VERSION'='5202'
+  'WINDOWPATH'='1'
+  'XAUTHORITY'='/run/user/1000/gdm/Xauthority'
+  'XDG_CONFIG_DIRS'='/etc/xdg/xdg-ubuntu:/etc/xdg'
+  'XDG_CURRENT_DESKTOP'='ubuntu:GNOME'
+  'XDG_DATA_DIRS'='/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+  'XDG_MENU_PREFIX'='gnome-'
+  'XDG_RUNTIME_DIR'='/run/user/1000'
+  'XDG_SEAT'='seat0'
+  'XDG_SESSION_DESKTOP'='ubuntu'
+  'XDG_SESSION_ID'='1'
+  'XDG_SESSION_TYPE'='x11'
+  'XDG_VTNR'='1'
+  'XMODIFIERS'='@im=ibus'
+  '_'='/home/alveena/workspace/.autoproj/bin/amake'
+
+2020-03-29 04:34:33 +0200: running
+    make --jobserver-fds=7,8 -j
+in directory /home/alveena/workspace/base/orogen/types/build
+Scanning dependencies of target check-typekit-uptodate
+[  0%] Built target check-typekit-uptodate
+Scanning dependencies of target check-uptodate
+[  1%] Built target check-uptodate
+Scanning dependencies of target base_orogen_types_test
+[  2%] Building CXX object test/CMakeFiles/base_orogen_types_test.dir/test_nurbs.cpp.o
+[  2%] Building CXX object test/CMakeFiles/base_orogen_types_test.dir/test.cpp.o
+[  2%] Building CXX object test/CMakeFiles/base_orogen_types_test.dir/test_matrixx.cpp.o
+Scanning dependencies of target base-typekit-gnulinux
+[  2%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/__/__/typekit/Opaques.cpp.o
+[  2%] Building CXX object test/CMakeFiles/base_orogen_types_test.dir/__/src/spline.cpp.o
+[  2%] Building CXX object test/CMakeFiles/base_orogen_types_test.dir/__/typekit/Opaques.cpp.o
+[  3%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/OpaqueConvertions.cpp.o
+[  3%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/Plugin.cpp.o
+[  3%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__RTT__extras__ReadOnlyPointer____base__samples__frame__FramePair__.cpp.o
+[  4%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__RTT__extras__ReadOnlyPointer____base__samples__frame__Frame__.cpp.o
+[  5%] Linking CXX executable base_orogen_types_test
+[  5%] Built target base_orogen_types_test
+[  5%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Affine3d.cpp.o
+In file included from /home/alveena/workspace/base/orogen/types/.orogen/typekit/types/base/m_types/base_Trajectory.hpp:7:0,
+                 from /home/alveena/workspace/base/orogen/types/.orogen/typekit/types/base/typekit/OpaqueFwd.hpp:12,
+                 from /home/alveena/workspace/base/orogen/types/.orogen/typekit/types/base/typekit/OpaqueConvertions.hpp:6,
+                 from /home/alveena/workspace/base/orogen/types/.orogen/typekit/OpaqueConvertions.cpp:3:
+/home/alveena/workspace/base/orogen/types/.orogen/typekit/types/base/wrappers/geometry/Spline.hpp: In function ‘void orogen_typekits::toIntermediate(std::vector<base::Trajectory_m>&, const std::vector<base::Trajectory>&)’:
+/home/alveena/workspace/base/orogen/types/.orogen/typekit/types/base/wrappers/geometry/Spline.hpp:23:12: warning: ‘*((void*)(&<anonymous>)+8).wrappers::geometry::Spline::dimension’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     struct Spline
+            ^~~~~~
+/home/alveena/workspace/base/orogen/types/.orogen/typekit/types/base/wrappers/geometry/Spline.hpp:23:12: warning: ‘*((void*)(&<anonymous>)+8).wrappers::geometry::Spline::kind’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+In file included from /usr/include/eigen3/Eigen/Core:430:0,
+                 from /home/alveena/workspace/install/base/types/include/base/Eigen.hpp:4,
+                 from /home/alveena/workspace/install/base/types/include/base/JointTransform.hpp:5,
+                 from /home/alveena/workspace/base/orogen/types/.orogen/typekit/types/base/typekit/OpaqueFwd.hpp:6,
+                 from /home/alveena/workspace/base/orogen/types/.orogen/typekit/types/base/typekit/OpaqueConvertions.hpp:6,
+                 from /home/alveena/workspace/base/orogen/types/.orogen/typekit/OpaqueConvertions.cpp:3:
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h: In function ‘void orogen_typekits::fromIntermediate(std::vector<Eigen::Matrix<double, 3, 1, 2>, std::allocator<Eigen::Matrix<double, 3, 1, 2> > >&, const std::vector<wrappers::Matrix<double, 3, 1> >&)’:
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:194:66: warning: ‘<anonymous>.Eigen::DenseStorage<double, 3, 3, 1, 2>::m_data’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     DenseStorage(const DenseStorage& other) : m_data(other.m_data) {
+                                                                  ^
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h: In function ‘void orogen_typekits::fromIntermediate(std::vector<Eigen::Matrix<double, 4, 1, 2> >&, const std::vector<wrappers::Matrix<double, 4, 1> >&)’:
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:194:66: warning: ‘<anonymous>.Eigen::DenseStorage<double, 4, 4, 1, 2>::m_data’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     DenseStorage(const DenseStorage& other) : m_data(other.m_data) {
+                                                                  ^
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h: In function ‘void orogen_typekits::fromIntermediate(std::vector<base::Wrench>&, const std::vector<base::Wrench_m>&)’:
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:194:66: warning: ‘<anonymous>.Eigen::DenseStorage<double, 3, 3, 1, 2>::m_data’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     DenseStorage(const DenseStorage& other) : m_data(other.m_data) {
+                                                                  ^
+[  5%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Angle.cpp.o
+[  6%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__AngleAxisd.cpp.o
+[  6%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__JointLimits.cpp.o
+[  6%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__JointState.cpp.o
+[  7%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__JointState__MODE.cpp.o
+[  7%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__JointTransform.cpp.o
+[  8%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__JointTransformVector.cpp.o
+[  8%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__JointsTrajectory.cpp.o
+[  8%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Matrix2d.cpp.o
+[  9%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Matrix3d.cpp.o
+[  9%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Matrix4d.cpp.o
+[  9%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Matrix6d.cpp.o
+[ 10%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__MatrixXd.cpp.o
+[ 10%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Pose.cpp.o
+[ 10%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Pressure.cpp.o
+[ 11%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Quaterniond.cpp.o
+[ 11%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Temperature.cpp.o
+[ 12%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Time.cpp.o
+[ 12%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Trajectory.cpp.o
+[ 12%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__TransformWithCovariance.cpp.o
+[ 13%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__TwistWithCovariance.cpp.o
+[ 13%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Vector2d.cpp.o
+[ 13%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Vector3d.cpp.o
+[ 14%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Vector4d.cpp.o
+[ 14%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Vector6d.cpp.o
+[ 14%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__VectorXd.cpp.o
+[ 15%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Waypoint.cpp.o
+[ 15%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__Wrench.cpp.o
+[ 15%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__commands__LinearAngular6DCommand.cpp.o
+[ 16%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__commands__Motion2D.cpp.o
+[ 16%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__commands__Speed6D.cpp.o
+[ 17%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__geometry__Spline__1__.cpp.o
+[ 17%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__geometry__Spline__3__.cpp.o
+[ 17%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__BodyState.cpp.o
+[ 18%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__DepthMap.cpp.o
+[ 18%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__DistanceImage.cpp.o
+[ 18%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__IMUSensors.cpp.o
+[ 19%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__Joints.cpp.o
+[ 19%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__LaserScan.cpp.o
+[ 19%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__Motion2D.cpp.o
+[ 20%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__Pointcloud.cpp.o
+[ 20%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__PoseWithCovariance.cpp.o
+[ 20%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__Pressure.cpp.o
+[ 21%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__RigidBodyAcceleration.cpp.o
+[ 21%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__RigidBodyState.cpp.o
+[ 22%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__Sonar.cpp.o
+[ 22%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__SonarBeam.cpp.o
+[ 22%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__SonarScan.cpp.o
+[ 23%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__Temperature.cpp.o
+[ 23%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__Wrench.cpp.o
+[ 23%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__Wrenches.cpp.o
+[ 24%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__frame__Frame.cpp.o
+[ 24%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__frame__FramePair.cpp.o
+[ 24%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__base__samples__frame__frame_mode_t.cpp.o
+[ 25%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__std__string.cpp.o
+[ 25%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__std__vector____base__Time__.cpp.o
+[ 25%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__std__vector____base__Trajectory__.cpp.o
+[ 26%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__std__vector____base__Vector3d__.cpp.o
+[ 26%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__std__vector____base__Waypoint__.cpp.o
+[ 27%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__std__vector____std__string__.cpp.o
+[ 27%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/type_info/__std__vector__boost__uint32_t__.cpp.o
+[ 27%] Building CXX object .orogen/typekit/CMakeFiles/base-typekit-gnulinux.dir/__/__/src/spline.cpp.o
+[ 28%] Linking CXX shared library libbase-typekit-gnulinux.so
+[ 28%] Built target base-typekit-gnulinux
+[ 28%] Generating baseTypesC.cpp, baseTypesDynSK.cpp
+Scanning dependencies of target base-transport-typelib-gnulinux
+[ 28%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__RTT__extras__ReadOnlyPointer____base__samples__frame__Frame__.cpp.o
+[ 29%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__RTT__extras__ReadOnlyPointer____base__samples__frame__FramePair__.cpp.o
+[ 29%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Affine3d.cpp.o
+Scanning dependencies of target base-transport-corba-gnulinux
+[ 29%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/Convertions.cpp.o
+/home/alveena/workspace/base/orogen/types/.orogen/typekit/transports/corba/Convertions.cpp: In function ‘bool orogen_typekits::fromCORBA(RTT::extras::ReadOnlyPointer<base::samples::frame::Frame>&, const orogen::base::samples::frame::Corba::Frame&)’:
+/home/alveena/workspace/base/orogen/types/.orogen/typekit/transports/corba/Convertions.cpp:544:10: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr< ::base::samples::frame::Frame > intermediate(new ::base::samples::frame::Frame);
+          ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from /home/alveena/workspace/base/orogen/types/.orogen/typekit/transports/corba/Convertions.cpp:4:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+/home/alveena/workspace/base/orogen/types/.orogen/typekit/transports/corba/Convertions.cpp: In function ‘bool orogen_typekits::fromCORBA(RTT::extras::ReadOnlyPointer<base::samples::frame::FramePair>&, const orogen::base::samples::frame::Corba::FramePair&)’:
+/home/alveena/workspace/base/orogen/types/.orogen/typekit/transports/corba/Convertions.cpp:559:10: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr< ::base::samples::frame::FramePair > intermediate(new ::base::samples::frame::FramePair);
+          ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from /home/alveena/workspace/base/orogen/types/.orogen/typekit/transports/corba/Convertions.cpp:4:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+[ 30%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Angle.cpp.o
+[ 31%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/TransportPlugin.cpp.o
+[ 31%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__RTT__extras__ReadOnlyPointer____base__samples__frame__FramePair__.cpp.o
+[ 31%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__AngleAxisd.cpp.o
+[ 31%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__RTT__extras__ReadOnlyPointer____base__samples__frame__Frame__.cpp.o
+[ 31%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__JointLimits.cpp.o
+[ 32%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__JointState.cpp.o
+[ 32%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__JointState__MODE.cpp.o
+[ 32%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__JointTransform.cpp.o
+[ 33%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Affine3d.cpp.o
+[ 33%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Angle.cpp.o
+[ 34%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__JointTransformVector.cpp.o
+[ 34%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__AngleAxisd.cpp.o
+[ 34%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__JointsTrajectory.cpp.o
+[ 35%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Matrix2d.cpp.o
+[ 36%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__JointLimits.cpp.o
+[ 36%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Matrix3d.cpp.o
+[ 36%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Matrix4d.cpp.o
+[ 37%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Matrix6d.cpp.o
+[ 37%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__MatrixXd.cpp.o
+[ 37%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__JointState.cpp.o
+[ 37%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__JointState__MODE.cpp.o
+[ 37%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Pose.cpp.o
+[ 38%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__JointTransform.cpp.o
+[ 39%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Pressure.cpp.o
+[ 39%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Quaterniond.cpp.o
+[ 39%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Temperature.cpp.o
+[ 40%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Time.cpp.o
+[ 40%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Trajectory.cpp.o
+[ 40%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__JointTransformVector.cpp.o
+[ 41%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__JointsTrajectory.cpp.o
+[ 41%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__TransformWithCovariance.cpp.o
+[ 42%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__TwistWithCovariance.cpp.o
+[ 42%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Matrix2d.cpp.o
+[ 42%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Vector2d.cpp.o
+[ 43%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Vector3d.cpp.o
+[ 43%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Vector4d.cpp.o
+[ 43%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Matrix3d.cpp.o
+[ 44%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Matrix4d.cpp.o
+[ 44%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Vector6d.cpp.o
+[ 45%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__VectorXd.cpp.o
+[ 45%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Matrix6d.cpp.o
+[ 45%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Waypoint.cpp.o
+[ 45%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__MatrixXd.cpp.o
+[ 45%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__Wrench.cpp.o
+[ 46%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Pose.cpp.o
+[ 47%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__commands__LinearAngular6DCommand.cpp.o
+[ 47%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__commands__Motion2D.cpp.o
+[ 47%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__commands__Speed6D.cpp.o
+[ 47%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Pressure.cpp.o
+[ 48%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__geometry__Spline__1__.cpp.o
+[ 48%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Quaterniond.cpp.o
+[ 48%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__geometry__Spline__3__.cpp.o
+[ 49%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__BodyState.cpp.o
+[ 50%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Temperature.cpp.o
+[ 50%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__DepthMap.cpp.o
+[ 50%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Time.cpp.o
+[ 50%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__DistanceImage.cpp.o
+[ 50%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Trajectory.cpp.o
+[ 51%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__IMUSensors.cpp.o
+[ 51%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__Joints.cpp.o
+[ 52%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__TransformWithCovariance.cpp.o
+[ 52%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__TwistWithCovariance.cpp.o
+[ 52%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__LaserScan.cpp.o
+[ 53%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__Motion2D.cpp.o
+[ 54%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Vector2d.cpp.o
+[ 54%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__Pointcloud.cpp.o
+[ 54%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__PoseWithCovariance.cpp.o
+[ 54%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Vector3d.cpp.o
+[ 55%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__Pressure.cpp.o
+[ 55%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__RigidBodyAcceleration.cpp.o
+[ 55%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Vector4d.cpp.o
+[ 56%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Vector6d.cpp.o
+[ 56%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__RigidBodyState.cpp.o
+[ 57%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__Sonar.cpp.o
+[ 57%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__VectorXd.cpp.o
+[ 57%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__SonarBeam.cpp.o
+[ 58%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__SonarScan.cpp.o
+[ 58%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Waypoint.cpp.o
+[ 59%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__Wrench.cpp.o
+[ 59%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__Temperature.cpp.o
+[ 59%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__Wrench.cpp.o
+[ 60%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__Wrenches.cpp.o
+[ 60%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__commands__LinearAngular6DCommand.cpp.o
+[ 60%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__frame__Frame.cpp.o
+[ 60%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__frame__FramePair.cpp.o
+[ 60%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__commands__Motion2D.cpp.o
+[ 61%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__commands__Speed6D.cpp.o
+[ 62%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__base__samples__frame__frame_mode_t.cpp.o
+[ 62%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__std__string.cpp.o
+[ 62%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__std__vector____base__Time__.cpp.o
+[ 63%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__std__vector____base__Trajectory__.cpp.o
+[ 63%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__geometry__Spline__1__.cpp.o
+[ 63%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__std__vector____base__Vector3d__.cpp.o
+[ 63%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__std__vector____base__Waypoint__.cpp.o
+[ 63%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__geometry__Spline__3__.cpp.o
+[ 64%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__BodyState.cpp.o
+[ 65%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__std__vector____std__string__.cpp.o
+[ 65%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/__std__vector__boost__uint32_t__.cpp.o
+[ 66%] Building CXX object .orogen/typekit/transports/typelib/CMakeFiles/base-transport-typelib-gnulinux.dir/TransportPlugin.cpp.o
+[ 66%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__DepthMap.cpp.o
+[ 67%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__DistanceImage.cpp.o
+[ 67%] Linking CXX shared library libbase-transport-typelib-gnulinux.so
+[ 67%] Built target base-transport-typelib-gnulinux
+[ 67%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__IMUSensors.cpp.o
+Scanning dependencies of target base-transport-mqueue-gnulinux
+[ 67%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/TransportPlugin.cpp.o
+[ 67%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__RTT__extras__ReadOnlyPointer____base__samples__frame__FramePair__.cpp.o
+[ 67%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__Joints.cpp.o
+[ 68%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__RTT__extras__ReadOnlyPointer____base__samples__frame__Frame__.cpp.o
+[ 69%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__LaserScan.cpp.o
+[ 69%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__Motion2D.cpp.o
+[ 69%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Affine3d.cpp.o
+[ 69%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Angle.cpp.o
+[ 70%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__AngleAxisd.cpp.o
+[ 70%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__Pointcloud.cpp.o
+[ 70%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__JointLimits.cpp.o
+[ 70%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__JointState.cpp.o
+[ 71%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__JointState__MODE.cpp.o
+[ 72%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__PoseWithCovariance.cpp.o
+[ 72%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__JointTransform.cpp.o
+[ 72%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__Pressure.cpp.o
+[ 73%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__JointTransformVector.cpp.o
+[ 73%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__JointsTrajectory.cpp.o
+[ 73%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Matrix2d.cpp.o
+[ 73%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__RigidBodyAcceleration.cpp.o
+[ 74%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__RigidBodyState.cpp.o
+[ 75%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Matrix3d.cpp.o
+[ 75%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__Sonar.cpp.o
+[ 75%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Matrix4d.cpp.o
+[ 75%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Matrix6d.cpp.o
+[ 75%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__SonarBeam.cpp.o
+[ 76%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__MatrixXd.cpp.o
+[ 77%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__SonarScan.cpp.o
+[ 77%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Pose.cpp.o
+[ 77%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__Temperature.cpp.o
+[ 77%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Pressure.cpp.o
+[ 78%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Quaterniond.cpp.o
+[ 79%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__Wrench.cpp.o
+[ 79%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Temperature.cpp.o
+[ 79%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Time.cpp.o
+[ 80%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Trajectory.cpp.o
+[ 80%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__Wrenches.cpp.o
+[ 80%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__frame__Frame.cpp.o
+[ 80%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__TransformWithCovariance.cpp.o
+[ 81%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__TwistWithCovariance.cpp.o
+[ 82%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__frame__FramePair.cpp.o
+[ 82%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Vector2d.cpp.o
+[ 82%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Vector3d.cpp.o
+[ 83%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Vector4d.cpp.o
+[ 83%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__base__samples__frame__frame_mode_t.cpp.o
+[ 83%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__std__string.cpp.o
+[ 83%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Vector6d.cpp.o
+[ 83%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__VectorXd.cpp.o
+[ 84%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__std__vector____base__Time__.cpp.o
+[ 85%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Waypoint.cpp.o
+[ 85%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__Wrench.cpp.o
+[ 85%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__commands__LinearAngular6DCommand.cpp.o
+[ 85%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__std__vector____base__Trajectory__.cpp.o
+[ 85%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__std__vector____base__Vector3d__.cpp.o
+[ 86%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__commands__Motion2D.cpp.o
+[ 86%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__commands__Speed6D.cpp.o
+[ 87%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__std__vector____base__Waypoint__.cpp.o
+[ 87%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__geometry__Spline__1__.cpp.o
+[ 88%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__geometry__Spline__3__.cpp.o
+[ 88%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__BodyState.cpp.o
+[ 89%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__DepthMap.cpp.o
+[ 89%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__std__vector____std__string__.cpp.o
+[ 90%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/__std__vector__boost__uint32_t__.cpp.o
+[ 90%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__DistanceImage.cpp.o
+[ 90%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/baseTypesC.cpp.o
+[ 90%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__IMUSensors.cpp.o
+[ 91%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__Joints.cpp.o
+[ 91%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__LaserScan.cpp.o
+[ 91%] Building CXX object .orogen/typekit/transports/corba/CMakeFiles/base-transport-corba-gnulinux.dir/baseTypesDynSK.cpp.o
+[ 91%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__Motion2D.cpp.o
+[ 92%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__Pointcloud.cpp.o
+[ 92%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__PoseWithCovariance.cpp.o
+[ 92%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__Pressure.cpp.o
+[ 93%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__RigidBodyAcceleration.cpp.o
+[ 94%] Linking CXX shared library libbase-transport-corba-gnulinux.so
+[ 94%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__RigidBodyState.cpp.o
+[ 94%] Built target base-transport-corba-gnulinux
+[ 95%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__Sonar.cpp.o
+[ 95%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__SonarBeam.cpp.o
+[ 95%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__SonarScan.cpp.o
+[ 96%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__Temperature.cpp.o
+[ 96%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__Wrench.cpp.o
+[ 96%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__Wrenches.cpp.o
+[ 97%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__frame__Frame.cpp.o
+[ 97%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__frame__FramePair.cpp.o
+[ 97%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__base__samples__frame__frame_mode_t.cpp.o
+[ 98%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__std__string.cpp.o
+[ 98%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__std__vector____base__Time__.cpp.o
+[ 98%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__std__vector____base__Trajectory__.cpp.o
+[ 99%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__std__vector____base__Vector3d__.cpp.o
+[ 99%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__std__vector____base__Waypoint__.cpp.o
+[100%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__std__vector____std__string__.cpp.o
+[100%] Building CXX object .orogen/typekit/transports/mqueue/CMakeFiles/base-transport-mqueue-gnulinux.dir/__std__vector__boost__uint32_t__.cpp.o
+[100%] Linking CXX shared library libbase-transport-mqueue-gnulinux.so
+[100%] Built target base-transport-mqueue-gnulinux
+Exit: pid 5123 exit 0

@@ -1,0 +1,276 @@
+<?xml version='1.0'?>
+<typelib>
+  <numeric category='uint' name='/bool' size='1'>
+  <metadata key='orogen_include'><![CDATA[:boost/cstdint.hpp]]></metadata>
+
+  </numeric>
+  <numeric category='sint' name='/int32_t' size='4'>
+  <metadata key='orogen_include'><![CDATA[boost/cstdint.hpp]]></metadata>
+
+  </numeric>
+  <numeric category='sint' name='/int64_t' size='8'>
+  <metadata key='cxxname'><![CDATA[::int64_t]]></metadata>
+<metadata key='orogen_include'><![CDATA[boost/cstdint.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:27]]></metadata>
+
+  </numeric>
+  <numeric category='sint' name='/int8_t' size='1'>
+  <metadata key='orogen_include'><![CDATA[boost/cstdint.hpp]]></metadata>
+
+  </numeric>
+  <numeric category='uint' name='/uint64_t' size='8'>
+  <metadata key='orogen_include'><![CDATA[boost/cstdint.hpp]]></metadata>
+
+  </numeric>
+  <alias name='/size_t' source='/uint64_t'/>
+  <compound name='/base/Time' size='8'>
+    <field name='microseconds' offset='0' type='/int64_t'>
+    <metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/base/types/include/base/Time.hpp:17]]></metadata>
+
+    </field>
+  <metadata key='cxxname'><![CDATA[::base::Time]]></metadata>
+<metadata key='orogen_include'><![CDATA[base:base/Time.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/base/types/include/base/Time.hpp:11]]></metadata>
+
+  </compound>
+  <compound name='/aggregator/TimestampEstimatorStatus' size='80'>
+    <field name='stamp' offset='0' type='/base/Time'>
+    <metadata key='doc'><![CDATA[When this data structure has been generated ]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:13]]></metadata>
+
+    </field>
+    <field name='period' offset='8' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Estimated period ]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:15]]></metadata>
+
+    </field>
+    <field name='latency' offset='16' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Estimated latency (always null if no hardware timestamps are
+provided)]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:19]]></metadata>
+
+    </field>
+    <field name='time_raw' offset='24' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Last input time provided to the input estimator]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:23]]></metadata>
+
+    </field>
+    <field name='reference_time_raw' offset='32' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Last reference time provided to the input estimator]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:26]]></metadata>
+
+    </field>
+    <field name='lost_samples_total' offset='40' type='/int32_t'>
+    <metadata key='doc'><![CDATA[Total count of lost samples]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:30]]></metadata>
+
+    </field>
+    <field name='lost_samples' offset='44' type='/int32_t'>
+    <metadata key='doc'><![CDATA[Count of lost samples currently stored in the estimator]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:33]]></metadata>
+
+    </field>
+    <field name='window_size' offset='48' type='/int32_t'>
+    <metadata key='doc'><![CDATA[Count of samples currently stored in the estimator]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:36]]></metadata>
+
+    </field>
+    <field name='window_capacity' offset='52' type='/int32_t'>
+    <metadata key='doc'><![CDATA[Maximum window capacity]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:39]]></metadata>
+
+    </field>
+    <field name='base_time' offset='56' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Time at which the base time got reset last]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:42]]></metadata>
+
+    </field>
+    <field name='base_time_reset_offset' offset='64' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Offset at the last reset of base_time]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:45]]></metadata>
+
+    </field>
+    <field name='expected_losses' offset='72' type='/int32_t'>
+    <metadata key='doc'><![CDATA[Losses that have been announced using updateLoss, but have yet to be
+seen in the time stream]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:49]]></metadata>
+
+    </field>
+    <field name='rejected_expected_losses' offset='76' type='/int32_t'>
+    <metadata key='doc'><![CDATA[The number of losses announced with updateLoss that got rejected by
+the estimator]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:53]]></metadata>
+
+    </field>
+  <metadata key='cxxname'><![CDATA[::aggregator::TimestampEstimatorStatus]]></metadata>
+<metadata key='doc'><![CDATA[Structure used to report the internal state of a TimestampEstimator
+instance]]></metadata>
+<metadata key='orogen_defining_typekits'><![CDATA[aggregator]]></metadata>
+<metadata key='orogen_exporting_typekits'><![CDATA[aggregator]]></metadata>
+<metadata key='orogen_include'><![CDATA[aggregator:aggregator/TimestampEstimatorStatus.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/TimestampEstimatorStatus.hpp:10]]></metadata>
+
+  </compound>
+  <container kind='/std/string' name='/std/string' of='/int8_t' size='32'>
+  <metadata key='cxxname'><![CDATA[::std::string]]></metadata>
+<metadata key='doc'><![CDATA[A string of @c char]]></metadata>
+<metadata key='orogen_include'><![CDATA[:boost/cstdint.hpp]]></metadata>
+<metadata key='orogen_include'><![CDATA[:string]]></metadata>
+<metadata key='source_file_line'><![CDATA[/usr/include/c++/7/bits/stringfwd.h:74]]></metadata>
+
+  </container>
+  <compound name='/aggregator/StreamStatus' size='128'>
+    <field name='buffer_size' offset='0' type='/uint64_t'>
+    <metadata key='doc'><![CDATA[The actual size of the buffer ]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:14]]></metadata>
+
+    </field>
+    <field name='buffer_fill' offset='8' type='/uint64_t'>
+    <metadata key='doc'><![CDATA[How many samples are currently waiting inside the stream buffer ]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:16]]></metadata>
+
+    </field>
+    <field name='samples_received' offset='16' type='/uint64_t'>
+    <metadata key='doc'><![CDATA[The total number of samples ever received for that stream
+
+The following relationship should hold:
+
+  samples_received == samples_processed +
+	samples_dropped_buffer_full +
+	samples_dropped_late_arriving]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:25]]></metadata>
+
+    </field>
+    <field name='samples_processed' offset='24' type='/uint64_t'>
+    <metadata key='doc'><![CDATA[The total count of samples ever processed by the callbacks of this stream
+
+The total number of samples ever received is
+
+  samples_processed + samples_dropped_buffer_full + samples_dropped_late_arriving]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:32]]></metadata>
+
+    </field>
+    <field name='samples_dropped_buffer_full' offset='32' type='/uint64_t'>
+    <metadata key='doc'><![CDATA[Count of samples dropped because the buffer was full
+
+Should be zero on streams that have dynamically resized buffers]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:37]]></metadata>
+
+    </field>
+    <field name='samples_dropped_late_arriving' offset='40' type='/uint64_t'>
+    <metadata key='doc'><![CDATA[Count of samples dropped because their timestamp was earlier than
+the stream aligner current time]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:41]]></metadata>
+
+    </field>
+    <field name='samples_backward_in_time' offset='48' type='/uint64_t'>
+    <metadata key='doc'><![CDATA[Count of samples dropped because their timestamp was not properly ordered
+
+I.e. samples for which the timestamp was later than the previous
+sample received for that stream]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:47]]></metadata>
+
+    </field>
+    <field name='latest_data_time' offset='56' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Time of the newest sample currently stored in the stream buffer.
+Null time if the stream is empty]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:51]]></metadata>
+
+    </field>
+    <field name='earliest_data_time' offset='64' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Time of the oldest sample currently stored in the stream buffer.
+Null time if the stream is empty]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:55]]></metadata>
+
+    </field>
+    <field name='latest_sample_time' offset='72' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Time of the last sample received for this stream, regardless of
+whether it has been dropped or pushed to the stream]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:59]]></metadata>
+
+    </field>
+    <field name='active' offset='80' type='/bool'>
+    <metadata key='doc'><![CDATA[True if the stream is being used by the stream aligner ]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:61]]></metadata>
+
+    </field>
+    <field name='name' offset='88' type='/std/string'>
+    <metadata key='doc'><![CDATA[The stream name. In the case of the oroGen plugin, this is set to
+the port name]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:65]]></metadata>
+
+    </field>
+    <field name='priority' offset='120' type='/int64_t'>
+    <metadata key='doc'><![CDATA[The priority at which this stream is processed. When samples of the
+same timestamp are available on two different streams, the stream
+with the lower priority value is processed first.]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:70]]></metadata>
+
+    </field>
+  <metadata key='cxxname'><![CDATA[::aggregator::StreamStatus]]></metadata>
+<metadata key='doc'><![CDATA[Debugging structure used to report about the status of a single stream in a stream aligner]]></metadata>
+<metadata key='orogen_defining_typekits'><![CDATA[aggregator]]></metadata>
+<metadata key='orogen_exporting_typekits'><![CDATA[aggregator]]></metadata>
+<metadata key='orogen_include'><![CDATA[aggregator:aggregator/StreamAlignerStatus.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:11]]></metadata>
+
+  </compound>
+  <container kind='/std/vector' name='/std/vector&lt;/aggregator/StreamStatus&gt;' of='/aggregator/StreamStatus' size='24'>
+  <metadata key='cxxname'><![CDATA[::std::vector<aggregator::StreamStatus, std::allocator<aggregator::StreamStatus> >]]></metadata>
+<metadata key='orogen_defining_typekits'><![CDATA[aggregator]]></metadata>
+<metadata key='orogen_exporting_typekits'><![CDATA[aggregator]]></metadata>
+<metadata key='orogen_include'><![CDATA[:vector]]></metadata>
+<metadata key='orogen_include'><![CDATA[aggregator:aggregator/StreamAlignerStatus.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/usr/include/c++/7/bits/stl_vector.h:216]]></metadata>
+
+  </container>
+  <compound name='/aggregator/StreamAlignerStatus' size='88'>
+    <field name='time' offset='0' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Time at which this data structure got generated]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:88]]></metadata>
+
+    </field>
+    <field name='name' offset='8' type='/std/string'>
+    <metadata key='doc'><![CDATA[The name of the stream aligner. In the case of the oroGen plugin,
+this is the name of the underlying oroGen task]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:92]]></metadata>
+
+    </field>
+    <field name='current_time' offset='40' type='/base/Time'>
+    <metadata key='doc'><![CDATA[The stream aligner's time
+
+This is the time of the last sample that has been given to a stream
+aligner callback]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:98]]></metadata>
+
+    </field>
+    <field name='latest_time' offset='48' type='/base/Time'>
+    <metadata key='doc'><![CDATA[Time of the last sample that got in the stream aligner]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:101]]></metadata>
+
+    </field>
+    <field name='samples_dropped_late_arriving' offset='56' type='/uint64_t'>
+    <metadata key='doc'><![CDATA[Count of samples that got dropped because, at the time they arrived,
+they were older than the stream aligner's current time.
+
+This happens if: the stream aligner timed out or if a sample arrived
+earlier than the stream's declared period (i.e. the period is too big).]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:108]]></metadata>
+
+    </field>
+    <field name='streams' offset='64' type='/std/vector&lt;/aggregator/StreamStatus&gt;'>
+    <metadata key='doc'><![CDATA[Status of each individual streams]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:111]]></metadata>
+
+    </field>
+  <metadata key='cxxname'><![CDATA[::aggregator::StreamAlignerStatus]]></metadata>
+<metadata key='doc'><![CDATA[Structure used to report the complete state of a stream aligner
+
+The stream aligner latency is time - current_time]]></metadata>
+<metadata key='orogen_defining_typekits'><![CDATA[aggregator]]></metadata>
+<metadata key='orogen_exporting_typekits'><![CDATA[aggregator]]></metadata>
+<metadata key='orogen_include'><![CDATA[aggregator:aggregator/StreamAlignerStatus.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/drivers/aggregator/include/aggregator/StreamAlignerStatus.hpp:84]]></metadata>
+
+  </compound>
+</typelib>

@@ -1,0 +1,12 @@
+/std/vector</base/samples/RigidBodyState> 1
+/std/vector</base/samples/RigidBodyState_m> 0
+/std/vector</transformer/PortFrameAssociation> 0
+/std/vector</transformer/PortTransformationAssociation> 0
+/std/vector</transformer/TransformationStatus> 0
+/transformer/ConfigurationState 1
+/transformer/ConfigurationState_m 0
+/transformer/PortFrameAssociation 0
+/transformer/PortTransformationAssociation 0
+/transformer/Task_STATES 0
+/transformer/TransformationStatus 0
+/transformer/TransformerStatus 1

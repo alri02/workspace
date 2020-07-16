@@ -1,0 +1,32 @@
+---
+ruby_executable: "/home/alveena/.rbenv/versions/2.5.1/bin/ruby"
+gems_install_path: "/home/alveena/.local/share/autoproj/gems"
+prefer_indep_over_os_packages: false
+osdeps_mode: all
+apt_dpkg_update: true
+reused_autoproj_installations: []
+GITHUB: ssh
+GITHUB_ROOT: 'git@github.com:'
+GITHUB_PUSH_ROOT: 'git@github.com:'
+GITHUB_PRIVATE_ROOT: 'git@github.com:'
+separate_prefixes: true
+operating_system:
+- - ubuntu
+  - debian
+- - '18.04'
+  - 18.04.4
+  - lts
+  - bionic
+  - beaver
+  - default
+ROCK_SELECTED_FLAVOR: master
+ROCK_FLAVOR: master
+ROCK_BRANCH: master
+typelib_cxx_loader: castxml
+USE_PYTHON: true
+python_executable: "/usr/bin/python"
+python_version: '2.7'
+syskit_use_bundles: true
+USE_OCL: false
+rtt_target: gnulinux
+rtt_corba_implementation: omniorb

@@ -1,0 +1,19 @@
+# Generated from orogen/lib/orogen/templates/typekit/ros/transport-ros.pc
+
+prefix=/home/alveena/workspace/install/base/orogen/types
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos/types
+includedir=${prefix}/include/orocos
+disabled=true
+
+project_name=base
+deffile=${prefix}/share/orogen/base.orogen
+type_registry=${prefix}/share/orogen/base.tlb
+rosmap=${prefix}/share/orogen/base.rosmap
+
+Name: baseROSTransportModel
+Version: 0.1
+Description: model part of the ROS-Rock bridge for base
+Libs:
+Cflags:
+

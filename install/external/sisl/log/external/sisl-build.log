@@ -1,0 +1,1607 @@
+
+2020-03-29 04:27:26 +0200: running
+    cmake .
+with environment:
+  'AUTOPROJ_CURRENT_ROOT'='/home/alveena/workspace'
+  'BUNDLER_ORIG_BUNDLER_VERSION'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_BIN_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_GEMFILE'='/home/alveena/workspace/.autoproj/Gemfile'
+  'BUNDLER_ORIG_GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'BUNDLER_ORIG_GEM_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_MANPATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_PATH'='/home/alveena/workspace/gui/vizkit/bin:/home/alveena/workspace/tools/roby/bin:/home/alveena/workspace/base/scripts/bin:/home/alveena/workspace/tools/pocolog/bin:/home/alveena/workspace/tools/orocos.rb/bin:/home/alveena/workspace/tools/metaruby/bin:/home/alveena/workspace/tools/orogen/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'BUNDLER_ORIG_RB_USER_INSTALL'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYLIB'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYOPT'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLE_BIN_PATH'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/exe/bundle'
+  'BUNDLE_GEMFILE'='/home/alveena/workspace/install/gems/Gemfile'
+  'CLUTTER_IM_MODULE'='xim'
+  'CMAKE_PREFIX_PATH'='/home/alveena/workspace/install/rtt'
+  'COLORTERM'='truecolor'
+  'DBUS_SESSION_BUS_ADDRESS'='unix:path=/run/user/1000/bus'
+  'DESKTOP_AUTOSTART_ID'='10d9adc6bfef662ab9158544517269288000000012480007'
+  'DESKTOP_SESSION'='ubuntu'
+  'DISPLAY'=':0'
+  'GDMSESSION'='ubuntu'
+  'GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'GNOME_DESKTOP_SESSION_ID'='this-is-deprecated'
+  'GNOME_SHELL_SESSION_MODE'='ubuntu'
+  'GNOME_TERMINAL_SCREEN'='/org/gnome/Terminal/screen/5515c39b_d33f_4371_91f4_d855164d5f45'
+  'GNOME_TERMINAL_SERVICE'=':1.69'
+  'GPG_AGENT_INFO'='/run/user/1000/gnupg/S.gpg-agent:0:1'
+  'GTK_IM_MODULE'='ibus'
+  'GTK_MODULES'='gail:atk-bridge'
+  'HOME'='/home/alveena'
+  'IM_CONFIG_PHASE'='2'
+  'LANG'='en_US.UTF-8'
+  'LC_ADDRESS'='de_DE.UTF-8'
+  'LC_IDENTIFICATION'='de_DE.UTF-8'
+  'LC_MEASUREMENT'='de_DE.UTF-8'
+  'LC_MONETARY'='de_DE.UTF-8'
+  'LC_NAME'='de_DE.UTF-8'
+  'LC_NUMERIC'='de_DE.UTF-8'
+  'LC_PAPER'='de_DE.UTF-8'
+  'LC_TELEPHONE'='de_DE.UTF-8'
+  'LC_TIME'='de_DE.UTF-8'
+  'LD_LIBRARY_PATH'='/home/alveena/workspace/install/gui/osgviz/lib:/home/alveena/workspace/install/gui/vizkit3d/lib'
+  'LESSCLOSE'='/usr/bin/lesspipe %s %s'
+  'LESSOPEN'='| /usr/bin/lesspipe %s'
+  'LOGNAME'='alveena'
+  'LS_COLORS'='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+  'OLDPWD'='/home/alveena'
+  'ORBInitRef'='NameService=corbaname::127.0.0.1'
+  'OROCOS_TARGET'='gnulinux'
+  'OROGEN_PLUGIN_PATH'=''
+  'OSG_FILE_PATH'=''
+  'PATH'='/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'PKG_CONFIG_PATH'=''
+  'PWD'='/home/alveena/workspace'
+  'PYTHONUSERBASE'='/home/alveena/workspace/install/pip'
+  'QT4_IM_MODULE'='xim'
+  'QT_ACCESSIBILITY'='1'
+  'QT_IM_MODULE'='xim'
+  'QT_PLUGIN_PATH'=''
+  'RBENV_SHELL'='bash'
+  'ROBY_PLUGIN_PATH'='/home/alveena/workspace/base/scripts/lib/rock/roby_plugin.rb'
+  'ROCK_BUNDLE_PATH'=''
+  'ROCK_PREFIX'='/home/alveena/workspace/install/base/orogen/types/share/rock'
+  'RUBYLIB'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-12.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/i18n-1.8.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/minitest-5.14.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thread_safe-0.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tzinfo-1.2.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/zeitwerk-2.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/activesupport-6.0.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/equatable-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-color-0.4.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/pastel-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-cursor-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/necromancer-0.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timers-4.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-screen-0.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/wisper-2.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-reader-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-prompt-0.15.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/standard:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/core:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/utilrb-3.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autobuild-1.20.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/backports-3.17.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/ffi-1.12.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ffi-1.12.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-inotify-0.10.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thor-0.20.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-spinner-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xdg-2.2.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autoproj-2.12.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/uber-0.0.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hooks-0.4.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autorespawn-0.6.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/debug_inspector-0.0.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/debug_inspector-0.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/binding_of_caller-0.8.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/binding_of_caller-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/builder-3.2.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/concurrent-ruby-ext-1.0.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/daemons-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/unf_ext-0.0.7.6:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf_ext-0.0.7.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf-0.1.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/domain_name-0.5.20190701/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-core-0.4.9/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-equalizer-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-configurable-0.11.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-container-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-inflector-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-logic-1.0.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-types-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/eventmachine-1.2.7:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/eventmachine-1.2.7/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/fakefs-1.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/flexmock-2.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ruby2_keywords-0.0.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-1.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-grape-1.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-2.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-accept-0.4.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/grape-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-3.22.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/yard-0.9.24/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-yard-0.1.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-accept-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-cookie-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/kramdown-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/lazy_priority_queue-0.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-data-3.2019.1009/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-3.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/msgpack-1.3.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/msgpack-1.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/netrc-0.11.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/optimist-3.0.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/qtbindings-4.8.6.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/qtbindings-4.8.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-compiler-0.8.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-readline-0.5.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rbtrace-0.4.12:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rest-client-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stream-0.5.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rgl-0.5.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rice-2.2.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rice-2.2.0/ruby/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/stackprof-0.2.15:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stackprof-0.2.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/state_machine-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-ansi-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode-display_width-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode_utils-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-0.1.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/thin-1.7.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thin-1.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timecop-0.9.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-table-0.10.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/websocket-1.2.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xmlrpc-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib'
+  'RUBYOPT'='-r/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib/bundler/setup'
+  'SESSION_MANAGER'='local/alveena-HP-ENVY:@/tmp/.ICE-unix/1248,unix/alveena-HP-ENVY:/tmp/.ICE-unix/1248'
+  'SHELL'='/bin/bash'
+  'SHLVL'='1'
+  'SSH_AGENT_PID'='1325'
+  'SSH_AUTH_SOCK'='/run/user/1000/keyring/ssh'
+  'TERM'='xterm-256color'
+  'TEXTDOMAIN'='im-config'
+  'TEXTDOMAINDIR'='/usr/share/locale/'
+  'TYPELIB_CXX_LOADER'='castxml'
+  'TYPELIB_PLUGIN_PATH'='/home/alveena/workspace/install/typelib/lib/typelib'
+  'TYPELIB_RUBY_PLUGIN_PATH'=''
+  'USER'='alveena'
+  'USERNAME'='alveena'
+  'VIZKIT_PLUGIN_RUBY_PATH'='/home/alveena/workspace/install/gui/vizkit3d/lib'
+  'VTE_VERSION'='5202'
+  'WINDOWPATH'='1'
+  'XAUTHORITY'='/run/user/1000/gdm/Xauthority'
+  'XDG_CONFIG_DIRS'='/etc/xdg/xdg-ubuntu:/etc/xdg'
+  'XDG_CURRENT_DESKTOP'='ubuntu:GNOME'
+  'XDG_DATA_DIRS'='/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+  'XDG_MENU_PREFIX'='gnome-'
+  'XDG_RUNTIME_DIR'='/run/user/1000'
+  'XDG_SEAT'='seat0'
+  'XDG_SESSION_DESKTOP'='ubuntu'
+  'XDG_SESSION_ID'='1'
+  'XDG_SESSION_TYPE'='x11'
+  'XDG_VTNR'='1'
+  'XMODIFIERS'='@im=ibus'
+  '_'='/home/alveena/workspace/.autoproj/bin/amake'
+
+2020-03-29 04:27:26 +0200: running
+    cmake .
+in directory /home/alveena/workspace/external/sisl/build
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alveena/workspace/external/sisl/build
+Exit: pid 23626 exit 0
+
+2020-03-29 04:27:27 +0200: running
+    make --jobserver-fds=7,8 -j
+with environment:
+  'AUTOPROJ_CURRENT_ROOT'='/home/alveena/workspace'
+  'BUNDLER_ORIG_BUNDLER_VERSION'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_BIN_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_GEMFILE'='/home/alveena/workspace/.autoproj/Gemfile'
+  'BUNDLER_ORIG_GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'BUNDLER_ORIG_GEM_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_MANPATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_PATH'='/home/alveena/workspace/gui/vizkit/bin:/home/alveena/workspace/tools/roby/bin:/home/alveena/workspace/base/scripts/bin:/home/alveena/workspace/tools/pocolog/bin:/home/alveena/workspace/tools/orocos.rb/bin:/home/alveena/workspace/tools/metaruby/bin:/home/alveena/workspace/tools/orogen/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'BUNDLER_ORIG_RB_USER_INSTALL'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYLIB'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYOPT'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLE_BIN_PATH'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/exe/bundle'
+  'BUNDLE_GEMFILE'='/home/alveena/workspace/install/gems/Gemfile'
+  'CLUTTER_IM_MODULE'='xim'
+  'CMAKE_PREFIX_PATH'='/home/alveena/workspace/install/rtt'
+  'COLORTERM'='truecolor'
+  'DBUS_SESSION_BUS_ADDRESS'='unix:path=/run/user/1000/bus'
+  'DESKTOP_AUTOSTART_ID'='10d9adc6bfef662ab9158544517269288000000012480007'
+  'DESKTOP_SESSION'='ubuntu'
+  'DISPLAY'=':0'
+  'GDMSESSION'='ubuntu'
+  'GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'GNOME_DESKTOP_SESSION_ID'='this-is-deprecated'
+  'GNOME_SHELL_SESSION_MODE'='ubuntu'
+  'GNOME_TERMINAL_SCREEN'='/org/gnome/Terminal/screen/5515c39b_d33f_4371_91f4_d855164d5f45'
+  'GNOME_TERMINAL_SERVICE'=':1.69'
+  'GPG_AGENT_INFO'='/run/user/1000/gnupg/S.gpg-agent:0:1'
+  'GTK_IM_MODULE'='ibus'
+  'GTK_MODULES'='gail:atk-bridge'
+  'HOME'='/home/alveena'
+  'IM_CONFIG_PHASE'='2'
+  'LANG'='en_US.UTF-8'
+  'LC_ADDRESS'='de_DE.UTF-8'
+  'LC_IDENTIFICATION'='de_DE.UTF-8'
+  'LC_MEASUREMENT'='de_DE.UTF-8'
+  'LC_MONETARY'='de_DE.UTF-8'
+  'LC_NAME'='de_DE.UTF-8'
+  'LC_NUMERIC'='de_DE.UTF-8'
+  'LC_PAPER'='de_DE.UTF-8'
+  'LC_TELEPHONE'='de_DE.UTF-8'
+  'LC_TIME'='de_DE.UTF-8'
+  'LD_LIBRARY_PATH'='/home/alveena/workspace/install/gui/osgviz/lib:/home/alveena/workspace/install/gui/vizkit3d/lib'
+  'LESSCLOSE'='/usr/bin/lesspipe %s %s'
+  'LESSOPEN'='| /usr/bin/lesspipe %s'
+  'LOGNAME'='alveena'
+  'LS_COLORS'='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+  'OLDPWD'='/home/alveena'
+  'ORBInitRef'='NameService=corbaname::127.0.0.1'
+  'OROCOS_TARGET'='gnulinux'
+  'OROGEN_PLUGIN_PATH'=''
+  'OSG_FILE_PATH'=''
+  'PATH'='/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'PKG_CONFIG_PATH'=''
+  'PWD'='/home/alveena/workspace'
+  'PYTHONUSERBASE'='/home/alveena/workspace/install/pip'
+  'QT4_IM_MODULE'='xim'
+  'QT_ACCESSIBILITY'='1'
+  'QT_IM_MODULE'='xim'
+  'QT_PLUGIN_PATH'=''
+  'RBENV_SHELL'='bash'
+  'ROBY_PLUGIN_PATH'='/home/alveena/workspace/base/scripts/lib/rock/roby_plugin.rb'
+  'ROCK_BUNDLE_PATH'=''
+  'ROCK_PREFIX'='/home/alveena/workspace/install/base/orogen/types/share/rock'
+  'RUBYLIB'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-12.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/i18n-1.8.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/minitest-5.14.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thread_safe-0.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tzinfo-1.2.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/zeitwerk-2.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/activesupport-6.0.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/equatable-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-color-0.4.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/pastel-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-cursor-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/necromancer-0.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timers-4.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-screen-0.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/wisper-2.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-reader-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-prompt-0.15.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/standard:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/core:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/utilrb-3.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autobuild-1.20.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/backports-3.17.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/ffi-1.12.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ffi-1.12.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-inotify-0.10.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thor-0.20.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-spinner-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xdg-2.2.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autoproj-2.12.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/uber-0.0.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hooks-0.4.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autorespawn-0.6.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/debug_inspector-0.0.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/debug_inspector-0.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/binding_of_caller-0.8.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/binding_of_caller-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/builder-3.2.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/concurrent-ruby-ext-1.0.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/daemons-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/unf_ext-0.0.7.6:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf_ext-0.0.7.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf-0.1.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/domain_name-0.5.20190701/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-core-0.4.9/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-equalizer-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-configurable-0.11.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-container-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-inflector-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-logic-1.0.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-types-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/eventmachine-1.2.7:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/eventmachine-1.2.7/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/fakefs-1.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/flexmock-2.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ruby2_keywords-0.0.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-1.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-grape-1.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-2.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-accept-0.4.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/grape-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-3.22.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/yard-0.9.24/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-yard-0.1.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-accept-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-cookie-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/kramdown-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/lazy_priority_queue-0.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-data-3.2019.1009/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-3.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/msgpack-1.3.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/msgpack-1.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/netrc-0.11.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/optimist-3.0.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/qtbindings-4.8.6.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/qtbindings-4.8.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-compiler-0.8.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-readline-0.5.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rbtrace-0.4.12:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rest-client-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stream-0.5.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rgl-0.5.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rice-2.2.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rice-2.2.0/ruby/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/stackprof-0.2.15:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stackprof-0.2.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/state_machine-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-ansi-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode-display_width-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode_utils-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-0.1.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/thin-1.7.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thin-1.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timecop-0.9.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-table-0.10.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/websocket-1.2.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xmlrpc-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib'
+  'RUBYOPT'='-r/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib/bundler/setup'
+  'SESSION_MANAGER'='local/alveena-HP-ENVY:@/tmp/.ICE-unix/1248,unix/alveena-HP-ENVY:/tmp/.ICE-unix/1248'
+  'SHELL'='/bin/bash'
+  'SHLVL'='1'
+  'SSH_AGENT_PID'='1325'
+  'SSH_AUTH_SOCK'='/run/user/1000/keyring/ssh'
+  'TERM'='xterm-256color'
+  'TEXTDOMAIN'='im-config'
+  'TEXTDOMAINDIR'='/usr/share/locale/'
+  'TYPELIB_CXX_LOADER'='castxml'
+  'TYPELIB_PLUGIN_PATH'='/home/alveena/workspace/install/typelib/lib/typelib'
+  'TYPELIB_RUBY_PLUGIN_PATH'=''
+  'USER'='alveena'
+  'USERNAME'='alveena'
+  'VIZKIT_PLUGIN_RUBY_PATH'='/home/alveena/workspace/install/gui/vizkit3d/lib'
+  'VTE_VERSION'='5202'
+  'WINDOWPATH'='1'
+  'XAUTHORITY'='/run/user/1000/gdm/Xauthority'
+  'XDG_CONFIG_DIRS'='/etc/xdg/xdg-ubuntu:/etc/xdg'
+  'XDG_CURRENT_DESKTOP'='ubuntu:GNOME'
+  'XDG_DATA_DIRS'='/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+  'XDG_MENU_PREFIX'='gnome-'
+  'XDG_RUNTIME_DIR'='/run/user/1000'
+  'XDG_SEAT'='seat0'
+  'XDG_SESSION_DESKTOP'='ubuntu'
+  'XDG_SESSION_ID'='1'
+  'XDG_SESSION_TYPE'='x11'
+  'XDG_VTNR'='1'
+  'XMODIFIERS'='@im=ibus'
+  '_'='/home/alveena/workspace/.autoproj/bin/amake'
+
+2020-03-29 04:27:27 +0200: running
+    make --jobserver-fds=7,8 -j
+in directory /home/alveena/workspace/external/sisl/build
+Scanning dependencies of target sisl
+[  1%] Building C object CMakeFiles/sisl.dir/src/construct.c.o
+[  1%] Building C object CMakeFiles/sisl.dir/src/crvarctang.c.o
+[  1%] Building C object CMakeFiles/sisl.dir/src/crvcrvtang.c.o
+[  1%] Building C object CMakeFiles/sisl.dir/src/crvlintang.c.o
+[  1%] Building C object CMakeFiles/sisl.dir/src/destruct.c.o
+[  1%] Building C object CMakeFiles/sisl.dir/src/ev_cv_off.c.o
+[  2%] Building C object CMakeFiles/sisl.dir/src/eval_2_crv.c.o
+[  2%] Building C object CMakeFiles/sisl.dir/src/evalcrvarc.c.o
+[  2%] Building C object CMakeFiles/sisl.dir/src/hp_s1880.c.o
+/home/alveena/workspace/external/sisl/src/hp_s1880.c: In function ‘hp_s1880’:
+/home/alveena/workspace/external/sisl/src/hp_s1880.c:284:8: warning: ‘qprev’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        sh6getother (qpt, qprev, &qnext, &kstat);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  2%] Building C object CMakeFiles/sisl.dir/src/intjoinper.c.o
+[  2%] Building C object CMakeFiles/sisl.dir/src/make3D.c.o
+[  2%] Building C object CMakeFiles/sisl.dir/src/makecvkreg.c.o
+[  3%] Building C object CMakeFiles/sisl.dir/src/makesfkreg.c.o
+[  3%] Building C object CMakeFiles/sisl.dir/src/maketracks.c.o
+[  3%] Building C object CMakeFiles/sisl.dir/src/mk_cv_cycl.c.o
+[  3%] Building C object CMakeFiles/sisl.dir/src/newknots.c.o
+[  3%] Building C object CMakeFiles/sisl.dir/src/pickcrvsf.c.o
+[  3%] Building C object CMakeFiles/sisl.dir/src/pocrvtang.c.o
+[  4%] Building C object CMakeFiles/sisl.dir/src/refine_all.c.o
+[  4%] Building C object CMakeFiles/sisl.dir/src/s1001.c.o
+[  4%] Building C object CMakeFiles/sisl.dir/src/s1011.c.o
+[  4%] Building C object CMakeFiles/sisl.dir/src/s1012.c.o
+[  4%] Building C object CMakeFiles/sisl.dir/src/s1013.c.o
+[  4%] Building C object CMakeFiles/sisl.dir/src/s1014.c.o
+[  5%] Building C object CMakeFiles/sisl.dir/src/s1015.c.o
+[  5%] Building C object CMakeFiles/sisl.dir/src/s1016.c.o
+[  5%] Building C object CMakeFiles/sisl.dir/src/s1017.c.o
+/home/alveena/workspace/external/sisl/src/s1017.c: In function ‘s1017’:
+/home/alveena/workspace/external/sisl/src/s1017.c:257:19: warning: ‘knum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       kdim * (kn1 - knum), double);
+                   ^
+[  5%] Building C object CMakeFiles/sisl.dir/src/s1018.c.o
+/home/alveena/workspace/external/sisl/src/s1018.c: In function ‘s1018’:
+/home/alveena/workspace/external/sisl/src/s1018.c:288:21: warning: ‘no_pos’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       kn1 -= no_pos + no_neg;
+              ~~~~~~~^~~~~~~~
+/home/alveena/workspace/external/sisl/src/s1018.c:296:39: warning: ‘no_neg’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       memcopy (scoef2, scoef + no_neg * kdim, kn1 * kdim, double);
+                                       ^
+[  5%] Building C object CMakeFiles/sisl.dir/src/s1021.c.o
+[  5%] Building C object CMakeFiles/sisl.dir/src/s1022.c.o
+[  6%] Building C object CMakeFiles/sisl.dir/src/s1023.c.o
+[  6%] Building C object CMakeFiles/sisl.dir/src/s1024.c.o
+[  6%] Building C object CMakeFiles/sisl.dir/src/s1025.c.o
+[  6%] Building C object CMakeFiles/sisl.dir/src/s1119.c.o
+/home/alveena/workspace/external/sisl/src/s1119.c: In function ‘s1119’:
+/home/alveena/workspace/external/sisl/src/s1119.c:251:20: warning: ‘tprev’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      else if (tprev*tdiff < DZERO)
+               ~~~~~^~~~~~
+[  6%] Building C object CMakeFiles/sisl.dir/src/s1161.c.o
+[  6%] Building C object CMakeFiles/sisl.dir/src/s1162.c.o
+[  7%] Building C object CMakeFiles/sisl.dir/src/s1172.c.o
+[  7%] Building C object CMakeFiles/sisl.dir/src/s1173.c.o
+[  7%] Building C object CMakeFiles/sisl.dir/src/s1174.c.o
+[  7%] Building C object CMakeFiles/sisl.dir/src/s1190.c.o
+[  7%] Building C object CMakeFiles/sisl.dir/src/s1192.c.o
+[  7%] Building C object CMakeFiles/sisl.dir/src/s1219.c.o
+[  7%] Building C object CMakeFiles/sisl.dir/src/s1220.c.o
+/home/alveena/workspace/external/sisl/src/s1220.c: In function ‘s1220’:
+/home/alveena/workspace/external/sisl/src/s1220.c:433:21: warning: ‘ts2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     ebder[ki1] = ts1*ebder[ki1] - ts2*ebder[++ki2];
+                  ~~~^~~~~~~~~~~
+[  8%] Building C object CMakeFiles/sisl.dir/src/s1221.c.o
+[  8%] Building C object CMakeFiles/sisl.dir/src/s1222.c.o
+[  8%] Building C object CMakeFiles/sisl.dir/src/s1223.c.o
+[  8%] Building C object CMakeFiles/sisl.dir/src/s1224.c.o
+[  8%] Building C object CMakeFiles/sisl.dir/src/s1225.c.o
+[  8%] Building C object CMakeFiles/sisl.dir/src/s1226.c.o
+[  9%] Building C object CMakeFiles/sisl.dir/src/s1227.c.o
+[  9%] Building C object CMakeFiles/sisl.dir/src/s1231.c.o
+/home/alveena/workspace/external/sisl/src/s1231.c: In function ‘s1231’:
+/home/alveena/workspace/external/sisl/src/s1231.c:370:6: warning: ‘kmy’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      s1700(kmy,kk,kn,kv1--,&kpl,&kfi,&kla,pc1->et,apar,salfa,&kstat);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[  9%] Building C object CMakeFiles/sisl.dir/src/s1232.c.o
+[  9%] Building C object CMakeFiles/sisl.dir/src/s1233.c.o
+[  9%] Building C object CMakeFiles/sisl.dir/src/s1235.c.o
+[  9%] Building C object CMakeFiles/sisl.dir/src/s1236.c.o
+[ 10%] Building C object CMakeFiles/sisl.dir/src/s1237.c.o
+/home/alveena/workspace/external/sisl/src/s1237.c: In function ‘s1237’:
+/home/alveena/workspace/external/sisl/src/s1237.c:156:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (qc != SISL_NULL) freeCurve(qc);   qc = SISL_NULL;
+       ^~
+/home/alveena/workspace/external/sisl/src/s1237.c:156:45: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       if (qc != SISL_NULL) freeCurve(qc);   qc = SISL_NULL;
+                                             ^~
+/home/alveena/workspace/external/sisl/src/s1237.c:185:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (qc != SISL_NULL) freeCurve(qc);   qc = SISL_NULL;
+       ^~
+/home/alveena/workspace/external/sisl/src/s1237.c:185:45: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       if (qc != SISL_NULL) freeCurve(qc);   qc = SISL_NULL;
+                                             ^~
+[ 10%] Building C object CMakeFiles/sisl.dir/src/s1238.c.o
+/home/alveena/workspace/external/sisl/src/s1238.c: In function ‘s1238’:
+/home/alveena/workspace/external/sisl/src/s1238.c:188:4: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+    if (uc[kj] != SISL_NULL) freeCurve(uc[kj]);   uc[kj] = SISL_NULL;
+    ^~
+/home/alveena/workspace/external/sisl/src/s1238.c:188:50: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+    if (uc[kj] != SISL_NULL) freeCurve(uc[kj]);   uc[kj] = SISL_NULL;
+                                                  ^~
+/home/alveena/workspace/external/sisl/src/s1238.c:192:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (qc != SISL_NULL) freeCurve(qc);   qc = SISL_NULL;
+       ^~
+/home/alveena/workspace/external/sisl/src/s1238.c:192:45: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       if (qc != SISL_NULL) freeCurve(qc);   qc = SISL_NULL;
+                                             ^~
+/home/alveena/workspace/external/sisl/src/s1238.c:228:4: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+    if (uc[kj] != SISL_NULL) freeCurve(uc[kj]);   uc[kj] = SISL_NULL;
+    ^~
+/home/alveena/workspace/external/sisl/src/s1238.c:228:50: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+    if (uc[kj] != SISL_NULL) freeCurve(uc[kj]);   uc[kj] = SISL_NULL;
+                                                  ^~
+/home/alveena/workspace/external/sisl/src/s1238.c:232:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (qc != SISL_NULL) freeCurve(qc);  qc = SISL_NULL;
+       ^~
+/home/alveena/workspace/external/sisl/src/s1238.c:232:44: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       if (qc != SISL_NULL) freeCurve(qc);  qc = SISL_NULL;
+                                            ^~
+[ 10%] Building C object CMakeFiles/sisl.dir/src/s1239.c.o
+/home/alveena/workspace/external/sisl/src/s1239.c: In function ‘s1239’:
+/home/alveena/workspace/external/sisl/src/s1239.c:321:8: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+        if (qc1 != SISL_NULL) freeCurve(qc1);  qc1 = SISL_NULL;
+        ^~
+/home/alveena/workspace/external/sisl/src/s1239.c:321:47: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+        if (qc1 != SISL_NULL) freeCurve(qc1);  qc1 = SISL_NULL;
+                                               ^~~
+/home/alveena/workspace/external/sisl/src/s1239.c:322:8: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+        if (qc2 != SISL_NULL) freeCurve(qc2);  qc2 = SISL_NULL;
+        ^~
+/home/alveena/workspace/external/sisl/src/s1239.c:322:47: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+        if (qc2 != SISL_NULL) freeCurve(qc2);  qc2 = SISL_NULL;
+                                               ^~~
+/home/alveena/workspace/external/sisl/src/s1239.c:326:21: warning: ‘t2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        (t1-apar)*(t2-apar) < (double)0.0)
+                  ~~~^~~~~~
+/home/alveena/workspace/external/sisl/src/s1239.c:326:11: warning: ‘t1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        (t1-apar)*(t2-apar) < (double)0.0)
+        ~~~^~~~~~
+[ 10%] Building C object CMakeFiles/sisl.dir/src/s1240.c.o
+[ 10%] Building C object CMakeFiles/sisl.dir/src/s1241.c.o
+[ 10%] Building C object CMakeFiles/sisl.dir/src/s1243.c.o
+[ 11%] Building C object CMakeFiles/sisl.dir/src/s1244.c.o
+[ 11%] Building C object CMakeFiles/sisl.dir/src/s1245.c.o
+[ 11%] Building C object CMakeFiles/sisl.dir/src/s1251.c.o
+[ 11%] Building C object CMakeFiles/sisl.dir/src/s1252.c.o
+[ 11%] Building C object CMakeFiles/sisl.dir/src/s1291.c.o
+[ 11%] Building C object CMakeFiles/sisl.dir/src/s1301.c.o
+[ 12%] Building C object CMakeFiles/sisl.dir/src/s1302.c.o
+[ 12%] Building C object CMakeFiles/sisl.dir/src/s1303.c.o
+[ 12%] Building C object CMakeFiles/sisl.dir/src/s1304.c.o
+[ 12%] Building C object CMakeFiles/sisl.dir/src/s1305.c.o
+[ 12%] Building C object CMakeFiles/sisl.dir/src/s1306.c.o
+[ 12%] Building C object CMakeFiles/sisl.dir/src/s1307.c.o
+[ 13%] Building C object CMakeFiles/sisl.dir/src/s1308.c.o
+[ 13%] Building C object CMakeFiles/sisl.dir/src/s1309.c.o
+[ 13%] Building C object CMakeFiles/sisl.dir/src/s1310.c.o
+[ 13%] Building C object CMakeFiles/sisl.dir/src/s1311.c.o
+/home/alveena/workspace/external/sisl/src/s1311.c: In function ‘s1311’:
+/home/alveena/workspace/external/sisl/src/s1311.c:158:7: warning: ‘tstep’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ return(tstep);
+       ^
+[ 13%] Building C object CMakeFiles/sisl.dir/src/s1312.c.o
+[ 13%] Building C object CMakeFiles/sisl.dir/src/s1313.c.o
+[ 14%] Building C object CMakeFiles/sisl.dir/src/s1314.c.o
+[ 14%] Building C object CMakeFiles/sisl.dir/src/s1315.c.o
+[ 14%] Building C object CMakeFiles/sisl.dir/src/s1316.c.o
+[ 14%] Building C object CMakeFiles/sisl.dir/src/s1317.c.o
+[ 14%] Building C object CMakeFiles/sisl.dir/src/s1318.c.o
+[ 14%] Building C object CMakeFiles/sisl.dir/src/s1319.c.o
+[ 14%] Building C object CMakeFiles/sisl.dir/src/s1320.c.o
+[ 15%] Building C object CMakeFiles/sisl.dir/src/s1321.c.o
+[ 15%] Building C object CMakeFiles/sisl.dir/src/s1322.c.o
+[ 15%] Building C object CMakeFiles/sisl.dir/src/s1323.c.o
+[ 15%] Building C object CMakeFiles/sisl.dir/src/s1324.c.o
+[ 15%] Building C object CMakeFiles/sisl.dir/src/s1325.c.o
+[ 15%] Building C object CMakeFiles/sisl.dir/src/s1327.c.o
+[ 16%] Building C object CMakeFiles/sisl.dir/src/s1328.c.o
+[ 16%] Building C object CMakeFiles/sisl.dir/src/s1329.c.o
+[ 16%] Building C object CMakeFiles/sisl.dir/src/s1330.c.o
+[ 16%] Building C object CMakeFiles/sisl.dir/src/s1331.c.o
+/home/alveena/workspace/external/sisl/src/s1331.c: In function ‘s1331’:
+/home/alveena/workspace/external/sisl/src/s1331.c:554:23: warning: ‘tzdvdvz’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        sz[ki]*(tdvzdvz+tzdvdvz))/tlenz3 +
+               ~~~~~~~~^~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s1331.c:548:23: warning: ‘tzdudvz’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        sz[ki]*(tduzdvz+tzdudvz))/tlenz3 +
+               ~~~~~~~~^~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s1331.c:542:23: warning: ‘tzduduz’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        sz[ki]*(tduzduz+tzduduz))/tlenz3 +
+               ~~~~~~~~^~~~~~~~~
+[ 16%] Building C object CMakeFiles/sisl.dir/src/s1332.c.o
+[ 16%] Building C object CMakeFiles/sisl.dir/src/s1333.c.o
+[ 17%] Building C object CMakeFiles/sisl.dir/src/s1333count.c.o
+[ 17%] Building C object CMakeFiles/sisl.dir/src/s1333cycli.c.o
+[ 17%] Building C object CMakeFiles/sisl.dir/src/s1334.c.o
+[ 17%] Building C object CMakeFiles/sisl.dir/src/s1340.c.o
+[ 17%] Building C object CMakeFiles/sisl.dir/src/s1341.c.o
+[ 17%] Building C object CMakeFiles/sisl.dir/src/s1342.c.o
+[ 18%] Building C object CMakeFiles/sisl.dir/src/s1343.c.o
+[ 18%] Building C object CMakeFiles/sisl.dir/src/s1345.c.o
+[ 18%] Building C object CMakeFiles/sisl.dir/src/s1346.c.o
+[ 18%] Building C object CMakeFiles/sisl.dir/src/s1347.c.o
+[ 18%] Building C object CMakeFiles/sisl.dir/src/s1348.c.o
+[ 18%] Building C object CMakeFiles/sisl.dir/src/s1349.c.o
+[ 19%] Building C object CMakeFiles/sisl.dir/src/s1350.c.o
+[ 19%] Building C object CMakeFiles/sisl.dir/src/s1351.c.o
+[ 19%] Building C object CMakeFiles/sisl.dir/src/s1352.c.o
+[ 19%] Building C object CMakeFiles/sisl.dir/src/s1353.c.o
+In file included from /home/alveena/workspace/external/sisl/src/s1353.c:50:0:
+/home/alveena/workspace/external/sisl/src/s1353.c: In function ‘s1353’:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘e’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1353.c:158:29: note: ‘e’ was declared here
+   double *c, *hh, *mu, *w, *e, *s;
+                             ^
+In file included from /home/alveena/workspace/external/sisl/src/s1353.c:50:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘w’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1353.c:158:25: note: ‘w’ was declared here
+   double *c, *hh, *mu, *w, *e, *s;
+                         ^
+In file included from /home/alveena/workspace/external/sisl/src/s1353.c:50:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘mu’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1353.c:158:20: note: ‘mu’ was declared here
+   double *c, *hh, *mu, *w, *e, *s;
+                    ^~
+In file included from /home/alveena/workspace/external/sisl/src/s1353.c:50:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘hh’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1353.c:158:15: note: ‘hh’ was declared here
+   double *c, *hh, *mu, *w, *e, *s;
+               ^~
+[ 19%] Building C object CMakeFiles/sisl.dir/src/s1354.c.o
+[ 19%] Building C object CMakeFiles/sisl.dir/src/s1355.c.o
+/home/alveena/workspace/external/sisl/src/s1355.c: In function ‘s1355’:
+/home/alveena/workspace/external/sisl/src/s1355.c:224:15: warning: ‘end’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   par[number] = end;
+   ~~~~~~~~~~~~^~~~~
+[ 20%] Building C object CMakeFiles/sisl.dir/src/s1356.c.o
+[ 20%] Building C object CMakeFiles/sisl.dir/src/s1357.c.o
+[ 20%] Building C object CMakeFiles/sisl.dir/src/s1358.c.o
+[ 20%] Building C object CMakeFiles/sisl.dir/src/s1359.c.o
+[ 20%] Building C object CMakeFiles/sisl.dir/src/s1360.c.o
+[ 20%] Building C object CMakeFiles/sisl.dir/src/s1361.c.o
+/home/alveena/workspace/external/sisl/src/s1361.c: In function ‘s1361’:
+/home/alveena/workspace/external/sisl/src/s1361.c:137:25: warning: ‘tang2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (DEQUAL(ta1,DZERO) || tang2 > tdist || epnt2[3*idim] <= DZERO)
+/home/alveena/workspace/external/sisl/src/s1361.c:135:25: warning: ‘tang1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (DEQUAL(ta1,DZERO) || tang1 > tdist || epnt1[3*idim] <= DZERO)
+[ 21%] Building C object CMakeFiles/sisl.dir/src/s1362.c.o
+[ 21%] Building C object CMakeFiles/sisl.dir/src/s1363.c.o
+[ 21%] Building C object CMakeFiles/sisl.dir/src/s1364.c.o
+/home/alveena/workspace/external/sisl/src/s1364.c: In function ‘s1364’:
+/home/alveena/workspace/external/sisl/src/s1364.c:158:6: warning: ‘kdim’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (kdim>3)
+      ^
+[ 21%] Building C object CMakeFiles/sisl.dir/src/s1365.c.o
+[ 21%] Building C object CMakeFiles/sisl.dir/src/s1366.c.o
+In file included from /home/alveena/workspace/external/sisl/src/s1366.c:51:0:
+/home/alveena/workspace/external/sisl/src/s1366.c: In function ‘s1366’:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘spar2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1366.c:171:11: note: ‘spar2’ was declared here
+   double *spar2;     /* Array (length km2) containing a parametrization in the
+           ^~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s1366.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘spar1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1366.c:169:11: note: ‘spar1’ was declared here
+   double *spar1;     /* Array (length km1) containing a parametrization in the
+           ^~~~~
+[ 21%] Building C object CMakeFiles/sisl.dir/src/s1367.c.o
+[ 21%] Building C object CMakeFiles/sisl.dir/src/s1369.c.o
+[ 22%] Building C object CMakeFiles/sisl.dir/src/s1370.c.o
+[ 22%] Building C object CMakeFiles/sisl.dir/src/s1371.c.o
+[ 22%] Building C object CMakeFiles/sisl.dir/src/s1372.c.o
+[ 22%] Building C object CMakeFiles/sisl.dir/src/s1373.c.o
+[ 22%] Building C object CMakeFiles/sisl.dir/src/s1374.c.o
+[ 22%] Building C object CMakeFiles/sisl.dir/src/s1375.c.o
+[ 23%] Building C object CMakeFiles/sisl.dir/src/s1376.c.o
+[ 23%] Building C object CMakeFiles/sisl.dir/src/s1377.c.o
+[ 23%] Building C object CMakeFiles/sisl.dir/src/s1378.c.o
+[ 23%] Building C object CMakeFiles/sisl.dir/src/s1379.c.o
+[ 23%] Building C object CMakeFiles/sisl.dir/src/s1380.c.o
+[ 23%] Building C object CMakeFiles/sisl.dir/src/s1381.c.o
+[ 24%] Building C object CMakeFiles/sisl.dir/src/s1382.c.o
+[ 24%] Building C object CMakeFiles/sisl.dir/src/s1383.c.o
+[ 24%] Building C object CMakeFiles/sisl.dir/src/s1384.c.o
+[ 24%] Building C object CMakeFiles/sisl.dir/src/s1385.c.o
+[ 24%] Building C object CMakeFiles/sisl.dir/src/s1386.c.o
+[ 24%] Building C object CMakeFiles/sisl.dir/src/s1387.c.o
+[ 25%] Building C object CMakeFiles/sisl.dir/src/s1388.c.o
+[ 25%] Building C object CMakeFiles/sisl.dir/src/s1389.c.o
+[ 25%] Building C object CMakeFiles/sisl.dir/src/s1390.c.o
+[ 25%] Building C object CMakeFiles/sisl.dir/src/s1391.c.o
+[ 25%] Building C object CMakeFiles/sisl.dir/src/s1393.c.o
+[ 25%] Building C object CMakeFiles/sisl.dir/src/s1399.c.o
+[ 26%] Building C object CMakeFiles/sisl.dir/src/s1401.c.o
+[ 26%] Building C object CMakeFiles/sisl.dir/src/s1421.c.o
+[ 26%] Building C object CMakeFiles/sisl.dir/src/s1422.c.o
+[ 26%] Building C object CMakeFiles/sisl.dir/src/s1424.c.o
+[ 26%] Building C object CMakeFiles/sisl.dir/src/s1425.c.o
+[ 26%] Building C object CMakeFiles/sisl.dir/src/s1435.c.o
+/home/alveena/workspace/external/sisl/src/s1435.c: In function ‘s1435’:
+/home/alveena/workspace/external/sisl/src/s1435.c:152:9: warning: ‘tpar’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   *cpar = tpar;
+   ~~~~~~^~~~~~
+[ 27%] Building C object CMakeFiles/sisl.dir/src/s1436.c.o
+[ 27%] Building C object CMakeFiles/sisl.dir/src/s1437.c.o
+[ 27%] Building C object CMakeFiles/sisl.dir/src/s1438.c.o
+[ 27%] Building C object CMakeFiles/sisl.dir/src/s1439.c.o
+[ 27%] Building C object CMakeFiles/sisl.dir/src/s1440.c.o
+[ 27%] Building C object CMakeFiles/sisl.dir/src/s1450.c.o
+/home/alveena/workspace/external/sisl/src/s1450.c: In function ‘s1450’:
+/home/alveena/workspace/external/sisl/src/s1450.c:210:3: warning: assuming signed overflow does not occur when assuming that (X + c) < X is always false [-Wstrict-overflow]
+   for (ki=0; ki<kn2 ; ki++,sv2+=rdim,sv4+=rdim)
+   ^~~
+/home/alveena/workspace/external/sisl/src/s1450.c:230:3: warning: assuming signed overflow does not occur when assuming that (X + c) < X is always false [-Wstrict-overflow]
+   for (ki=0; ki<kn1; ki++,sv1+=rdim,sv3+=rdim)
+   ^~~
+[ 28%] Building C object CMakeFiles/sisl.dir/src/s1451.c.o
+/home/alveena/workspace/external/sisl/src/s1451.c: In function ‘s1451’:
+/home/alveena/workspace/external/sisl/src/s1451.c:128:7: warning: assuming signed overflow does not occur when assuming that (X + c) < X is always false [-Wstrict-overflow]
+       for (ki=kj+1,sv1=sv2+kdim; ki < kn ; ki++,sv1+=kdim)
+       ^~~
+[ 28%] Building C object CMakeFiles/sisl.dir/src/s1452.c.o
+[ 28%] Building C object CMakeFiles/sisl.dir/src/s1500.c.o
+[ 28%] Building C object CMakeFiles/sisl.dir/src/s1501.c.o
+[ 28%] Building C object CMakeFiles/sisl.dir/src/s1502.c.o
+[ 28%] Building C object CMakeFiles/sisl.dir/src/s1503.c.o
+[ 28%] Building C object CMakeFiles/sisl.dir/src/s1504.c.o
+[ 29%] Building C object CMakeFiles/sisl.dir/src/s1505.c.o
+[ 29%] Building C object CMakeFiles/sisl.dir/src/s1506.c.o
+[ 29%] Building C object CMakeFiles/sisl.dir/src/s1507.c.o
+[ 29%] Building C object CMakeFiles/sisl.dir/src/s1508.c.o
+In file included from /home/alveena/workspace/external/sisl/src/s1508.c:51:0:
+/home/alveena/workspace/external/sisl/src/s1508.c: In function ‘s1508’:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘hvcoef’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1508.c:122:11: note: ‘hvcoef’ was declared here
+   double *hvcoef;
+           ^~~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s1508.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘evweight2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1508.c:120:11: note: ‘evweight2’ was declared here
+   double *evweight2;
+           ^~~~~~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s1508.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘epweight2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1508.c:119:11: note: ‘epweight2’ was declared here
+   double *epweight2;
+           ^~~~~~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s1508.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘epweight’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1508.c:117:11: note: ‘epweight’ was declared here
+   double *epweight;
+           ^~~~~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s1508.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘epcoef’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1508.c:115:11: note: ‘epcoef’ was declared here
+   double *epcoef;
+           ^~~~~~
+[ 29%] Building C object CMakeFiles/sisl.dir/src/s1510.c.o
+[ 29%] Building C object CMakeFiles/sisl.dir/src/s1511.c.o
+[ 30%] Building C object CMakeFiles/sisl.dir/src/s1512.c.o
+[ 30%] Building C object CMakeFiles/sisl.dir/src/s1513.c.o
+[ 30%] Building C object CMakeFiles/sisl.dir/src/s1514.c.o
+[ 30%] Building C object CMakeFiles/sisl.dir/src/s1515.c.o
+[ 30%] Building C object CMakeFiles/sisl.dir/src/s1516.c.o
+In file included from /home/alveena/workspace/external/sisl/src/s1516.c:51:0:
+/home/alveena/workspace/external/sisl/src/s1516.c: In function ‘s1516’:
+/home/alveena/workspace/external/sisl/include/sislP.h:450:24: warning: ‘ntype’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define freearray(a) { (void)free(VOIDP a); a = SISL_NULL; }
+                        ^
+/home/alveena/workspace/external/sisl/src/s1516.c:105:11: note: ‘ntype’ was declared here
+   double *ntype;
+           ^~~~~
+[ 30%] Building C object CMakeFiles/sisl.dir/src/s1517.c.o
+[ 31%] Building C object CMakeFiles/sisl.dir/src/s1518.c.o
+[ 31%] Building C object CMakeFiles/sisl.dir/src/s1520.c.o
+[ 31%] Building C object CMakeFiles/sisl.dir/src/s1521.c.o
+[ 31%] Building C object CMakeFiles/sisl.dir/src/s1522.c.o
+[ 31%] Building C object CMakeFiles/sisl.dir/src/s1528.c.o
+[ 31%] Building C object CMakeFiles/sisl.dir/src/s1529.c.o
+[ 32%] Building C object CMakeFiles/sisl.dir/src/s1530.c.o
+[ 32%] Building C object CMakeFiles/sisl.dir/src/s1531.c.o
+[ 32%] Building C object CMakeFiles/sisl.dir/src/s1534.c.o
+[ 32%] Building C object CMakeFiles/sisl.dir/src/s1535.c.o
+[ 32%] Building C object CMakeFiles/sisl.dir/src/s1536.c.o
+[ 32%] Building C object CMakeFiles/sisl.dir/src/s1537.c.o
+[ 33%] Building C object CMakeFiles/sisl.dir/src/s1538.c.o
+[ 33%] Building C object CMakeFiles/sisl.dir/src/s1539.c.o
+[ 33%] Building C object CMakeFiles/sisl.dir/src/s1540.c.o
+[ 33%] Building C object CMakeFiles/sisl.dir/src/s1541.c.o
+[ 33%] Building C object CMakeFiles/sisl.dir/src/s1542.c.o
+[ 33%] Building C object CMakeFiles/sisl.dir/src/s1600.c.o
+[ 34%] Building C object CMakeFiles/sisl.dir/src/s1601.c.o
+[ 34%] Building C object CMakeFiles/sisl.dir/src/s1602.c.o
+[ 34%] Building C object CMakeFiles/sisl.dir/src/s1603.c.o
+[ 34%] Building C object CMakeFiles/sisl.dir/src/s1604.c.o
+[ 34%] Building C object CMakeFiles/sisl.dir/src/s1605.c.o
+[ 34%] Building C object CMakeFiles/sisl.dir/src/s1606.c.o
+[ 35%] Building C object CMakeFiles/sisl.dir/src/s1607.c.o
+[ 35%] Building C object CMakeFiles/sisl.dir/src/s1608.c.o
+[ 35%] Building C object CMakeFiles/sisl.dir/src/s1609.c.o
+/home/alveena/workspace/external/sisl/src/s1609.c: In function ‘s1609’:
+/home/alveena/workspace/external/sisl/src/s1609.c:360:6: warning: ‘tdist’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (tdist == HUGE) goto errxxx;
+      ^
+/home/alveena/workspace/external/sisl/src/s1609.c:239:3: warning: ‘tpar2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1221(pc2,1,tpar2,&kleft,spnt2,&kstat);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s1609.c:212:3: warning: ‘tpar1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1221(pc1,1,tpar1,&kleft,spnt1,&kstat);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 35%] Building C object CMakeFiles/sisl.dir/src/s1611.c.o
+[ 35%] Building C object CMakeFiles/sisl.dir/src/s1612.c.o
+[ 35%] Building C object CMakeFiles/sisl.dir/src/s1613.c.o
+[ 35%] Building C object CMakeFiles/sisl.dir/src/s1613bez.c.o
+[ 36%] Building C object CMakeFiles/sisl.dir/src/s1614.c.o
+[ 36%] Building C object CMakeFiles/sisl.dir/src/s1615.c.o
+[ 36%] Building C object CMakeFiles/sisl.dir/src/s1616.c.o
+[ 36%] Building C object CMakeFiles/sisl.dir/src/s1617.c.o
+[ 36%] Building C object CMakeFiles/sisl.dir/src/s1618.c.o
+[ 36%] Building C object CMakeFiles/sisl.dir/src/s1619.c.o
+/home/alveena/workspace/external/sisl/src/s1619.c: In function ‘s1619’:
+/home/alveena/workspace/external/sisl/src/s1619.c:354:11: warning: ‘ktyp’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   else if (ktyp > 3)
+           ^
+/home/alveena/workspace/external/sisl/src/s1619.c:463:11: warning: ‘as’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   *ashape = as;
+   ~~~~~~~~^~~~
+[ 37%] Building C object CMakeFiles/sisl.dir/src/s1620.c.o
+[ 37%] Building C object CMakeFiles/sisl.dir/src/s1630.c.o
+[ 37%] Building C object CMakeFiles/sisl.dir/src/s1631.c.o
+[ 37%] Building C object CMakeFiles/sisl.dir/src/s1700.c.o
+[ 37%] Building C object CMakeFiles/sisl.dir/src/s1701.c.o
+[ 37%] Building C object CMakeFiles/sisl.dir/src/s1705.c.o
+[ 38%] Building C object CMakeFiles/sisl.dir/src/s1706.c.o
+[ 38%] Building C object CMakeFiles/sisl.dir/src/s1707.c.o
+[ 38%] Building C object CMakeFiles/sisl.dir/src/s1708.c.o
+[ 38%] Building C object CMakeFiles/sisl.dir/src/s1710.c.o
+/home/alveena/workspace/external/sisl/src/s1710.c: In function ‘s1710’:
+/home/alveena/workspace/external/sisl/src/s1710.c:137:7: warning: ‘knum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int knum;   /* Number of knots less and equal than
+       ^~~~
+/home/alveena/workspace/external/sisl/src/s1710.c:410:7: warning: ‘kmy’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       s1700 (kmy, kk, kn, kv1--, &kpl, &kfi, &kla, pc1->et, apar, salfa, &kstat);
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 38%] Building C object CMakeFiles/sisl.dir/src/s1711.c.o
+/home/alveena/workspace/external/sisl/src/s1711.c: In function ‘s1711’:
+/home/alveena/workspace/external/sisl/src/s1711.c:125:7: warning: ‘knum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int knum;  /* Number of knots less and equal than
+       ^~~~
+/home/alveena/workspace/external/sisl/src/s1711.c:387:7: warning: ‘kmy’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       s1700(kmy,kk,kn,kv1--,&kpl,&kfi,&kla,st,apar,salfa,&kstat);
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 38%] Building C object CMakeFiles/sisl.dir/src/s1712.c.o
+[ 39%] Building C object CMakeFiles/sisl.dir/src/s1713.c.o
+/home/alveena/workspace/external/sisl/src/s1713.c: In function ‘s1713’:
+/home/alveena/workspace/external/sisl/src/s1713.c:122:6: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+      if (q1) freeCurve(q1);q1=SISL_NULL;
+      ^~
+/home/alveena/workspace/external/sisl/src/s1713.c:122:28: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+      if (q1) freeCurve(q1);q1=SISL_NULL;
+                            ^~
+/home/alveena/workspace/external/sisl/src/s1713.c:165:6: warning: ‘tend’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      s1710(q4,tend,&q2,&q3,&kstat);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s1713.c:162:6: warning: ‘tbeg’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      s1710(pc,tbeg,&q1,&q4,&kstat);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 39%] Building C object CMakeFiles/sisl.dir/src/s1714.c.o
+/home/alveena/workspace/external/sisl/src/s1714.c: In function ‘s1714’:
+/home/alveena/workspace/external/sisl/src/s1714.c:157:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (kstat < 0)
+       ^~
+/home/alveena/workspace/external/sisl/src/s1714.c:160:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  if (q1)
+  ^~
+[ 39%] Building C object CMakeFiles/sisl.dir/src/s1715.c.o
+[ 39%] Building C object CMakeFiles/sisl.dir/src/s1716.c.o
+[ 39%] Building C object CMakeFiles/sisl.dir/src/s1720.c.o
+[ 39%] Building C object CMakeFiles/sisl.dir/src/s1730.c.o
+[ 40%] Building C object CMakeFiles/sisl.dir/src/s1731.c.o
+[ 40%] Building C object CMakeFiles/sisl.dir/src/s1732.c.o
+[ 40%] Building C object CMakeFiles/sisl.dir/src/s1733.c.o
+[ 40%] Building C object CMakeFiles/sisl.dir/src/s1741.c.o
+[ 40%] Building C object CMakeFiles/sisl.dir/src/s1750.c.o
+[ 40%] Building C object CMakeFiles/sisl.dir/src/s1753.c.o
+[ 41%] Building C object CMakeFiles/sisl.dir/src/s1754.c.o
+[ 41%] Building C object CMakeFiles/sisl.dir/src/s1755.c.o
+[ 41%] Building C object CMakeFiles/sisl.dir/src/s1770.c.o
+[ 41%] Building C object CMakeFiles/sisl.dir/src/s17702d.c.o
+/home/alveena/workspace/external/sisl/src/s17702d.c: In function ‘s1770_2D’:
+/home/alveena/workspace/external/sisl/src/s17702d.c:1131:16: warning: ‘new_cu_val’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     par_val[0] = new_cu_val;
+     ~~~~~~~~~~~^~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s17702d.c:859:10: note: ‘new_cu_val’ was declared here
+   double new_cu_val;     /* New parameter value on curve.     */
+          ^~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s17702d.c:339:13: warning: ‘*((void *)&nc_d+8)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       c_d[1]*nc_d[1] >= DZERO);  /* 0 if changed. */
+       ~~~~~~^~~~~~~~
+/home/alveena/workspace/external/sisl/src/s17702d.c:560:16: warning: ‘nc_d’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (acoef[0] + gd[0] < astart1)
+       ~~~~~~~~~^~~~~~~
+/home/alveena/workspace/external/sisl/src/s17702d.c:179:10: note: ‘nc_d’ was declared here
+   double nc_d[2];     /* New computed distances ....     */
+          ^~~~
+/home/alveena/workspace/external/sisl/src/s17702d.c:178:10: warning: ‘*((void *)&c_d+8)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   double c_d[2];     /* Computed distances ....      */
+          ^~~
+/home/alveena/workspace/external/sisl/src/s17702d.c:877:6: warning: ‘c_d’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (delta == 0.0) delta =1e-15;
+      ^
+/home/alveena/workspace/external/sisl/src/s17702d.c:178:10: note: ‘c_d’ was declared here
+   double c_d[2];     /* Computed distances ....      */
+          ^~~
+[ 41%] Building C object CMakeFiles/sisl.dir/src/s1771.c.o
+[ 41%] Building C object CMakeFiles/sisl.dir/src/s1772.c.o
+/home/alveena/workspace/external/sisl/src/s1772.c: In function ‘s1772’:
+/home/alveena/workspace/external/sisl/src/s1772.c:1106:16: warning: ‘new_cu_val’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     par_val[2] = new_cu_val;
+     ~~~~~~~~~~~^~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s1772.c:847:10: note: ‘new_cu_val’ was declared here
+   double new_cu_val;     /* New parameter value on curve.     */
+          ^~~~~~~~~~
+[ 42%] Building C object CMakeFiles/sisl.dir/src/s1773.c.o
+[ 42%] Building C object CMakeFiles/sisl.dir/src/s1774.c.o
+[ 42%] Building C object CMakeFiles/sisl.dir/src/s1775.c.o
+[ 42%] Building C object CMakeFiles/sisl.dir/src/s1780.c.o
+[ 42%] Building C object CMakeFiles/sisl.dir/src/s1785.c.o
+/home/alveena/workspace/external/sisl/src/s1785.c: In function ‘s1785’:
+/home/alveena/workspace/external/sisl/src/s1785.c:503:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+         if (qc != SISL_NULL) freeCurve(qc);  qc = SISL_NULL;
+         ^~
+/home/alveena/workspace/external/sisl/src/s1785.c:503:46: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+         if (qc != SISL_NULL) freeCurve(qc);  qc = SISL_NULL;
+                                              ^~
+/home/alveena/workspace/external/sisl/src/s1785.c:608:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+         if (qc != SISL_NULL) freeCurve(qc);  qc = SISL_NULL;
+         ^~
+/home/alveena/workspace/external/sisl/src/s1785.c:608:46: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+         if (qc != SISL_NULL) freeCurve(qc);  qc = SISL_NULL;
+                                              ^~
+[ 42%] Building C object CMakeFiles/sisl.dir/src/s1786.c.o
+[ 42%] Building C object CMakeFiles/sisl.dir/src/s1787.c.o
+[ 43%] Building C object CMakeFiles/sisl.dir/src/s1788.c.o
+[ 43%] Building C object CMakeFiles/sisl.dir/src/s1789.c.o
+/home/alveena/workspace/external/sisl/src/s1789.c: In function ‘s1789_s9knot’:
+/home/alveena/workspace/external/sisl/src/s1789.c:621:14: warning: ‘kknot’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return kknot;
+              ^~~~~
+[ 43%] Building C object CMakeFiles/sisl.dir/src/s1790.c.o
+[ 43%] Building C object CMakeFiles/sisl.dir/src/s1791.c.o
+[ 43%] Building C object CMakeFiles/sisl.dir/src/s1792.c.o
+[ 43%] Building C object CMakeFiles/sisl.dir/src/s1795.c.o
+[ 44%] Building C object CMakeFiles/sisl.dir/src/s1796.c.o
+[ 44%] Building C object CMakeFiles/sisl.dir/src/s1797.c.o
+[ 44%] Building C object CMakeFiles/sisl.dir/src/s1830.c.o
+[ 44%] Building C object CMakeFiles/sisl.dir/src/s1834.c.o
+[ 44%] Building C object CMakeFiles/sisl.dir/src/s1839.c.o
+[ 44%] Building C object CMakeFiles/sisl.dir/src/s1840.c.o
+[ 45%] Building C object CMakeFiles/sisl.dir/src/s1850.c.o
+[ 45%] Building C object CMakeFiles/sisl.dir/src/s1851.c.o
+[ 45%] Building C object CMakeFiles/sisl.dir/src/s1852.c.o
+[ 45%] Building C object CMakeFiles/sisl.dir/src/s1853.c.o
+[ 45%] Building C object CMakeFiles/sisl.dir/src/s1854.c.o
+[ 45%] Building C object CMakeFiles/sisl.dir/src/s1855.c.o
+[ 46%] Building C object CMakeFiles/sisl.dir/src/s1856.c.o
+[ 46%] Building C object CMakeFiles/sisl.dir/src/s1857.c.o
+[ 46%] Building C object CMakeFiles/sisl.dir/src/s1858.c.o
+[ 46%] Building C object CMakeFiles/sisl.dir/src/s1859.c.o
+[ 46%] Building C object CMakeFiles/sisl.dir/src/s1860.c.o
+[ 46%] Building C object CMakeFiles/sisl.dir/src/s1870.c.o
+[ 47%] Building C object CMakeFiles/sisl.dir/src/s1871.c.o
+[ 47%] Building C object CMakeFiles/sisl.dir/src/s1880.c.o
+[ 47%] Building C object CMakeFiles/sisl.dir/src/s1890.c.o
+[ 47%] Building C object CMakeFiles/sisl.dir/src/s1891.c.o
+[ 47%] Building C object CMakeFiles/sisl.dir/src/s1893.c.o
+[ 47%] Building C object CMakeFiles/sisl.dir/src/s1894.c.o
+[ 48%] Building C object CMakeFiles/sisl.dir/src/s1896.c.o
+[ 48%] Building C object CMakeFiles/sisl.dir/src/s1897.c.o
+[ 48%] Building C object CMakeFiles/sisl.dir/src/s1900.c.o
+[ 48%] Building C object CMakeFiles/sisl.dir/src/s1901.c.o
+[ 48%] Building C object CMakeFiles/sisl.dir/src/s1902.c.o
+[ 48%] Building C object CMakeFiles/sisl.dir/src/s1903.c.o
+[ 49%] Building C object CMakeFiles/sisl.dir/src/s1904.c.o
+[ 49%] Building C object CMakeFiles/sisl.dir/src/s1905.c.o
+[ 49%] Building C object CMakeFiles/sisl.dir/src/s1906.c.o
+[ 49%] Building C object CMakeFiles/sisl.dir/src/s1907.c.o
+[ 49%] Building C object CMakeFiles/sisl.dir/src/s1908.c.o
+[ 49%] Building C object CMakeFiles/sisl.dir/src/s1909.c.o
+/home/alveena/workspace/external/sisl/src/s1909.c: In function ‘s1909’:
+/home/alveena/workspace/external/sisl/src/s1909.c:170:20: warning: ‘npar’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   (*epar1)[count3] = npar;
+   ~~~~~~~~~~~~~~~~~^~~~~~
+[ 50%] Building C object CMakeFiles/sisl.dir/src/s1910.c.o
+[ 50%] Building C object CMakeFiles/sisl.dir/src/s1911.c.o
+/home/alveena/workspace/external/sisl/src/s1911.c: In function ‘s1911’:
+/home/alveena/workspace/external/sisl/src/s1911.c:170:20: warning: ‘npar’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   (*epar1)[count3] = npar;
+   ~~~~~~~~~~~~~~~~~^~~~~~
+[ 50%] Building C object CMakeFiles/sisl.dir/src/s1912.c.o
+[ 50%] Building C object CMakeFiles/sisl.dir/src/s1916.c.o
+/home/alveena/workspace/external/sisl/src/s1916.c: In function ‘s1916’:
+/home/alveena/workspace/external/sisl/src/s1916.c:220:4: warning: ‘tf’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    s1919 (et2, prev, curr, deriv, follow, in2, iord, idim, kip,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    kif, tp, tc, tf, &kstat);
+    ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s1916.c:220:4: warning: ‘tp’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/alveena/workspace/external/sisl/src/s1916.c:217:36: warning: ‘kpekf’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      memcopy (follow, &ecoef[kpekf * in2 * idim],
+                                    ^
+[ 50%] Building C object CMakeFiles/sisl.dir/src/s1917.c.o
+/home/alveena/workspace/external/sisl/src/s1917.c: In function ‘s1917’:
+/home/alveena/workspace/external/sisl/src/s1917.c:399:20: warning: ‘kprev’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    dummy2 = (kprev - 1) * idim * in2 + kl * idim;
+             ~~~~~~~^~~~
+[ 50%] Building C object CMakeFiles/sisl.dir/src/s1918.c.o
+/home/alveena/workspace/external/sisl/src/s1918.c: In function ‘s1918’:
+/home/alveena/workspace/external/sisl/src/s1918.c:210:4: warning: ‘tf’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    s1919 (et2, prev, curr, deriv, follow, in2, iord, idim,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    kip, kif, tp, tc, tf, &kstat);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s1918.c:210:4: warning: ‘tp’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/alveena/workspace/external/sisl/src/s1918.c:207:36: warning: ‘kpekf’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      memcopy (follow, &ecoef[kpekf * in2 * idim],
+                                    ^
+[ 50%] Building C object CMakeFiles/sisl.dir/src/s1919.c.o
+/home/alveena/workspace/external/sisl/src/s1919.c: In function ‘s1919’:
+/home/alveena/workspace/external/sisl/src/s1919.c:274:30: warning: ‘tval1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  tfak = min (tdist1 / (tval1 * tlength),
+                              ^
+/home/alveena/workspace/external/sisl/src/s1919.c:272:25: warning: ‘tval2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  tfak = tdist2 / (tval2 * tlength);
+                  ~~~~~~~^~~~~~~~~~
+[ 51%] Building C object CMakeFiles/sisl.dir/src/s1920.c.o
+[ 51%] Building C object CMakeFiles/sisl.dir/src/s1921.c.o
+[ 51%] Building C object CMakeFiles/sisl.dir/src/s1924.c.o
+[ 51%] Building C object CMakeFiles/sisl.dir/src/s1925.c.o
+[ 51%] Building C object CMakeFiles/sisl.dir/src/s1926.c.o
+[ 51%] Building C object CMakeFiles/sisl.dir/src/s1927.c.o
+[ 52%] Building C object CMakeFiles/sisl.dir/src/s1930.c.o
+[ 52%] Building C object CMakeFiles/sisl.dir/src/s1931.c.o
+[ 52%] Building C object CMakeFiles/sisl.dir/src/s1931unit.c.o
+[ 52%] Building C object CMakeFiles/sisl.dir/src/s1932.c.o
+[ 52%] Building C object CMakeFiles/sisl.dir/src/s1933.c.o
+/home/alveena/workspace/external/sisl/src/s1933.c: In function ‘s1933’:
+/home/alveena/workspace/external/sisl/src/s1933.c:406:28: warning: ‘klast’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    kdum2 = (int)((curve->et[klast] - tinmin + tincr2) / tincre);
+                            ^
+/home/alveena/workspace/external/sisl/src/s1933.c:405:28: warning: ‘kfirst’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    kdum1 = (int)((curve->et[kfirst] - tinmin + tincr2) / tincre);
+                            ^
+[ 52%] Building C object CMakeFiles/sisl.dir/src/s1934.c.o
+[ 53%] Building C object CMakeFiles/sisl.dir/src/s1935.c.o
+[ 53%] Building C object CMakeFiles/sisl.dir/src/s1936.c.o
+[ 53%] Building C object CMakeFiles/sisl.dir/src/s1937.c.o
+[ 53%] Building C object CMakeFiles/sisl.dir/src/s1938.c.o
+[ 53%] Building C object CMakeFiles/sisl.dir/src/s1940.c.o
+[ 53%] Building C object CMakeFiles/sisl.dir/src/s1941.c.o
+[ 54%] Building C object CMakeFiles/sisl.dir/src/s1942.c.o
+[ 54%] Building C object CMakeFiles/sisl.dir/src/s1943.c.o
+[ 54%] Building C object CMakeFiles/sisl.dir/src/s1944.c.o
+[ 54%] Building C object CMakeFiles/sisl.dir/src/s1945.c.o
+[ 54%] Building C object CMakeFiles/sisl.dir/src/s1946.c.o
+[ 54%] Building C object CMakeFiles/sisl.dir/src/s1947.c.o
+[ 55%] Building C object CMakeFiles/sisl.dir/src/s1948.c.o
+[ 55%] Building C object CMakeFiles/sisl.dir/src/s1949.c.o
+[ 55%] Building C object CMakeFiles/sisl.dir/src/s1950.c.o
+[ 55%] Building C object CMakeFiles/sisl.dir/src/s1951.c.o
+[ 55%] Building C object CMakeFiles/sisl.dir/src/s1953.c.o
+[ 55%] Building C object CMakeFiles/sisl.dir/src/s1954.c.o
+[ 56%] Building C object CMakeFiles/sisl.dir/src/s1955.c.o
+[ 56%] Building C object CMakeFiles/sisl.dir/src/s1956.c.o
+[ 56%] Building C object CMakeFiles/sisl.dir/src/s1957.c.o
+[ 56%] Building C object CMakeFiles/sisl.dir/src/s1958.c.o
+[ 56%] Building C object CMakeFiles/sisl.dir/src/s1959.c.o
+[ 56%] Building C object CMakeFiles/sisl.dir/src/s1960.c.o
+[ 57%] Building C object CMakeFiles/sisl.dir/src/s1961.c.o
+[ 57%] Building C object CMakeFiles/sisl.dir/src/s1962.c.o
+[ 57%] Building C object CMakeFiles/sisl.dir/src/s1963.c.o
+[ 57%] Building C object CMakeFiles/sisl.dir/src/s1965.c.o
+[ 57%] Building C object CMakeFiles/sisl.dir/src/s1966.c.o
+[ 57%] Building C object CMakeFiles/sisl.dir/src/s1967.c.o
+[ 57%] Building C object CMakeFiles/sisl.dir/src/s1968.c.o
+[ 58%] Building C object CMakeFiles/sisl.dir/src/s1986.c.o
+[ 58%] Building C object CMakeFiles/sisl.dir/src/s1987.c.o
+[ 58%] Building C object CMakeFiles/sisl.dir/src/s1988.c.o
+[ 58%] Building C object CMakeFiles/sisl.dir/src/s1989.c.o
+[ 58%] Building C object CMakeFiles/sisl.dir/src/s1990.c.o
+[ 58%] Building C object CMakeFiles/sisl.dir/src/s1991.c.o
+[ 59%] Building C object CMakeFiles/sisl.dir/src/s1992.c.o
+[ 59%] Building C object CMakeFiles/sisl.dir/src/s1993.c.o
+[ 59%] Building C object CMakeFiles/sisl.dir/src/s1994.c.o
+[ 59%] Building C object CMakeFiles/sisl.dir/src/s2500.c.o
+[ 59%] Building C object CMakeFiles/sisl.dir/src/s2501.c.o
+[ 59%] Building C object CMakeFiles/sisl.dir/src/s2502.c.o
+[ 60%] Building C object CMakeFiles/sisl.dir/src/s2503.c.o
+[ 60%] Building C object CMakeFiles/sisl.dir/src/s2504.c.o
+[ 60%] Building C object CMakeFiles/sisl.dir/src/s2505.c.o
+[ 60%] Building C object CMakeFiles/sisl.dir/src/s2506.c.o
+[ 60%] Building C object CMakeFiles/sisl.dir/src/s2507.c.o
+[ 60%] Building C object CMakeFiles/sisl.dir/src/s2508.c.o
+[ 61%] Building C object CMakeFiles/sisl.dir/src/s2509.c.o
+[ 61%] Building C object CMakeFiles/sisl.dir/src/s2510.c.o
+[ 61%] Building C object CMakeFiles/sisl.dir/src/s2511.c.o
+/home/alveena/workspace/external/sisl/src/s2511.c: In function ‘s2511’:
+/home/alveena/workspace/external/sisl/src/s2511.c:178:15: warning: ‘length’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       mu      = s6scpr(&derive[5*(surf->idim)], &derive[2*(surf->idim)],
+       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        surf->idim)/length;
+        ~~~~~~~~~~~~~~~~~~
+[ 61%] Building C object CMakeFiles/sisl.dir/src/s2512.c.o
+[ 61%] Building C object CMakeFiles/sisl.dir/src/s2513.c.o
+[ 61%] Building C object CMakeFiles/sisl.dir/src/s2514.c.o
+[ 62%] Building C object CMakeFiles/sisl.dir/src/s2515.c.o
+[ 62%] Building C object CMakeFiles/sisl.dir/src/s2516.c.o
+[ 62%] Building C object CMakeFiles/sisl.dir/src/s2532.c.o
+[ 62%] Building C object CMakeFiles/sisl.dir/src/s2533.c.o
+[ 62%] Building C object CMakeFiles/sisl.dir/src/s2534.c.o
+[ 62%] Building C object CMakeFiles/sisl.dir/src/s2535.c.o
+[ 63%] Building C object CMakeFiles/sisl.dir/src/s2536.c.o
+[ 63%] Building C object CMakeFiles/sisl.dir/src/s2540.c.o
+[ 63%] Building C object CMakeFiles/sisl.dir/src/s2541.c.o
+[ 63%] Building C object CMakeFiles/sisl.dir/src/s2542.c.o
+[ 63%] Building C object CMakeFiles/sisl.dir/src/s2543.c.o
+[ 63%] Building C object CMakeFiles/sisl.dir/src/s2544.c.o
+[ 64%] Building C object CMakeFiles/sisl.dir/src/s2545.c.o
+[ 64%] Building C object CMakeFiles/sisl.dir/src/s2550.c.o
+[ 64%] Building C object CMakeFiles/sisl.dir/src/s2551.c.o
+[ 64%] Building C object CMakeFiles/sisl.dir/src/s2553.c.o
+[ 64%] Building C object CMakeFiles/sisl.dir/src/s2554.c.o
+[ 64%] Building C object CMakeFiles/sisl.dir/src/s2555.c.o
+[ 64%] Building C object CMakeFiles/sisl.dir/src/s2556.c.o
+[ 65%] Building C object CMakeFiles/sisl.dir/src/s2557.c.o
+[ 65%] Building C object CMakeFiles/sisl.dir/src/s2558.c.o
+[ 65%] Building C object CMakeFiles/sisl.dir/src/s2559.c.o
+[ 65%] Building C object CMakeFiles/sisl.dir/src/s2560.c.o
+[ 65%] Building C object CMakeFiles/sisl.dir/src/s2561.c.o
+[ 65%] Building C object CMakeFiles/sisl.dir/src/s2562.c.o
+[ 66%] Building C object CMakeFiles/sisl.dir/src/s6addcurve.c.o
+[ 66%] Building C object CMakeFiles/sisl.dir/src/s6affdist.c.o
+[ 66%] Building C object CMakeFiles/sisl.dir/src/s6ang.c.o
+[ 66%] Building C object CMakeFiles/sisl.dir/src/s6angle.c.o
+/home/alveena/workspace/external/sisl/src/s6angle.c: In function ‘s6angle’:
+/home/alveena/workspace/external/sisl/src/s6angle.c:146:9: warning: ‘tang’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return(tang);
+         ^
+[ 66%] Building C object CMakeFiles/sisl.dir/src/s6castelja.c.o
+[ 66%] Building C object CMakeFiles/sisl.dir/src/s6chpar.c.o
+[ 67%] Building C object CMakeFiles/sisl.dir/src/s6crss.c.o
+[ 67%] Building C object CMakeFiles/sisl.dir/src/s6crvature.c.o
+[ 67%] Building C object CMakeFiles/sisl.dir/src/s6crvcheck.c.o
+[ 67%] Building C object CMakeFiles/sisl.dir/src/s6curvrad.c.o
+[ 67%] Building C object CMakeFiles/sisl.dir/src/s6decomp.c.o
+[ 67%] Building C object CMakeFiles/sisl.dir/src/s6degnorm.c.o
+[ 68%] Building C object CMakeFiles/sisl.dir/src/s6dertopt.c.o
+[ 68%] Building C object CMakeFiles/sisl.dir/src/s6diff.c.o
+[ 68%] Building C object CMakeFiles/sisl.dir/src/s6dist.c.o
+[ 68%] Building C object CMakeFiles/sisl.dir/src/s6dline.c.o
+/home/alveena/workspace/external/sisl/src/s6dline.c: In function ‘s6dline’:
+/home/alveena/workspace/external/sisl/src/s6dline.c:169:14: warning: ‘tdist’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return tdist;
+              ^~~~~
+[ 68%] Building C object CMakeFiles/sisl.dir/src/s6dplane.c.o
+/home/alveena/workspace/external/sisl/src/s6dplane.c: In function ‘s6dplane’:
+/home/alveena/workspace/external/sisl/src/s6dplane.c:149:14: warning: ‘tdist’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return tdist;
+              ^~~~~
+[ 68%] Building C object CMakeFiles/sisl.dir/src/s6drawseq.c.o
+[ 69%] Building C object CMakeFiles/sisl.dir/src/s6equal.c.o
+[ 69%] Building C object CMakeFiles/sisl.dir/src/s6err.c.o
+[ 69%] Building C object CMakeFiles/sisl.dir/src/s6existbox.c.o
+[ 69%] Building C object CMakeFiles/sisl.dir/src/s6findfac.c.o
+[ 69%] Building C object CMakeFiles/sisl.dir/src/s6fndintv.c.o
+[ 69%] Building C object CMakeFiles/sisl.dir/src/s6herm.c.o
+[ 70%] Building C object CMakeFiles/sisl.dir/src/s6herm_bez.c.o
+/home/alveena/workspace/external/sisl/src/s6herm_bez.c: In function ‘s6hermite_bezier’:
+/home/alveena/workspace/external/sisl/src/s6herm_bez.c:155:12: warning: ‘kstat’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     *jstat = kstat;
+     ~~~~~~~^~~~~~~
+[ 70%] Building C object CMakeFiles/sisl.dir/src/s6idcon.c.o
+[ 70%] Building C object CMakeFiles/sisl.dir/src/s6idcpt.c.o
+[ 70%] Building C object CMakeFiles/sisl.dir/src/s6idedg.c.o
+[ 70%] Building C object CMakeFiles/sisl.dir/src/s6identify.c.o
+[ 70%] Building C object CMakeFiles/sisl.dir/src/s6idget.c.o
+[ 71%] Building C object CMakeFiles/sisl.dir/src/s6idint.c.o
+In file included from /home/alveena/workspace/external/sisl/src/s6idint.c:51:0:
+/home/alveena/workspace/external/sisl/src/s6idint.c: In function ‘s6idint’:
+/home/alveena/workspace/external/sisl/include/sislP.h:430:15: warning: ‘send1[1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ( (fabs((a) - (b)) <= (REL_PAR_RES * MAX(MAX(fabs(a),fabs(b)),(double)1.0))) ? (1) : (0) )
+               ^
+/home/alveena/workspace/external/sisl/src/s6idint.c:99:21: note: ‘send1[1]’ was declared here
+   double sstart1[2],send1[2];
+                     ^~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s6idint.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:430:48: warning: ‘sstart1[1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ( (fabs((a) - (b)) <= (REL_PAR_RES * MAX(MAX(fabs(a),fabs(b)),(double)1.0))) ? (1) : (0) )
+                                                ^~~~
+/home/alveena/workspace/external/sisl/src/s6idint.c:99:10: note: ‘sstart1[1]’ was declared here
+   double sstart1[2],send1[2];
+          ^~~~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s6idint.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:430:15: warning: ‘send2[1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ( (fabs((a) - (b)) <= (REL_PAR_RES * MAX(MAX(fabs(a),fabs(b)),(double)1.0))) ? (1) : (0) )
+               ^
+/home/alveena/workspace/external/sisl/src/s6idint.c:100:21: note: ‘send2[1]’ was declared here
+   double sstart2[2],send2[2];
+                     ^~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s6idint.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:430:15: warning: ‘send2[0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ( (fabs((a) - (b)) <= (REL_PAR_RES * MAX(MAX(fabs(a),fabs(b)),(double)1.0))) ? (1) : (0) )
+               ^
+/home/alveena/workspace/external/sisl/src/s6idint.c:100:21: note: ‘send2[0]’ was declared here
+   double sstart2[2],send2[2];
+                     ^~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s6idint.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:430:48: warning: ‘sstart2[1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ( (fabs((a) - (b)) <= (REL_PAR_RES * MAX(MAX(fabs(a),fabs(b)),(double)1.0))) ? (1) : (0) )
+                                                ^~~~
+/home/alveena/workspace/external/sisl/src/s6idint.c:100:10: note: ‘sstart2[1]’ was declared here
+   double sstart2[2],send2[2];
+          ^~~~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s6idint.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:430:15: warning: ‘sstart2[0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ( (fabs((a) - (b)) <= (REL_PAR_RES * MAX(MAX(fabs(a),fabs(b)),(double)1.0))) ? (1) : (0) )
+               ^
+/home/alveena/workspace/external/sisl/src/s6idint.c:100:10: note: ‘sstart2[0]’ was declared here
+   double sstart2[2],send2[2];
+          ^~~~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s6idint.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:430:15: warning: ‘send1[0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ( (fabs((a) - (b)) <= (REL_PAR_RES * MAX(MAX(fabs(a),fabs(b)),(double)1.0))) ? (1) : (0) )
+               ^
+/home/alveena/workspace/external/sisl/src/s6idint.c:99:21: note: ‘send1[0]’ was declared here
+   double sstart1[2],send1[2];
+                     ^~~~~
+In file included from /home/alveena/workspace/external/sisl/src/s6idint.c:51:0:
+/home/alveena/workspace/external/sisl/include/sislP.h:430:15: warning: ‘sstart1[0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ( (fabs((a) - (b)) <= (REL_PAR_RES * MAX(MAX(fabs(a),fabs(b)),(double)1.0))) ? (1) : (0) )
+               ^
+/home/alveena/workspace/external/sisl/src/s6idint.c:99:10: note: ‘sstart1[0]’ was declared here
+   double sstart1[2],send1[2];
+          ^~~~~~~
+[ 71%] Building C object CMakeFiles/sisl.dir/src/s6idklist.c.o
+[ 71%] Building C object CMakeFiles/sisl.dir/src/s6idkpt.c.o
+[ 71%] Building C object CMakeFiles/sisl.dir/src/s6idlis.c.o
+[ 71%] Building C object CMakeFiles/sisl.dir/src/s6idnpt.c.o
+[ 71%] Building C object CMakeFiles/sisl.dir/src/s6idput.c.o
+[ 71%] Building C object CMakeFiles/sisl.dir/src/s6inv4.c.o
+[ 72%] Building C object CMakeFiles/sisl.dir/src/s6invert.c.o
+[ 72%] Building C object CMakeFiles/sisl.dir/src/s6knotmult.c.o
+[ 72%] Building C object CMakeFiles/sisl.dir/src/s6length.c.o
+[ 72%] Building C object CMakeFiles/sisl.dir/src/s6line.c.o
+[ 72%] Building C object CMakeFiles/sisl.dir/src/s6lprj.c.o
+[ 72%] Building C object CMakeFiles/sisl.dir/src/s6lufacp.c.o
+[ 73%] Building C object CMakeFiles/sisl.dir/src/s6lusolp.c.o
+[ 73%] Building C object CMakeFiles/sisl.dir/src/s6metric.c.o
+[ 73%] Building C object CMakeFiles/sisl.dir/src/s6move.c.o
+[ 73%] Building C object CMakeFiles/sisl.dir/src/s6mulvec.c.o
+[ 73%] Building C object CMakeFiles/sisl.dir/src/s6mvec.c.o
+[ 73%] Building C object CMakeFiles/sisl.dir/src/s6newbox.c.o
+[ 74%] Building C object CMakeFiles/sisl.dir/src/s6norm.c.o
+[ 74%] Building C object CMakeFiles/sisl.dir/src/s6ratder.c.o
+[ 74%] Building C object CMakeFiles/sisl.dir/src/s6rotax.c.o
+[ 74%] Building C object CMakeFiles/sisl.dir/src/s6rotmat.c.o
+[ 74%] Building C object CMakeFiles/sisl.dir/src/s6schoen.c.o
+[ 74%] Building C object CMakeFiles/sisl.dir/src/s6scpr.c.o
+[ 75%] Building C object CMakeFiles/sisl.dir/src/s6sortpar.c.o
+[ 75%] Building C object CMakeFiles/sisl.dir/src/s6sratder.c.o
+[ 75%] Building C object CMakeFiles/sisl.dir/src/s6strider.c.o
+[ 75%] Building C object CMakeFiles/sisl.dir/src/s6takunion.c.o
+[ 75%] Building C object CMakeFiles/sisl.dir/src/s6twonorm.c.o
+[ 75%] Building C object CMakeFiles/sisl.dir/src/s9adsimp.c.o
+[ 76%] Building C object CMakeFiles/sisl.dir/src/s9adstep.c.o
+[ 76%] Building C object CMakeFiles/sisl.dir/src/s9boundimp.c.o
+/home/alveena/workspace/external/sisl/src/s9boundimp.c: In function ‘s9boundimp’:
+/home/alveena/workspace/external/sisl/src/s9boundimp.c:310:27: warning: ‘tdist’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if (  (ideg < 1003 && tdist <= aepsge) ||
+              ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+[ 76%] Building C object CMakeFiles/sisl.dir/src/s9boundit.c.o
+/home/alveena/workspace/external/sisl/src/s9boundit.c: In function ‘s9boundit’:
+/home/alveena/workspace/external/sisl/src/s9boundit.c:448:11: warning: ‘tdist’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if (tdist <= aepsge)
+           ^
+[ 76%] Building C object CMakeFiles/sisl.dir/src/s9clipimp.c.o
+/home/alveena/workspace/external/sisl/src/s9clipimp.c: In function ‘s9clipimp’:
+/home/alveena/workspace/external/sisl/src/s9clipimp.c:223:4: warning: ‘tpar’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    s9boundimp(spnt1,gpar1,psurf1,eimpli,ideg,tpar,kdir,aepsge,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        gpnt1,gpar1,&kstat);
+        ~~~~~~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s9clipimp.c:223:4: warning: ‘kdir’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+[ 76%] Building C object CMakeFiles/sisl.dir/src/s9clipit.c.o
+/home/alveena/workspace/external/sisl/src/s9clipit.c: In function ‘s9clipit’:
+/home/alveena/workspace/external/sisl/src/s9clipit.c:236:4: warning: ‘tpar’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    s9boundit(spnt1,spnt2,spar31,spar32,psurf1,psurf2,tpar,kdir,aepsge,
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       gpnt1,gpnt2,gpar1,gpar2,&kstat);
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/s9clipit.c:236:4: warning: ‘kdir’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+[ 76%] Building C object CMakeFiles/sisl.dir/src/s9conmarch.c.o
+[ 77%] Building C object CMakeFiles/sisl.dir/src/s9iterate.c.o
+[ 77%] Building C object CMakeFiles/sisl.dir/src/s9iterimp.c.o
+[ 77%] Building C object CMakeFiles/sisl.dir/src/s9smplknot.c.o
+[ 77%] Building C object CMakeFiles/sisl.dir/src/s9surmarch.c.o
+[ 77%] Building C object CMakeFiles/sisl.dir/src/sh1260.c.o
+[ 77%] Building C object CMakeFiles/sisl.dir/src/sh1261.c.o
+[ 78%] Building C object CMakeFiles/sisl.dir/src/sh1262.c.o
+[ 78%] Building C object CMakeFiles/sisl.dir/src/sh1263.c.o
+/home/alveena/workspace/external/sisl/src/sh1263.c: In function ‘sh1263’:
+/home/alveena/workspace/external/sisl/src/sh1263.c:380:43: warning: array subscript is above array bounds [-Warray-bounds]
+   for (kl=0; kl<kdim; kl++) sder[kdim+kl] *= -(double)1.0;
+                                           ^~
+/home/alveena/workspace/external/sisl/src/sh1263.c:380:43: warning: array subscript is above array bounds [-Warray-bounds]
+   for (kl=0; kl<kdim; kl++) sder[kdim+kl] *= -(double)1.0;
+                             ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1263.c:380:43: warning: array subscript is above array bounds [-Warray-bounds]
+   for (kl=0; kl<kdim; kl++) sder[kdim+kl] *= -(double)1.0;
+                                           ^~
+/home/alveena/workspace/external/sisl/src/sh1263.c:380:43: warning: array subscript is above array bounds [-Warray-bounds]
+   for (kl=0; kl<kdim; kl++) sder[kdim+kl] *= -(double)1.0;
+                             ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1263.c:380:43: warning: array subscript is above array bounds [-Warray-bounds]
+   for (kl=0; kl<kdim; kl++) sder[kdim+kl] *= -(double)1.0;
+                                           ^~
+/home/alveena/workspace/external/sisl/src/sh1263.c:380:43: warning: array subscript is above array bounds [-Warray-bounds]
+   for (kl=0; kl<kdim; kl++) sder[kdim+kl] *= -(double)1.0;
+                             ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1263.c:380:43: warning: array subscript is above array bounds [-Warray-bounds]
+   for (kl=0; kl<kdim; kl++) sder[kdim+kl] *= -(double)1.0;
+                                           ^~
+/home/alveena/workspace/external/sisl/src/sh1263.c:380:43: warning: array subscript is above array bounds [-Warray-bounds]
+   for (kl=0; kl<kdim; kl++) sder[kdim+kl] *= -(double)1.0;
+                             ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1263.c:380:43: warning: array subscript is above array bounds [-Warray-bounds]
+   for (kl=0; kl<kdim; kl++) sder[kdim+kl] *= -(double)1.0;
+                                           ^~
+/home/alveena/workspace/external/sisl/src/sh1263.c:380:43: warning: array subscript is above array bounds [-Warray-bounds]
+   for (kl=0; kl<kdim; kl++) sder[kdim+kl] *= -(double)1.0;
+                             ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+[ 78%] Building C object CMakeFiles/sisl.dir/src/sh1365.c.o
+[ 78%] Building C object CMakeFiles/sisl.dir/src/sh1369.c.o
+[ 78%] Building C object CMakeFiles/sisl.dir/src/sh1371.c.o
+[ 78%] Building C object CMakeFiles/sisl.dir/src/sh1372.c.o
+[ 78%] Building C object CMakeFiles/sisl.dir/src/sh1373.c.o
+[ 79%] Building C object CMakeFiles/sisl.dir/src/sh1374.c.o
+[ 79%] Building C object CMakeFiles/sisl.dir/src/sh1375.c.o
+[ 79%] Building C object CMakeFiles/sisl.dir/src/sh1460.c.o
+[ 79%] Building C object CMakeFiles/sisl.dir/src/sh1461.c.o
+/home/alveena/workspace/external/sisl/src/sh1461.c: In function ‘sh1461’:
+/home/alveena/workspace/external/sisl/src/sh1461.c:353:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (kstat < 0) goto error;
+       ^~
+/home/alveena/workspace/external/sisl/src/sh1461.c:355:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+        sh1461_s9hermit(scrt2,4,kdim,&kstat);
+        ^~~~~~~~~~~~~~~
+[ 79%] Building C object CMakeFiles/sisl.dir/src/sh1462.c.o
+[ 79%] Building C object CMakeFiles/sisl.dir/src/sh1463.c.o
+[ 80%] Building C object CMakeFiles/sisl.dir/src/sh1464.c.o
+[ 80%] Building C object CMakeFiles/sisl.dir/src/sh1465.c.o
+/home/alveena/workspace/external/sisl/src/sh1465.c: In function ‘sh1465’:
+/home/alveena/workspace/external/sisl/src/sh1465.c:247:37: warning: ‘tang2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       if (tang1 > (double)0.5*tdist || tang2 > (double)0.5*tdist)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1465.c:247:10: warning: ‘tang1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       if (tang1 > (double)0.5*tdist || tang2 > (double)0.5*tdist)
+          ^
+[ 80%] Building C object CMakeFiles/sisl.dir/src/sh1466.c.o
+[ 80%] Building C object CMakeFiles/sisl.dir/src/sh1467.c.o
+[ 80%] Building C object CMakeFiles/sisl.dir/src/sh1502.c.o
+[ 80%] Building C object CMakeFiles/sisl.dir/src/sh1503.c.o
+[ 81%] Building C object CMakeFiles/sisl.dir/src/sh1510.c.o
+[ 81%] Building C object CMakeFiles/sisl.dir/src/sh1511.c.o
+[ 81%] Building C object CMakeFiles/sisl.dir/src/sh1761.c.o
+[ 81%] Building C object CMakeFiles/sisl.dir/src/sh1762.c.o
+/home/alveena/workspace/external/sisl/src/sh1762.c: In function ‘sh1762_s9num’:
+/home/alveena/workspace/external/sisl/src/sh1762.c:1633:3: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+   else
+   ^~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c:1636:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+     if (poref->iobj == SISLPOINT && poref->p1->idim == 2)
+     ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c:1705:7: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+       else
+       ^~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c:1708:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+  if (hasseg1 == 2)
+  ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c: In function ‘sh1762_s9subdivpt’:
+/home/alveena/workspace/external/sisl/src/sh1762.c:2414:18: warning: unused variable ‘ktype2’ [-Wunused-variable]
+  int ktype1=-10, ktype2=-10;     /* As previous.                    */
+                  ^~~~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c:2414:6: warning: unused variable ‘ktype1’ [-Wunused-variable]
+  int ktype1=-10, ktype2=-10;     /* As previous.                    */
+      ^~~~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c:2412:21: warning: unused variable ‘tpar2’ [-Wunused-variable]
+  double tpar1=HUGE, tpar2=HUGE;  /* Used for comparisement with
+                     ^~~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c:2412:9: warning: unused variable ‘tpar1’ [-Wunused-variable]
+  double tpar1=HUGE, tpar2=HUGE;  /* Used for comparisement with
+         ^~~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c: In function ‘sh1762_s9update’:
+/home/alveena/workspace/external/sisl/src/sh1762.c:4193:8: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+        if (kstat < 0)
+        ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c:4196:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   if (kstat == 3)
+   ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c: In function ‘sh1762_s9con’:
+/home/alveena/workspace/external/sisl/src/sh1762.c:4435:13: warning: unused variable ‘kdir2’ [-Wunused-variable]
+   int kdir, kdir2;              /* Constant parameter directions */
+             ^~~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c:4435:7: warning: unused variable ‘kdir’ [-Wunused-variable]
+   int kdir, kdir2;              /* Constant parameter directions */
+       ^~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c: In function ‘sh1762_s9edgsscon’:
+/home/alveena/workspace/external/sisl/src/sh1762.c:6628:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+         if (kstat < 0)
+         ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c:6632:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+     if (lpermdir[0] == 1)
+     ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c:6639:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if (kstat < 0)
+     ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c:6643:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+        uipt[lperm[2]]->iinter = SI_SING;
+        ^~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c: In function ‘sh1762_s9edgpscon’:
+/home/alveena/workspace/external/sisl/src/sh1762.c:7636:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+         if (kstat < 0)
+         ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c:7640:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+     if (lpermdir[0] == 1)
+     ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c:7647:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+     if (kstat < 0)
+     ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c:7651:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+        uipt[lperm[2]]->iinter = SI_SING;
+        ^~~~
+At top level:
+/home/alveena/workspace/external/sisl/src/sh1762.c:8177:1: warning: ‘sh1762_s9simple’ defined but not used [-Wunused-function]
+ sh1762_s9simple (SISLObject * po1, SISLObject * po2, SISLEdge * vedge[],
+ ^~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c: In function ‘sh1762_s9edgsscon’:
+/home/alveena/workspace/external/sisl/src/sh1762.c:6466:57: warning: ‘ko2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        tdist2 = s6dist (sval1 + (ki1 * 9), sval1 + (ko2 * 9), 3);
+                                                    ~~~~~^~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c:6465:57: warning: ‘ko1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        tdist1 = s6dist (sval1 + (ki1 * 9), sval1 + (ko1 * 9), 3);
+                                                    ~~~~~^~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c:6507:20: warning: ‘ki2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     sh6tomain (uipt[ki2], &kstat);
+                    ^
+/home/alveena/workspace/external/sisl/src/sh1762.c:6465:38: warning: ‘ki1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        tdist1 = s6dist (sval1 + (ki1 * 9), sval1 + (ko1 * 9), 3);
+                                 ~~~~~^~~~
+In file included from /home/alveena/workspace/external/sisl/src/sh1762.c:51:0:
+/home/alveena/workspace/external/sisl/src/sh1762.c: In function ‘sh1762_s9con’:
+/home/alveena/workspace/external/sisl/include/sislP.h:430:15: warning: ‘testpar[0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ( (fabs((a) - (b)) <= (REL_PAR_RES * MAX(MAX(fabs(a),fabs(b)),(double)1.0))) ? (1) : (0) )
+               ^
+/home/alveena/workspace/external/sisl/src/sh1762.c:4950:10: note: ‘testpar[0]’ was declared here
+   double testpar[2];  /* Par val when treating help p.  */
+          ^~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c:6061:31: warning: ‘kj’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    *jstat = (ki==kntest1 && kj==kntest2) ? 1 : 0;
+                             ~~^~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1762.c:5981:11: note: ‘kj’ was declared here
+    int ki,kj;             /* Counters.                                  */
+           ^~
+/home/alveena/workspace/external/sisl/src/sh1762.c:4506:65: warning: ‘mintang2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       else if (qd1->igtpi || qd2->igtpi || qd1->aang > mintang1 ||
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+    qd2->aang > mintang2)
+    ~~~~~~~~~~~~~~~~~~~~                                          
+/home/alveena/workspace/external/sisl/src/sh1762.c:4506:41: warning: ‘mintang1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       else if (qd1->igtpi || qd2->igtpi || qd1->aang > mintang1 ||
+                ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+[ 81%] Building C object CMakeFiles/sisl.dir/src/sh1779.c.o
+[ 81%] Building C object CMakeFiles/sisl.dir/src/sh1779_at.c.o
+[ 82%] Building C object CMakeFiles/sisl.dir/src/sh1780.c.o
+[ 82%] Building C object CMakeFiles/sisl.dir/src/sh1780_at.c.o
+[ 82%] Building C object CMakeFiles/sisl.dir/src/sh1781.c.o
+[ 82%] Building C object CMakeFiles/sisl.dir/src/sh1781_at.c.o
+[ 82%] Building C object CMakeFiles/sisl.dir/src/sh1782.c.o
+/home/alveena/workspace/external/sisl/src/sh1782.c: In function ‘sh1782_s9sf_pt’:
+/home/alveena/workspace/external/sisl/src/sh1782.c:345:11: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+      else if (tdum < 0)
+           ^~
+/home/alveena/workspace/external/sisl/src/sh1782.c:348:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+        sh6setcnsdir (uintpt[klow], uintpt[khigh], ipar, &kstat);
+        ^~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1782.c: In function ‘sh1782_s9sf_cu’:
+/home/alveena/workspace/external/sisl/src/sh1782.c:577:11: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+      else if (tdum < 0)
+           ^~
+/home/alveena/workspace/external/sisl/src/sh1782.c:580:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+        sh6setcnsdir (uintpt[klow], uintpt[khigh], ipar, &kstat);
+        ^~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1782.c: In function ‘sh1782_s9sf_sf’:
+/home/alveena/workspace/external/sisl/src/sh1782.c:750:11: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+      else if (tdum < 0)
+           ^~
+/home/alveena/workspace/external/sisl/src/sh1782.c:753:8: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+        sh6setcnsdir (uintpt[klow], uintpt[khigh], ipar, &kstat);
+        ^~~~~~~~~~~~
+[ 82%] Building C object CMakeFiles/sisl.dir/src/sh1783.c.o
+/home/alveena/workspace/external/sisl/src/sh1783.c: In function ‘sh1783’:
+/home/alveena/workspace/external/sisl/src/sh1783.c:442:16: warning: ‘ty’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       enext[1] = (kchange == 1) ? ty : tpos;
+       ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1783.c:160:10: warning: ‘tx’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   double tx, tx1, tx2;  /* Parameter values of first curve.  */
+          ^~
+/home/alveena/workspace/external/sisl/src/sh1783.c:441:38: warning: ‘kchange’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       enext[0] = (kchange == 0) ? tx : tpos;
+                  ~~~~~~~~~~~~~~~~~~~~^~~~~~
+[ 83%] Building C object CMakeFiles/sisl.dir/src/sh1784.c.o
+/home/alveena/workspace/external/sisl/src/sh1784.c: In function ‘sh1784’:
+/home/alveena/workspace/external/sisl/src/sh1784.c:752:16: warning: ‘snext[1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       elast[1] = snext[1];
+       ~~~~~~~~~^~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1784.c:751:16: warning: ‘snext[0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       elast[0] = snext[0];
+       ~~~~~~~~~^~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh1784.c:753:16: warning: ‘tx1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       elast[2] = tx1;
+       ~~~~~~~~~^~~~~
+[ 83%] Building C object CMakeFiles/sisl.dir/src/sh1786.c.o
+[ 83%] Building C object CMakeFiles/sisl.dir/src/sh1787.c.o
+[ 83%] Building C object CMakeFiles/sisl.dir/src/sh1790.c.o
+/home/alveena/workspace/external/sisl/src/sh1790.c: In function ‘sh1790’:
+/home/alveena/workspace/external/sisl/src/sh1790.c:157:6: warning: ‘kdim1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (kdim1 == 1)
+      ^
+[ 83%] Building C object CMakeFiles/sisl.dir/src/sh1794.c.o
+/home/alveena/workspace/external/sisl/src/sh1794.c: In function ‘sh1794’:
+/home/alveena/workspace/external/sisl/src/sh1794.c:613:6: warning: ‘kdir2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if (kdir2 >= 0 && (kidx == 0 || kdir2 != pdir[kidx-1]))
+      ^
+/home/alveena/workspace/external/sisl/src/sh1794.c:559:7: note: ‘kdir2’ was declared here
+   int kdir2;
+       ^~~~~
+/home/alveena/workspace/external/sisl/src/sh1794.c:616:20: warning: ‘ki’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       ix[2*kidx+1] = ki;
+       ~~~~~~~~~~~~~^~~~
+/home/alveena/workspace/external/sisl/src/sh1794.c:562:7: note: ‘ki’ was declared here
+   int ki, kj;     /* Counters                                          */
+       ^~
+[ 83%] Building C object CMakeFiles/sisl.dir/src/sh1830.c.o
+[ 84%] Building C object CMakeFiles/sisl.dir/src/sh1831.c.o
+[ 84%] Building C object CMakeFiles/sisl.dir/src/sh1834.c.o
+[ 84%] Building C object CMakeFiles/sisl.dir/src/sh1839.c.o
+[ 84%] Building C object CMakeFiles/sisl.dir/src/sh1850.c.o
+[ 84%] Building C object CMakeFiles/sisl.dir/src/sh1851.c.o
+[ 84%] Building C object CMakeFiles/sisl.dir/src/sh1852.c.o
+[ 85%] Building C object CMakeFiles/sisl.dir/src/sh1853.c.o
+[ 85%] Building C object CMakeFiles/sisl.dir/src/sh1854.c.o
+[ 85%] Building C object CMakeFiles/sisl.dir/src/sh1855.c.o
+[ 85%] Building C object CMakeFiles/sisl.dir/src/sh1856.c.o
+[ 85%] Building C object CMakeFiles/sisl.dir/src/sh1857.c.o
+[ 85%] Building C object CMakeFiles/sisl.dir/src/sh1858.c.o
+[ 85%] Building C object CMakeFiles/sisl.dir/src/sh1859.c.o
+[ 86%] Building C object CMakeFiles/sisl.dir/src/sh1860.c.o
+[ 86%] Building C object CMakeFiles/sisl.dir/src/sh1870.c.o
+[ 86%] Building C object CMakeFiles/sisl.dir/src/sh1871.c.o
+[ 86%] Building C object CMakeFiles/sisl.dir/src/sh1922.c.o
+[ 86%] Building C object CMakeFiles/sisl.dir/src/sh1923.c.o
+[ 86%] Building C object CMakeFiles/sisl.dir/src/sh1924.c.o
+[ 87%] Building C object CMakeFiles/sisl.dir/src/sh1925.c.o
+[ 87%] Building C object CMakeFiles/sisl.dir/src/sh1926.c.o
+[ 87%] Building C object CMakeFiles/sisl.dir/src/sh1927.c.o
+/home/alveena/workspace/external/sisl/src/sh1927.c: In function ‘sh1927’:
+/home/alveena/workspace/external/sisl/src/sh1927.c:312:8: warning: ‘kn’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        for (kjhc=khc+idim, kjh=km+krh, kj=kr+1; kj<kn; kj++)
+        ^~~
+[ 87%] Building C object CMakeFiles/sisl.dir/src/sh1928.c.o
+[ 87%] Building C object CMakeFiles/sisl.dir/src/sh1929.c.o
+[ 87%] Building C object CMakeFiles/sisl.dir/src/sh1930.c.o
+[ 88%] Building C object CMakeFiles/sisl.dir/src/sh1992.c.o
+[ 88%] Building C object CMakeFiles/sisl.dir/src/sh1993.c.o
+[ 88%] Building C object CMakeFiles/sisl.dir/src/sh1994.c.o
+[ 88%] Building C object CMakeFiles/sisl.dir/src/sh6clvert.c.o
+/home/alveena/workspace/external/sisl/src/sh6clvert.c: In function ‘sh6closevert’:
+/home/alveena/workspace/external/sisl/src/sh6clvert.c:140:13: warning: ‘kmins2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    ki<kmins2+kk2; tpar+=(*s1), s1++, ki++);
+       ~~~~~~^~~~
+/home/alveena/workspace/external/sisl/src/sh6clvert.c:101:7: warning: ‘kmins1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int kmins1,kmins2;      /* Numbers of closest vertex of surface. */
+       ^~~~~~
+/home/alveena/workspace/external/sisl/src/sh6clvert.c:100:7: warning: ‘kminc’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int kminc;              /* Number of closest vertex of curve. */
+       ^~~~~
+[ 88%] Building C object CMakeFiles/sisl.dir/src/sh6comedg.c.o
+[ 88%] Building C object CMakeFiles/sisl.dir/src/sh6connect.c.o
+[ 89%] Building C object CMakeFiles/sisl.dir/src/sh6count.c.o
+[ 89%] Building C object CMakeFiles/sisl.dir/src/sh6cvvert.c.o
+/home/alveena/workspace/external/sisl/src/sh6cvvert.c: In function ‘sh6cvvert’:
+/home/alveena/workspace/external/sisl/src/sh6cvvert.c:94:7: warning: ‘kminc2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int kminc2;           /* Number of closest vertex of 2. curve. */
+       ^~~~~~
+/home/alveena/workspace/external/sisl/src/sh6cvvert.c:93:7: warning: ‘kminc1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int kminc1;           /* Number of closest vertex of 1. curve. */
+       ^~~~~~
+[ 89%] Building C object CMakeFiles/sisl.dir/src/sh6degen.c.o
+/home/alveena/workspace/external/sisl/src/sh6degen.c: In function ‘sh6degen_geom.constprop’:
+/home/alveena/workspace/external/sisl/src/sh6degen.c:440:8: warning: ‘kdim’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    int kdim;                  /* Dimension.                         */
+        ^~~~
+/home/alveena/workspace/external/sisl/src/sh6degen.c: In function ‘sh6degen’:
+/home/alveena/workspace/external/sisl/src/sh6degen.c:440:8: warning: ‘kdim’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/alveena/workspace/external/sisl/src/sh6degen.c:440:8: warning: ‘kdim’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+[ 89%] Building C object CMakeFiles/sisl.dir/src/sh6disconn.c.o
+[ 89%] Building C object CMakeFiles/sisl.dir/src/sh6edgpnt.c.o
+[ 89%] Building C object CMakeFiles/sisl.dir/src/sh6edgred.c.o
+/home/alveena/workspace/external/sisl/src/sh6edgred.c: In function ‘sh6edgred’:
+/home/alveena/workspace/external/sisl/src/sh6edgred.c:180:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (kstat < 0)
+       ^~
+/home/alveena/workspace/external/sisl/src/sh6edgred.c:182:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+         if (kstat)
+         ^~
+[ 90%] Building C object CMakeFiles/sisl.dir/src/sh6evalint.c.o
+[ 90%] Building C object CMakeFiles/sisl.dir/src/sh6floop.c.o
+[ 90%] Building C object CMakeFiles/sisl.dir/src/sh6fndsplt.c.o
+/home/alveena/workspace/external/sisl/src/sh6fndsplt.c: In function ‘sh6findsplit’:
+/home/alveena/workspace/external/sisl/src/sh6fndsplt.c:235:7: warning: ‘tepsge’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       sh1992su(qs2,2,tepsge,&kstat);
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 90%] Building C object CMakeFiles/sisl.dir/src/sh6getgeom.c.o
+/home/alveena/workspace/external/sisl/src/sh6getgeom.c: In function ‘sh6getgeom’:
+/home/alveena/workspace/external/sisl/src/sh6getgeom.c:161:59: warning: ‘dim’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    if (ob->iobj == SISLSURFACE) (*norm) = (*geom) + kgeom - dim;
+                                                           ^
+[ 90%] Building C object CMakeFiles/sisl.dir/src/sh6getlist.c.o
+[ 90%] Building C object CMakeFiles/sisl.dir/src/sh6getmain.c.o
+[ 91%] Building C object CMakeFiles/sisl.dir/src/sh6getnbrs.c.o
+[ 91%] Building C object CMakeFiles/sisl.dir/src/sh6getnext.c.o
+[ 91%] Building C object CMakeFiles/sisl.dir/src/sh6getothr.c.o
+[ 91%] Building C object CMakeFiles/sisl.dir/src/sh6getprev.c.o
+[ 91%] Building C object CMakeFiles/sisl.dir/src/sh6getsegdiv.c.o
+In file included from /home/alveena/workspace/external/sisl/src/sh6getsegdiv.c:44:0:
+/home/alveena/workspace/external/sisl/src/sh6getsegdiv.c: In function ‘sh6getsegdiv’:
+/home/alveena/workspace/external/sisl/include/sislP.h:433:48: warning: ‘par’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   ( (fabs((a) - (b)) >  (REL_PAR_RES * MAX(MAX(fabs(a),fabs(b)),(double)1.0))) ? (1) : (0) )
+                                                ^~~~
+/home/alveena/workspace/external/sisl/src/sh6getsegdiv.c:97:10: note: ‘par’ was declared here
+   double par;
+          ^~~
+[ 91%] Building C object CMakeFiles/sisl.dir/src/sh6gettop.c.o
+[ 92%] Building C object CMakeFiles/sisl.dir/src/sh6idaledg.c.o
+[ 92%] Building C object CMakeFiles/sisl.dir/src/sh6idcon.c.o
+[ 92%] Building C object CMakeFiles/sisl.dir/src/sh6idfcros.c.o
+[ 92%] Building C object CMakeFiles/sisl.dir/src/sh6idget.c.o
+[ 92%] Building C object CMakeFiles/sisl.dir/src/sh6idkpt.c.o
+[ 92%] Building C object CMakeFiles/sisl.dir/src/sh6idlis.c.o
+/home/alveena/workspace/external/sisl/src/sh6idlis.c: In function ‘sh6idlis’:
+/home/alveena/workspace/external/sisl/src/sh6idlis.c:388:3: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   for (ki1 = 0; *pintdat && ki1 < (*pintdat)->ipoint; ki1++)
+   ^~~
+/home/alveena/workspace/external/sisl/src/sh6idlis.c:406:6: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+      for (ki1 = 0; *pintdat && ki1 < (*pintdat)->ipoint; ki1++)
+      ^~~
+[ 92%] Building C object CMakeFiles/sisl.dir/src/sh6idnpt.c.o
+[ 93%] Building C object CMakeFiles/sisl.dir/src/sh6idnwun.c.o
+[ 93%] Building C object CMakeFiles/sisl.dir/src/sh6idput.c.o
+[ 93%] Building C object CMakeFiles/sisl.dir/src/sh6idrcros.c.o
+/home/alveena/workspace/external/sisl/src/sh6idrcros.c: In function ‘sh6idrmcross’:
+/home/alveena/workspace/external/sisl/src/sh6idrcros.c:286:8: warning: ‘kdim’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    if (s6scpr(sder1+(kdir1+1)*kdim,sder2+(kdir2+1)*kdim,kdim) >= 0)
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/alveena/workspace/external/sisl/src/sh6idrcros.c:121:14: warning: ‘kdir2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    int kdir1,kdir2;    /* Parameter directions.                     */
+              ^~~~~
+/home/alveena/workspace/external/sisl/src/sh6idrcros.c:232:28: warning: ‘kdir1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       if (s6length(sder1+(1+kdir1)*kdim,kdim,&kstat) <= REL_COMP_RES)
+                          ~~^~~~~~~
+[ 93%] Building C object CMakeFiles/sisl.dir/src/sh6idsplit.c.o
+[ 93%] Building C object CMakeFiles/sisl.dir/src/sh6idunite.c.o
+[ 93%] Building C object CMakeFiles/sisl.dir/src/sh6insert.c.o
+[ 94%] Building C object CMakeFiles/sisl.dir/src/sh6inspnt.c.o
+[ 94%] Building C object CMakeFiles/sisl.dir/src/sh6iscnect.c.o
+[ 94%] Building C object CMakeFiles/sisl.dir/src/sh6ishelp.c.o
+[ 94%] Building C object CMakeFiles/sisl.dir/src/sh6isinsid.c.o
+[ 94%] Building C object CMakeFiles/sisl.dir/src/sh6ismain.c.o
+[ 94%] Building C object CMakeFiles/sisl.dir/src/sh6nmbhelp.c.o
+[ 95%] Building C object CMakeFiles/sisl.dir/src/sh6nmbmain.c.o
+[ 95%] Building C object CMakeFiles/sisl.dir/src/sh6ptobj.c.o
+[ 95%] Building C object CMakeFiles/sisl.dir/src/sh6ptouchp.c.o
+[ 95%] Building C object CMakeFiles/sisl.dir/src/sh6putsing.c.o
+[ 95%] Building C object CMakeFiles/sisl.dir/src/sh6red.c.o
+/home/alveena/workspace/external/sisl/src/sh6red.c: In function ‘sh6red’:
+/home/alveena/workspace/external/sisl/src/sh6red.c:341:25: warning: ‘dim’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if ((log_1 & log_2) ||
+         ~~~~~~~~~~~~~~~~^~
+         (dim == 3 && po1->iobj+po2->iobj < 4))
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 95%] Building C object CMakeFiles/sisl.dir/src/sh6remcon.c.o
+[ 96%] Building C object CMakeFiles/sisl.dir/src/sh6rempnt.c.o
+[ 96%] Building C object CMakeFiles/sisl.dir/src/sh6sepcrv.c.o
+/home/alveena/workspace/external/sisl/src/sh6sepcrv.c: In function ‘sh6sepcrv’:
+/home/alveena/workspace/external/sisl/src/sh6sepcrv.c:204:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (qp != SISL_NULL) freePoint(qp); qp = SISL_NULL;
+       ^~
+/home/alveena/workspace/external/sisl/src/sh6sepcrv.c:204:43: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       if (qp != SISL_NULL) freePoint(qp); qp = SISL_NULL;
+                                           ^~
+[ 96%] Building C object CMakeFiles/sisl.dir/src/sh6setcnsd.c.o
+[ 96%] Building C object CMakeFiles/sisl.dir/src/sh6setdir.c.o
+[ 96%] Building C object CMakeFiles/sisl.dir/src/sh6setseg.c.o
+[ 96%] Building C object CMakeFiles/sisl.dir/src/sh6settop.c.o
+[ 97%] Building C object CMakeFiles/sisl.dir/src/sh6spltgeo.c.o
+/home/alveena/workspace/external/sisl/src/sh6spltgeo.c: In function ‘sh6splitgeom’:
+/home/alveena/workspace/external/sisl/src/sh6spltgeo.c:284:3: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   if (qp != SISL_NULL) freePoint(qp); qp = SISL_NULL;
+   ^~
+/home/alveena/workspace/external/sisl/src/sh6spltgeo.c:284:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   if (qp != SISL_NULL) freePoint(qp); qp = SISL_NULL;
+                                       ^~
+/home/alveena/workspace/external/sisl/src/sh6spltgeo.c:404:3: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   if (qp != SISL_NULL) freePoint(qp); qp = SISL_NULL;
+   ^~
+/home/alveena/workspace/external/sisl/src/sh6spltgeo.c:404:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   if (qp != SISL_NULL) freePoint(qp); qp = SISL_NULL;
+                                       ^~
+/home/alveena/workspace/external/sisl/src/sh6spltgeo.c:454:7: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+       if (qp != SISL_NULL) freePoint(qp); qp = SISL_NULL;
+       ^~
+/home/alveena/workspace/external/sisl/src/sh6spltgeo.c:454:43: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+       if (qp != SISL_NULL) freePoint(qp); qp = SISL_NULL;
+                                           ^~
+[ 97%] Building C object CMakeFiles/sisl.dir/src/sh6tohelp.c.o
+[ 97%] Building C object CMakeFiles/sisl.dir/src/sh6tomain.c.o
+[ 97%] Building C object CMakeFiles/sisl.dir/src/sh6topohlp.c.o
+[ 97%] Building C object CMakeFiles/sisl.dir/src/sh6trmlist.c.o
+[ 97%] Building C object CMakeFiles/sisl.dir/src/sh_1d_div.c.o
+[ 98%] Building C object CMakeFiles/sisl.dir/src/sh_div_crv.c.o
+[ 98%] Building C object CMakeFiles/sisl.dir/src/sh_set_at.c.o
+[ 98%] Building C object CMakeFiles/sisl.dir/src/shape.c.o
+[ 98%] Building C object CMakeFiles/sisl.dir/src/shcheckput.c.o
+[ 98%] Building C object CMakeFiles/sisl.dir/src/shchecktyp.c.o
+[ 98%] Building C object CMakeFiles/sisl.dir/src/shcsfsing.c.o
+[ 99%] Building C object CMakeFiles/sisl.dir/src/shdivsurf.c.o
+[ 99%] Building C object CMakeFiles/sisl.dir/src/shevalc.c.o
+[ 99%] Building C object CMakeFiles/sisl.dir/src/shmkhlppts.c.o
+/home/alveena/workspace/external/sisl/src/shmkhlppts.c: In function ‘shmkhlppts’:
+/home/alveena/workspace/external/sisl/src/shmkhlppts.c:193:3: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+   else
+   ^~~~
+/home/alveena/workspace/external/sisl/src/shmkhlppts.c:196:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+     s6idint (po1, po2, *rintdat, &qptint, kobj);
+     ^~~~~~~
+[ 99%] Building C object CMakeFiles/sisl.dir/src/shsing.c.o
+[ 99%] Building C object CMakeFiles/sisl.dir/src/spli_silh.c.o
+[ 99%] Building C object CMakeFiles/sisl.dir/src/tstcyclknt.c.o
+[100%] Linking C shared library libsisl.so
+[100%] Built target sisl
+Scanning dependencies of target s1013prob
+Scanning dependencies of target s1320prob
+[100%] Building CXX object CMakeFiles/s1013prob.dir/app/s1013prob.C.o
+[100%] Building CXX object CMakeFiles/s1320prob.dir/app/s1320prob.C.o
+[100%] Linking CXX executable s1013prob
+[100%] Built target s1013prob
+[100%] Linking CXX executable s1320prob
+[100%] Built target s1320prob
+Scanning dependencies of target s1606prob
+[100%] Building CXX object CMakeFiles/s1606prob.dir/app/s1606prob.C.o
+[100%] Linking CXX executable s1606prob
+[100%] Built target s1606prob
+Exit: pid 23735 exit 0

@@ -1,0 +1,67 @@
+source "https://rubygems.org"
+ruby "2.5.1" if respond_to?(:ruby)
+gem "autoproj", ">= 2.0.0"
+gem "utilrb", ">= 3.0.1"
+config_path = File.join(__dir__, 'config.yml')
+if File.file?(config_path)
+    require 'yaml'
+    config = YAML.load(File.read(config_path)) || Hash.new
+    (config['plugins'] || Hash.new).
+        each do |plugin_name, (version, options)|
+            gem plugin_name, version, **options
+        end
+end
+config_path = File.join(__dir__, 'config.yml')
+if File.file?(config_path)
+    require 'yaml'
+    config = YAML.load(File.read(config_path)) || Hash.new
+    (config['plugins'] || Hash.new).
+        each do |plugin_name, (version, options)|
+            gem plugin_name, version, **options
+        end
+end
+config_path = File.join(__dir__, 'config.yml')
+if File.file?(config_path)
+    require 'yaml'
+    config = YAML.load(File.read(config_path)) || Hash.new
+    (config['plugins'] || Hash.new).
+        each do |plugin_name, (version, options)|
+            gem plugin_name, version, **options
+        end
+end
+config_path = File.join(__dir__, 'config.yml')
+if File.file?(config_path)
+    require 'yaml'
+    config = YAML.load(File.read(config_path)) || Hash.new
+    (config['plugins'] || Hash.new).
+        each do |plugin_name, (version, options)|
+            gem plugin_name, version, **options
+        end
+end
+config_path = File.join(__dir__, 'config.yml')
+if File.file?(config_path)
+    require 'yaml'
+    config = YAML.load(File.read(config_path)) || Hash.new
+    (config['plugins'] || Hash.new).
+        each do |plugin_name, (version, options)|
+            gem plugin_name, version, **options
+        end
+end
+config_path = File.join(__dir__, 'config.yml')
+if File.file?(config_path)
+    require 'yaml'
+    config = YAML.load(File.read(config_path)) || Hash.new
+    (config['plugins'] || Hash.new).
+        each do |plugin_name, (version, options)|
+            gem plugin_name, version, **options
+        end
+end
+config_path = File.join(__dir__, 'config.yml')
+if File.file?(config_path)
+    require 'yaml'
+    config = YAML.load(File.read(config_path)) || Hash.new
+    (config['plugins'] || Hash.new).
+        each do |plugin_name, (version, options)|
+            gem plugin_name, version, **options
+        end
+end

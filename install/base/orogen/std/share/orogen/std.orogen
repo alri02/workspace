@@ -1,0 +1,48 @@
+enable_transports('corba', 'mqueue', 'typelib')
+self.extended_states = true
+
+self.disable_namespace "test"
+
+# We want this file to apply the default extensions as they were defined during
+# generation, *not* the ones that are currently setup for the given project. 
+#
+# So, override the list of default extensions by the ones that were used at
+# generation. Revert with pop_default_extensions_state at the end of the file
+defaults = %w[metadata_support]
+Spec::TaskContext.push_default_extensions_state(defaults)
+
+
+name "std"
+version "1.0"
+
+using_library "orogen_metadata"
+import_types_from "orogen_metadata/Metadata.hpp"
+
+typekit do
+    Typelib::Registry.add_standard_cxx_types(registry)
+    resolve_registry_includes(registry, Array.new)
+    if type_export_policy == :used
+        # We assume that, if the caller wants a 'used' type policy, it means he
+        # wants partial exports. Move to 'selected'. oroGen would have changed
+        # it to 'all'
+        type_export_policy :selected
+    end
+
+    export_types '/bool'
+    [1, 2, 4, 8].each do |int_size|
+        registry.get("/int#{int_size * 8}_t").
+            metadata.set("orogen_include", "boost/cstdint.hpp")
+        registry.get("/uint#{int_size * 8}_t").
+            metadata.set("orogen_include", "boost/cstdint.hpp")
+        export_types "/int#{int_size * 8}_t"
+        export_types "/uint#{int_size * 8}_t"
+    end
+    export_types "/float"
+    export_types "/double"
+    export_types "/std/string"
+    # Yes, RTT has std::vector<double>, so we need to do the same. Thanks guys.
+    export_types "/std/vector</double>"
+    export_types "/metadata/TaskContext"
+end
+
+Spec::TaskContext.pop_default_extensions_state

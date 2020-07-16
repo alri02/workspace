@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/perception/jpeg_conversion
+exec_prefix=/home/alveena/workspace/install/perception/jpeg_conversion
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: jpeg_conversion
+Description: 
+Version: 0.1
+Requires:  base-types base-lib base-logging
+Libs: -L${libdir} -ljpeg_conversion
+Cflags: -I${includedir}
+

@@ -1,0 +1,12 @@
+<package>
+  <description brief="dummy-brief-desc">
+  dummy-long-desc
+  </description>
+  <author>dummy-author/dummy-email</author>
+  <license>dummy-license</license>
+  <url>dummy-url</url>
+  <logo>dummy-logo-url</logo>
+  <depend package="base/cmake" />
+  <depend package="gui/vizkit3d_debug_drawings" />
+  <depend package="gui/vizkit3d" />
+</package>

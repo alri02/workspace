@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/rtt
+exec_prefix=${prefix}  # defining another variable in terms of the first
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Orocos-RTT-CORBA                                     # human-readable name
+Description: Open Robot Control Software: Real-Time Tookit # human-readable description
+Requires: orocos-rtt-gnulinux omniORB4
+Version: 2.8.3
+Libs: -L${libdir} -lorocos-rtt-corba-gnulinux  -L/usr/lib/x86_64-linux-gnu -lomniORB4 -L/usr/lib/x86_64-linux-gnu -lomnithread
+Libs.private:  -L/usr/lib/x86_64-linux-gnu -lomniORB4 -L/usr/lib/x86_64-linux-gnu -lomniDynamic4 -L/usr/lib/x86_64-linux-gnu -lomnithread
+Cflags: -I${includedir}/rtt/transports/corba  

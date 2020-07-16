@@ -1,0 +1,11 @@
+prefix=/home/alveena/workspace/install/gui/vizkit3d
+exec_prefix=/home/alveena/workspace/install/gui/vizkit3d
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: vizkit3d
+Description: 
+Version: 1.0
+Requires: QtCore QtGui openscenegraph openscenegraph-osgManipulator openscenegraph-osgViewer  openscenegraph openscenegraph-osgQt osgViz PrimitivesFactory ManipulationClickHandler
+Libs: -L${libdir} -lvizkit3d
+Cflags: -I${includedir}

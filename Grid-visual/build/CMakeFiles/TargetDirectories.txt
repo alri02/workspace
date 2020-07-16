@@ -1,0 +1,13 @@
+/home/alveena/workspace/Grid-visual/build/CMakeFiles/install/strip.dir
+/home/alveena/workspace/Grid-visual/build/CMakeFiles/install.dir
+/home/alveena/workspace/Grid-visual/build/CMakeFiles/install/local.dir
+/home/alveena/workspace/Grid-visual/build/CMakeFiles/list_install_components.dir
+/home/alveena/workspace/Grid-visual/build/CMakeFiles/edit_cache.dir
+/home/alveena/workspace/Grid-visual/build/CMakeFiles/rebuild_cache.dir
+/home/alveena/workspace/Grid-visual/build/src/CMakeFiles/install/strip.dir
+/home/alveena/workspace/Grid-visual/build/src/CMakeFiles/edit_cache.dir
+/home/alveena/workspace/Grid-visual/build/src/CMakeFiles/list_install_components.dir
+/home/alveena/workspace/Grid-visual/build/src/CMakeFiles/install/local.dir
+/home/alveena/workspace/Grid-visual/build/src/CMakeFiles/rebuild_cache.dir
+/home/alveena/workspace/Grid-visual/build/src/CMakeFiles/Grid_visual.dir
+/home/alveena/workspace/Grid-visual/build/src/CMakeFiles/install.dir

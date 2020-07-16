@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/drivers/transformer
+exec_prefix=/home/alveena/workspace/install/drivers/transformer
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: transformer
+Description: 
+Version: 0.1
+Requires:  aggregator base-types
+Libs: -L${libdir} -ltransformer
+Cflags: -I${includedir}
+

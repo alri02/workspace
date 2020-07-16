@@ -1,0 +1,18 @@
+# Generated from orogen/lib/orogen/templates/typekit/typekit.pc
+
+prefix=/home/alveena/workspace/install/drivers/orogen/transformer
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos/types
+includedir=${prefix}/include/orocos
+
+project_name=transformer
+deffile=${prefix}/share/orogen/transformer.orogen
+type_registry=${prefix}/share/orogen/transformer.tlb
+
+Name: transformerTypekit
+Version: 0.0
+Requires: transformer
+Description: transformer types support for the Orocos type system
+Libs: -L${libdir} -ltransformer-typekit-gnulinux
+Cflags: -I${includedir} -I${includedir}/transformer/types -I/home/alveena/workspace/install/drivers/transformer/include "-DOROCOS_TARGET=gnulinux" "-I/home/alveena/workspace/install/rtt/include" "-I/home/alveena/workspace/install/base/orogen/types/include/orocos" "-I/home/alveena/workspace/install/base/orogen/types/include/orocos/base/types" "-I/home/alveena/workspace/install/base/types/include" "-I/home/alveena/workspace/install/base/logging/include" "-I/usr/include/eigen3" "-I/home/alveena/workspace/install/base/orogen/std/include/orocos" "-I/home/alveena/workspace/install/base/orogen/std/include/orocos/std/types" "-I/home/alveena/workspace/install/tools/orogen_metadata/include" "-I/home/alveena/workspace/install/tools/logger/include/orocos" "-I/home/alveena/workspace/install/tools/logger/include/orocos/logger/types" "-I/home/alveena/workspace/install/drivers/transformer/include" "-I/home/alveena/workspace/install/drivers/aggregator/include"
+

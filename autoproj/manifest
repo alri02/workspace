@@ -1,0 +1,38 @@
+# List of VCS information or subdirectories of autoproj/ in which to find
+# package set definitions.
+package_sets:
+   - github: rock-core/package_set
+   - github: rock-core/rock-package_set
+
+layout:
+  - gui/vizkit
+  - gui/vizkit3d
+  - gui/vizkit3d_debug_drawings
+  - gui/rock_widget_collection
+  - base/scripts
+
+
+# Package exclusion: packages can be completely excluded from the build. This is
+# an alternative way than using the layout.
+#
+# Useful if you want to enable a whole package set except a few packages, or if
+# you want to exclude some package's optional dependencies.
+#
+# exclude_packages:
+# - gui/.*
+
+# Ignoring packages: assume that some packages are present on disk. Unlike
+# exclude_packages, autoproj will not generate an error if a non-excluded
+# package depends on an ignored one, but it will not include the package and its
+# dependencies in the build.
+#
+# For instance, if one assumes that the 'rtt' package is already available on
+# the machine *and* you're confident that picking it outside of the workspace
+# won't create problems, then simply do:
+#
+# Note that using this obviously hinders repeatability of the build
+#
+# ignored_packages:
+# - rtt
+#
+

@@ -1,0 +1,8 @@
+extdir=/home/alveena/workspace/install/typelib/lib/ruby/2.5.0/x86_64-linux
+
+Name: typelib
+Description: Manipulating in-memory C-types structures and typed function call library
+Libs: -L${extdir}
+Version: 1.1
+Cflags: -I${extdir}
+

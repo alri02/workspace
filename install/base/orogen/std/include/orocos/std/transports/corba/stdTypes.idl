@@ -1,0 +1,39 @@
+/* Generated from orogen/lib/orogen/templates/typekit/corba/Types.idl */
+
+#ifndef __OROGEN_TYPEKIT_STD_IDL__
+#define __OROGEN_TYPEKIT_STD_IDL__
+
+
+module orogen {
+    module Corba {
+        typedef sequence<double> vector__double_;
+
+    };
+    module metadata {
+        module Corba {
+            struct KeyValue {
+                string key;
+                string value;
+            };
+            typedef sequence<::orogen::metadata::Corba::KeyValue> vector__metadata_KeyValue_;
+            struct InterfaceObject {
+                string name;
+                ::orogen::metadata::Corba::vector__metadata_KeyValue_ metadata;
+            };
+            typedef sequence<::orogen::metadata::Corba::InterfaceObject> vector__metadata_InterfaceObject_;
+            struct TaskContext {
+                ::orogen::metadata::Corba::vector__metadata_KeyValue_ metadata;
+                ::orogen::metadata::Corba::vector__metadata_InterfaceObject_ properties;
+                ::orogen::metadata::Corba::vector__metadata_InterfaceObject_ input_ports;
+                ::orogen::metadata::Corba::vector__metadata_InterfaceObject_ output_ports;
+            };
+
+        };
+
+    };
+
+};
+
+
+#endif
+

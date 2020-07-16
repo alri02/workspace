@@ -1,0 +1,17 @@
+# Generated from orogen/lib/orogen/templates/typekit/mqueue/transport-mqueue.pc
+
+prefix=/home/alveena/workspace/install/tools/logger
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos/types
+includedir=${prefix}/include/orocos
+
+project_name=logger
+deffile=${prefix}/share/orogen/logger.orogen
+type_registry=${prefix}/share/orogen/logger.tlb
+
+Name: loggerMQueueTransport
+Version: 0.0
+Description: logger types support for the Orocos type system
+Libs: -L${libdir} -llogger-transport-mqueue-gnulinux
+Cflags: -I${includedir}
+

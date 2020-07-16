@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/alveena/workspace/Grid-visual/build/src",
+  "command": "/usr/bin/c++  -DBASE_LOG_NAMESPACE=dummy_project -DENABLE_DEBUG_DRAWINGS -DOROCOS_TARGET=gnulinux -DQT_SHARED -DUSE_PORTS -I/home/alveena/workspace/Grid-visual/build/include/_dummy_project_ -I/home/alveena/workspace/install/gui/osgviz/include -I/home/alveena/workspace/install/gui/vizkit3d/include -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/home/alveena/workspace/install/base/logging/include -I/home/alveena/workspace/install/base/types/include -I/usr/include/eigen3 -I/home/alveena/workspace/install/gui/vizkit3d_debug_drawings/include -I/home/alveena/workspace/install/rtt/include  -g   -Wall -Wno-unused-local-typedefs -std=c++11 -std=c++11 -std=c++11 -Wnon-virtual-dtor -o CMakeFiles/Grid_visual.dir/Main.cpp.o -c /home/alveena/workspace/Grid-visual/src/Main.cpp",
+  "file": "/home/alveena/workspace/Grid-visual/src/Main.cpp"
+}
+]

@@ -1,0 +1,40 @@
+/* Generated from orogen/lib/orogen/templates/typekit/corba/Types.idl */
+
+#ifndef __OROGEN_TYPEKIT_LOGGER_IDL__
+#define __OROGEN_TYPEKIT_LOGGER_IDL__
+
+#include <base/transports/corba/baseTypes.idl>
+#include <std/transports/corba/stdTypes.idl>
+
+module orogen {
+    module logger {
+        module Corba {
+            enum Logger_STATES { Logger_EXCEPTION, Logger_FATAL_ERROR, Logger_INIT, Logger_PRE_OPERATIONAL, Logger_RUNNING, Logger_RUNTIME_ERROR, Logger_STOPPED };
+            enum MarkerType { SingleEvent, Start, Stop };
+            struct Annotations {
+                ::orogen::base::Corba::Time time;
+                string stream_name;
+                string key;
+                string value;
+            };
+            struct Marker {
+                long id;
+                ::orogen::logger::Corba::MarkerType type;
+                string comment;
+                ::orogen::base::Corba::Time time;
+            };
+            struct StreamMetadata {
+                string key;
+                string value;
+            };
+            typedef sequence<::orogen::logger::Corba::StreamMetadata> vector__logger_StreamMetadata_;
+
+        };
+
+    };
+
+};
+
+
+#endif
+

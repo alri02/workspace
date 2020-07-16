@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/gui/vizkit3d_debug_drawings
+exec_prefix=/home/alveena/workspace/install/gui/vizkit3d_debug_drawings
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: vizkit3d_debug_drawings
+Description: 
+Version: 0.1
+Requires:  vizkit3d osgViz PrimitivesFactory orocos-rtt-gnulinux
+Libs: -L${libdir} -lvizkit3d_debug_drawings  -L/usr/lib/x86_64-linux-gnu -lboost_serialization
+Cflags: -I${includedir} -DUSE_PORTS  
+

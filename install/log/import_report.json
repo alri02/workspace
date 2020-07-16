@@ -1,0 +1,127 @@
+{
+  "import_report": {
+    "timestamp": "2020-03-29 04:13:05 +0200",
+    "packages": {
+      "base/scripts": {
+        "invoked": true,
+        "success": true
+      },
+      "gui/rock_widget_collection": {
+        "invoked": true,
+        "success": true
+      },
+      "gui/vizkit": {
+        "invoked": true,
+        "success": true
+      },
+      "gui/vizkit3d": {
+        "invoked": true,
+        "success": true
+      },
+      "gui/vizkit3d_debug_drawings": {
+        "invoked": true,
+        "success": true
+      },
+      "tools/roby": {
+        "invoked": true,
+        "success": true
+      },
+      "base/cmake": {
+        "invoked": true,
+        "success": true
+      },
+      "gui/osgviz": {
+        "invoked": true,
+        "success": true
+      },
+      "base/types": {
+        "invoked": true,
+        "success": true
+      },
+      "drivers/aggregator": {
+        "invoked": true,
+        "success": true
+      },
+      "perception/frame_helper": {
+        "invoked": true,
+        "success": true
+      },
+      "drivers/orogen/transformer": {
+        "invoked": true,
+        "success": true
+      },
+      "tools/orocos.rb": {
+        "invoked": true,
+        "success": true
+      },
+      "base/orogen/std": {
+        "invoked": true,
+        "success": true
+      },
+      "drivers/orogen/aggregator": {
+        "invoked": true,
+        "success": true
+      },
+      "drivers/transformer": {
+        "invoked": true,
+        "success": true
+      },
+      "tools/logger": {
+        "invoked": true,
+        "success": true
+      },
+      "tools/orogen_metadata": {
+        "invoked": true,
+        "success": true
+      },
+      "tools/service_discovery": {
+        "invoked": true,
+        "success": true
+      },
+      "perception/jpeg_conversion": {
+        "invoked": true,
+        "success": true
+      },
+      "rtt_typelib": {
+        "invoked": true,
+        "success": true
+      },
+      "typelib": {
+        "invoked": true,
+        "success": true
+      },
+      "rtt": {
+        "invoked": true,
+        "success": true
+      },
+      "orogen": {
+        "invoked": true,
+        "success": true
+      },
+      "base/orogen/types": {
+        "invoked": true,
+        "success": true
+      },
+      "base/logging": {
+        "invoked": true,
+        "success": true
+      },
+      "external/sisl": {
+        "invoked": true,
+        "success": true
+      },
+      "tools/pocolog": {
+        "invoked": true,
+        "success": true
+      },
+      "utilrb": {
+        "invoked": true,
+        "success": true
+      },
+      "tools/metaruby": {
+        "invoked": true,
+        "success": true
+      }
+    }
+  }
+}

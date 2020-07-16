@@ -1,0 +1,11 @@
+prefix=/home/alveena/workspace/install/tools/service_discovery
+exec_prefix=/home/alveena/workspace/install/tools/service_discovery
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: service_discovery
+Description: Service discovery based on AVAHI
+Version: 1.0
+Libs: -L${libdir} -lservice_discovery 
+Requires: sigc++-2.0 base-logging
+Cflags: -I${includedir} -I${includedir}/service_discovery/backward -I/usr/include/sigc++-2.0 -I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include

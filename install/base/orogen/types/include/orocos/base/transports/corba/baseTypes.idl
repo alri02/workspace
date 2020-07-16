@@ -1,0 +1,515 @@
+/* Generated from orogen/lib/orogen/templates/typekit/corba/Types.idl */
+
+#ifndef __OROGEN_TYPEKIT_BASE_IDL__
+#define __OROGEN_TYPEKIT_BASE_IDL__
+
+#include <std/transports/corba/stdTypes.idl>
+
+module orogen {
+    module base {
+        module JointState {
+            module Corba {
+                enum MODE { ACCELERATION, EFFORT, POSITION, RAW, SPEED, UNSET };
+
+            };
+
+        };
+        module Time {
+            module Corba {
+                enum Resolution { Microseconds, Milliseconds, Seconds };
+
+            };
+
+        };
+        module geometry {
+            module SplineBase {
+                module Corba {
+                    enum CoordinateType { DERIVATIVE_TO_NEXT, DERIVATIVE_TO_PRIOR, KNUCKLE_POINT, ORDINARY_POINT, SECOND_DERIVATIVE_TO_NEXT, SECOND_DERIVATIVE_TO_PRIOR, TANGENT_POINT_FOR_NEXT, TANGENT_POINT_FOR_PRIOR };
+
+                };
+
+            };
+
+        };
+        module samples {
+            module DepthMap {
+                module Corba {
+                    enum DEPTH_MEASUREMENT_STATE { MEASUREMENT_ERROR, TOO_FAR, TOO_NEAR, VALID_MEASUREMENT };
+                    enum PROJECTION_TYPE { PLANAR, POLAR };
+                    enum UNIT_AXIS { UNIT_X, UNIT_Y, UNIT_Z };
+
+                };
+
+            };
+            module Corba {
+                enum LASER_RANGE_ERRORS { END_LASER_RANGE_ERRORS, MAX_RANGE_ERROR, MEASUREMENT_ERROR, OTHER_RANGE_ERRORS, TOO_FAR, TOO_NEAR };
+
+            };
+            module frame {
+                module Corba {
+                    enum frame_mode_t { COMPRESSED_MODES, MODE_BAYER, MODE_BAYER_BGGR, MODE_BAYER_GBRG, MODE_BAYER_GRBG, MODE_BAYER_RGGB, MODE_BGR, MODE_GRAYSCALE, MODE_JPEG, MODE_PJPG, MODE_PNG, MODE_RGB, MODE_RGB32, MODE_UNDEFINED, MODE_UYVY, RAW_MODES };
+                    enum frame_status_t { STATUS_EMPTY, STATUS_INVALID, STATUS_VALID };
+                    struct frame_size_t {
+                        unsigned short width;
+                        unsigned short height;
+                    };
+
+                };
+
+            };
+
+        };
+        module Corba {
+            struct Angle {
+                double rad;
+            };
+            struct JointState {
+                double position;
+                float speed;
+                float effort;
+                float raw;
+                float acceleration;
+            };
+            struct PoseUpdateThreshold {
+                double distance;
+                double angle;
+            };
+            struct Pressure {
+                float pascal;
+            };
+            struct Temperature {
+                double kelvin;
+            };
+            struct Time {
+                long long microseconds;
+            };
+            struct JointLimitRange {
+                ::orogen::base::Corba::JointState min;
+                ::orogen::base::Corba::JointState max;
+            };
+            struct TimeStamped__base_commands_Motion2D_ {
+                double translation;
+                double rotation;
+                ::orogen::base::Corba::Angle heading;
+                ::orogen::base::Corba::Time time;
+            };
+
+        };
+        module commands {
+            module Corba {
+                struct Motion2D {
+                    double translation;
+                    double rotation;
+                    ::orogen::base::Corba::Angle heading;
+                };
+                struct Speed6D {
+                    double surge;
+                    double sway;
+                    double heave;
+                    double roll;
+                    double pitch;
+                    double yaw;
+                };
+
+            };
+
+        };
+        module samples {
+            module Corba {
+                struct Motion2D {
+                    double translation;
+                    double rotation;
+                    ::orogen::base::Corba::Angle heading;
+                    ::orogen::base::Corba::Time time;
+                };
+                struct Pressure {
+                    float pascal;
+                    ::orogen::base::Corba::Time time;
+                };
+                struct Temperature {
+                    double kelvin;
+                    ::orogen::base::Corba::Time time;
+                };
+
+            };
+
+        };
+        module Corba {
+            typedef sequence<::orogen::base::Corba::Angle> vector__base_Angle_;
+            typedef sequence<::orogen::base::Corba::JointLimitRange> vector__base_JointLimitRange_;
+            typedef sequence<::orogen::base::Corba::JointState> vector__base_JointState_;
+            typedef sequence<::orogen::base::Corba::Time> vector__base_Time_;
+
+        };
+
+    };
+    module Corba {
+        typedef sequence<float> vector__float_;
+        typedef sequence<unsigned long> vector__uint32_t_;
+        typedef sequence<octet> vector__uint8_t_;
+        typedef sequence<string> vector__std_string_;
+
+    };
+    module base {
+        module Corba {
+            typedef sequence<::orogen::base::Corba::vector__base_JointState_> vector__std_vector__base_JointState__;
+            struct JointLimits {
+                ::orogen::Corba::vector__std_string_ names;
+                ::orogen::base::Corba::vector__base_JointLimitRange_ elements;
+            };
+            struct JointsTrajectory {
+                ::orogen::Corba::vector__std_string_ names;
+                ::orogen::base::Corba::vector__std_vector__base_JointState__ elements;
+                ::orogen::base::Corba::vector__base_Time_ times;
+            };
+            struct NamedVector__base_JointLimitRange_ {
+                ::orogen::Corba::vector__std_string_ names;
+                ::orogen::base::Corba::vector__base_JointLimitRange_ elements;
+            };
+            struct NamedVector__base_JointState_ {
+                ::orogen::Corba::vector__std_string_ names;
+                ::orogen::base::Corba::vector__base_JointState_ elements;
+            };
+            struct NamedVector__std_vector__base_JointState__ {
+                ::orogen::Corba::vector__std_string_ names;
+                ::orogen::base::Corba::vector__std_vector__base_JointState__ elements;
+            };
+
+        };
+        module samples {
+            module Corba {
+                struct DepthMap {
+                    ::orogen::base::Corba::Time time;
+                    ::orogen::base::Corba::vector__base_Time_ timestamps;
+                    ::orogen::base::samples::DepthMap::Corba::PROJECTION_TYPE vertical_projection;
+                    ::orogen::base::samples::DepthMap::Corba::PROJECTION_TYPE horizontal_projection;
+                    ::orogen::Corba::vector__double_ vertical_interval;
+                    ::orogen::Corba::vector__double_ horizontal_interval;
+                    unsigned long vertical_size;
+                    unsigned long horizontal_size;
+                    ::orogen::Corba::vector__float_ distances;
+                    ::orogen::Corba::vector__float_ remissions;
+                };
+                struct DistanceImage {
+                    ::orogen::base::Corba::Time time;
+                    unsigned short width;
+                    unsigned short height;
+                    float scale_x;
+                    float scale_y;
+                    float center_x;
+                    float center_y;
+                    ::orogen::Corba::vector__float_ data;
+                };
+                struct Joints {
+                    ::orogen::Corba::vector__std_string_ names;
+                    ::orogen::base::Corba::vector__base_JointState_ elements;
+                    ::orogen::base::Corba::Time time;
+                };
+                struct LaserScan {
+                    ::orogen::base::Corba::Time time;
+                    double start_angle;
+                    double angular_resolution;
+                    double speed;
+                    ::orogen::Corba::vector__uint32_t_ ranges;
+                    unsigned long minRange;
+                    unsigned long maxRange;
+                    ::orogen::Corba::vector__float_ remission;
+                };
+                struct Sonar {
+                    ::orogen::base::Corba::Time time;
+                    ::orogen::base::Corba::vector__base_Time_ timestamps;
+                    ::orogen::base::Corba::Time bin_duration;
+                    ::orogen::base::Corba::Angle beam_width;
+                    ::orogen::base::Corba::Angle beam_height;
+                    ::orogen::base::Corba::vector__base_Angle_ bearings;
+                    float speed_of_sound;
+                    unsigned long bin_count;
+                    unsigned long beam_count;
+                    ::orogen::Corba::vector__float_ bins;
+                };
+                struct SonarBeam {
+                    ::orogen::base::Corba::Time time;
+                    ::orogen::base::Corba::Angle bearing;
+                    double sampling_interval;
+                    float speed_of_sound;
+                    float beamwidth_horizontal;
+                    float beamwidth_vertical;
+                    ::orogen::Corba::vector__uint8_t_ beam;
+                };
+                struct SonarScan {
+                    ::orogen::base::Corba::Time time;
+                    ::orogen::Corba::vector__uint8_t_ data;
+                    ::orogen::base::Corba::vector__base_Time_ time_beams;
+                    unsigned short number_of_beams;
+                    unsigned short number_of_bins;
+                    ::orogen::base::Corba::Angle start_bearing;
+                    ::orogen::base::Corba::Angle angular_resolution;
+                    double sampling_interval;
+                    float speed_of_sound;
+                    ::orogen::base::Corba::Angle beamwidth_horizontal;
+                    ::orogen::base::Corba::Angle beamwidth_vertical;
+                    boolean memory_layout_column;
+                    boolean polar_coordinates;
+                };
+
+            };
+            module frame {
+                module Corba {
+                    struct frame_attrib_t {
+                        string data_;
+                        string name_;
+                    };
+                    typedef sequence<::orogen::base::samples::frame::Corba::frame_attrib_t> vector__base_samples_frame_frame_attrib_t_;
+                    struct Frame {
+                        ::orogen::base::Corba::Time time;
+                        ::orogen::base::Corba::Time received_time;
+                        ::orogen::Corba::vector__uint8_t_ image;
+                        ::orogen::base::samples::frame::Corba::vector__base_samples_frame_frame_attrib_t_ attributes;
+                        ::orogen::base::samples::frame::Corba::frame_size_t size;
+                        unsigned long data_depth;
+                        unsigned long pixel_size;
+                        unsigned long row_size;
+                        ::orogen::base::samples::frame::Corba::frame_mode_t frame_mode;
+                        ::orogen::base::samples::frame::Corba::frame_status_t frame_status;
+                    };
+                    struct FramePair {
+                        ::orogen::base::Corba::Time time;
+                        ::orogen::base::samples::frame::Corba::Frame first;
+                        ::orogen::base::samples::frame::Corba::Frame second;
+                        unsigned long id;
+                    };
+
+                };
+
+            };
+
+        };
+
+    };
+    module wrappers {
+        module Corba {
+            struct AngleAxis__double_ {
+                double angle;
+                double axis[3];
+            };
+            struct Matrix__double_2_1_ {
+                double data[2];
+            };
+            struct Matrix__double_2_2_ {
+                double data[4];
+            };
+            struct Matrix__double_3_1_ {
+                double data[3];
+            };
+            struct Matrix__double_3_3_ {
+                double data[9];
+            };
+            struct Matrix__double_4_1_ {
+                double data[4];
+            };
+            struct Matrix__double_4_4_ {
+                double data[16];
+            };
+            struct Matrix__double_6_1_ {
+                double data[6];
+            };
+            struct Matrix__double_6_6_ {
+                double data[36];
+            };
+            struct MatrixX__double_ {
+                long rows;
+                long cols;
+                ::orogen::Corba::vector__double_ data;
+            };
+            struct Quaternion__double_ {
+                double im[3];
+                double re;
+            };
+            struct VectorX__double_ {
+                ::orogen::Corba::vector__double_ data;
+            };
+
+        };
+
+    };
+    module base {
+        module Corba {
+            struct JointTransform_m {
+                string sourceFrame;
+                string targetFrame;
+                ::orogen::wrappers::Corba::Matrix__double_3_1_ rotationAxis;
+            };
+            struct Pose2D_m {
+                ::orogen::wrappers::Corba::Matrix__double_2_1_ position;
+                double orientation;
+            };
+            struct Pose_m {
+                ::orogen::wrappers::Corba::Matrix__double_3_1_ position;
+                ::orogen::wrappers::Corba::Quaternion__double_ orientation;
+            };
+            struct TransformWithCovariance_m {
+                ::orogen::wrappers::Corba::Matrix__double_3_1_ translation;
+                ::orogen::wrappers::Corba::Quaternion__double_ orientation;
+                ::orogen::wrappers::Corba::Matrix__double_6_6_ cov;
+            };
+            struct TwistWithCovariance_m {
+                ::orogen::wrappers::Corba::Matrix__double_3_1_ vel;
+                ::orogen::wrappers::Corba::Matrix__double_3_1_ rot;
+                ::orogen::wrappers::Corba::Matrix__double_6_6_ cov;
+            };
+            struct Waypoint_m {
+                ::orogen::wrappers::Corba::Matrix__double_3_1_ position;
+                double heading;
+                double tol_position;
+                double tol_heading;
+            };
+            struct Wrench_m {
+                ::orogen::wrappers::Corba::Matrix__double_3_1_ force;
+                ::orogen::wrappers::Corba::Matrix__double_3_1_ torque;
+            };
+
+        };
+        module commands {
+            module Corba {
+                struct LinearAngular6DCommand_m {
+                    ::orogen::base::Corba::Time time;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ linear;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ angular;
+                };
+
+            };
+
+        };
+        module samples {
+            module Corba {
+                struct BodyState_m {
+                    ::orogen::base::Corba::Time time;
+                    ::orogen::base::Corba::TransformWithCovariance_m pose;
+                    ::orogen::base::Corba::TwistWithCovariance_m velocity;
+                };
+                struct IMUSensors_m {
+                    ::orogen::base::Corba::Time time;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ acc;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ gyro;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ mag;
+                };
+                struct PoseWithCovariance_m {
+                    ::orogen::base::Corba::Time time;
+                    string frame_id;
+                    string object_frame_id;
+                    ::orogen::base::Corba::TransformWithCovariance_m transform;
+                };
+                struct RigidBodyAcceleration_m {
+                    ::orogen::base::Corba::Time time;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ acceleration;
+                    ::orogen::wrappers::Corba::Matrix__double_3_3_ cov_acceleration;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ angular_acceleration;
+                    ::orogen::wrappers::Corba::Matrix__double_3_3_ cov_angular_acceleration;
+                };
+                struct RigidBodyState_m {
+                    ::orogen::base::Corba::Time time;
+                    string sourceFrame;
+                    string targetFrame;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ position;
+                    ::orogen::wrappers::Corba::Matrix__double_3_3_ cov_position;
+                    ::orogen::wrappers::Corba::Quaternion__double_ orientation;
+                    ::orogen::wrappers::Corba::Matrix__double_3_3_ cov_orientation;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ velocity;
+                    ::orogen::wrappers::Corba::Matrix__double_3_3_ cov_velocity;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ angular_velocity;
+                    ::orogen::wrappers::Corba::Matrix__double_3_3_ cov_angular_velocity;
+                };
+                struct Wrench_m {
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ force;
+                    ::orogen::wrappers::Corba::Matrix__double_3_1_ torque;
+                    ::orogen::base::Corba::Time time;
+                };
+
+            };
+
+        };
+        module Corba {
+            typedef sequence<::orogen::base::Corba::JointTransform_m> vector__base_JointTransform_m_;
+            typedef sequence<::orogen::base::Corba::Waypoint_m> vector__base_Waypoint_m_;
+            typedef sequence<::orogen::base::Corba::Wrench_m> vector__base_Wrench_m_;
+
+        };
+
+    };
+    module wrappers {
+        module Corba {
+            typedef sequence<::orogen::wrappers::Corba::Matrix__double_3_1_> vector__wrappers_Matrix__double_3_1__;
+            typedef sequence<::orogen::wrappers::Corba::Matrix__double_4_1_> vector__wrappers_Matrix__double_4_1__;
+
+        };
+
+    };
+    module base {
+        module Corba {
+            struct JointTransformVector_m {
+                ::orogen::Corba::vector__std_string_ names;
+                ::orogen::base::Corba::vector__base_JointTransform_m_ elements;
+            };
+            struct NamedVector__base_JointTransform__m {
+                ::orogen::Corba::vector__std_string_ names;
+                ::orogen::base::Corba::vector__base_JointTransform_m_ elements;
+            };
+            struct NamedVector__base_Wrench__m {
+                ::orogen::Corba::vector__std_string_ names;
+                ::orogen::base::Corba::vector__base_Wrench_m_ elements;
+            };
+
+        };
+        module samples {
+            module Corba {
+                struct Pointcloud_m {
+                    ::orogen::base::Corba::Time time;
+                    ::orogen::wrappers::Corba::vector__wrappers_Matrix__double_3_1__ points;
+                    ::orogen::wrappers::Corba::vector__wrappers_Matrix__double_4_1__ colors;
+                };
+                struct Wrenches_m {
+                    ::orogen::Corba::vector__std_string_ names;
+                    ::orogen::base::Corba::vector__base_Wrench_m_ elements;
+                    ::orogen::base::Corba::Time time;
+                };
+
+            };
+
+        };
+
+    };
+    module wrappers {
+        module geometry {
+            module Corba {
+                enum SplineType { DEGENERATE, POLYNOMIAL_BEZIER, POLYNOMIAL_BSPLINE, RATIONAL_BEZIER, RATIONAL_BSPLINE };
+                struct Spline {
+                    double geometric_resolution;
+                    long dimension;
+                    long curve_order;
+                    ::orogen::wrappers::geometry::Corba::SplineType kind;
+                    ::orogen::Corba::vector__double_ knots;
+                    ::orogen::Corba::vector__double_ vertices;
+                };
+
+            };
+
+        };
+
+    };
+    module base {
+        module Corba {
+            struct Trajectory_m {
+                double speed;
+                ::orogen::wrappers::geometry::Corba::Spline spline;
+            };
+            typedef sequence<::orogen::base::Corba::Trajectory_m> vector__base_Trajectory_m_;
+
+        };
+
+    };
+
+};
+
+
+#endif
+

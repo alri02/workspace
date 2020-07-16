@@ -1,0 +1,23 @@
+# Generated from orogen/lib/orogen/templates/tasks/tasks.pc
+
+prefix=/home/alveena/workspace/install/drivers/orogen/transformer
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos
+includedir=${prefix}/include/orocos
+
+
+
+project_name=transformer
+deffile=${prefix}/share/orogen/transformer.orogen
+task_models=transformer::Task
+typekits=transformer base orocos std
+
+Name: transformerTasks
+Version: 0.0
+Description: tasks defined for the transformer oroGen project
+Requires: 
+
+Libs:  -L${libdir} -ltransformer-tasks-gnulinux
+
+Cflags: -I${includedir} -I/home/alveena/workspace/install/tools/orogen_metadata/include -DOROCOS_TARGET=gnulinux -I/home/alveena/workspace/install/rtt/include -I/home/alveena/workspace/install/base/orogen/std/include/orocos -I/home/alveena/workspace/install/base/orogen/std/include/orocos/std/types -I/home/alveena/workspace/install/base/types/include -I/home/alveena/workspace/install/base/logging/include -I/usr/include/eigen3 -I/home/alveena/workspace/install/base/orogen/types/include/orocos -I/home/alveena/workspace/install/base/orogen/types/include/orocos/base/types -I/home/alveena/workspace/install/typelib/include -I/home/alveena/workspace/install/tools/logger/include/orocos -I/home/alveena/workspace/install/tools/logger/include/orocos/logger/types -I${includedir}/transformer/types
+

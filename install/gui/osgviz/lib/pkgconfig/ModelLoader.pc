@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/gui/osgviz
+exec_prefix=/home/alveena/workspace/install/gui/osgviz
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: ModelLoader
+Description: 
+Version: 0.1
+Requires:  openscenegraph openscenegraph
+Libs: -L${libdir} -lModelLoader  
+Cflags: -I${includedir}  -std=c++11
+

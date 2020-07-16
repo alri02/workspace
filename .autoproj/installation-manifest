@@ -1,0 +1,587 @@
+---
+- package_set: orocos.toolchain
+  vcs:
+    :type: git
+    :url: git@github.com:/orocos-toolchain/autoproj.git
+    :push_to: git@github.com:/orocos-toolchain/autoproj.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/orocos-toolchain/autoproj.git
+  raw_local_dir: "/home/alveena/workspace/.autoproj/remotes/github__orocos_toolchain_autoproj_git"
+  user_local_dir: "/home/alveena/workspace/autoproj/remotes/orocos.toolchain"
+- package_set: rock.core
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/package_set.git
+    :push_to: git@github.com:/rock-core/package_set.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/package_set.git
+  raw_local_dir: "/home/alveena/workspace/.autoproj/remotes/github__rock_core_package_set_git"
+  user_local_dir: "/home/alveena/workspace/autoproj/remotes/rock.core"
+- package_set: rock
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/rock-package_set.git
+    :push_to: git@github.com:/rock-core/rock-package_set.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/rock-package_set.git
+  raw_local_dir: "/home/alveena/workspace/.autoproj/remotes/github__rock_core_rock_package_set_git"
+  user_local_dir: "/home/alveena/workspace/autoproj/remotes/rock"
+- name: base/cmake
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/base-cmake.git
+    :push_to: git@github.com:/rock-core/base-cmake.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/base-cmake.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/base/cmake"
+  importdir: "/home/alveena/workspace/base/cmake"
+  builddir: "/home/alveena/workspace/base/cmake/build"
+  logdir: "/home/alveena/workspace/install/base/cmake/log"
+  prefix: "/home/alveena/workspace/install/base/cmake"
+  dependencies: []
+- name: drivers/orogen/transformer
+  type: Autobuild::Orogen
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/drivers-orogen-transformer.git
+    :push_to: git@github.com:/rock-core/drivers-orogen-transformer.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/drivers-orogen-transformer.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/drivers/orogen/transformer"
+  importdir: "/home/alveena/workspace/drivers/orogen/transformer"
+  builddir: "/home/alveena/workspace/drivers/orogen/transformer/build"
+  logdir: "/home/alveena/workspace/install/drivers/orogen/transformer/log"
+  prefix: "/home/alveena/workspace/install/drivers/orogen/transformer"
+  dependencies:
+  - tools/orogen_metadata
+  - drivers/orogen/aggregator
+  - drivers/transformer
+  - tools/logger
+  - base/orogen/std
+  - tools/service_discovery
+- name: tools/orogen_metadata
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/tools-orogen_metadata.git
+    :push_to: git@github.com:/rock-core/tools-orogen_metadata.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/tools-orogen_metadata.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/orogen_metadata"
+  importdir: "/home/alveena/workspace/tools/orogen_metadata"
+  builddir: "/home/alveena/workspace/tools/orogen_metadata/build"
+  logdir: "/home/alveena/workspace/install/tools/orogen_metadata/log"
+  prefix: "/home/alveena/workspace/install/tools/orogen_metadata"
+  dependencies:
+  - base/cmake
+  - typelib
+- name: typelib
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/orocos-toolchain/typelib.git
+    :push_to: git@github.com:/orocos-toolchain/typelib.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/orocos-toolchain/typelib.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/typelib"
+  importdir: "/home/alveena/workspace/tools/typelib"
+  builddir: "/home/alveena/workspace/tools/typelib/build"
+  logdir: "/home/alveena/workspace/install/typelib/log"
+  prefix: "/home/alveena/workspace/install/typelib"
+  dependencies:
+  - utilrb
+- name: utilrb
+  type: Autobuild::Ruby
+  vcs:
+    :type: git
+    :url: git@github.com:/orocos-toolchain/utilrb.git
+    :push_to: git@github.com:/orocos-toolchain/utilrb.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/orocos-toolchain/utilrb.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/utilrb"
+  importdir: "/home/alveena/workspace/tools/utilrb"
+  builddir: 
+  logdir: "/home/alveena/workspace/install/utilrb/log"
+  prefix: "/home/alveena/workspace/tools/utilrb"
+  dependencies: []
+- name: drivers/orogen/aggregator
+  type: Autobuild::Orogen
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/drivers-orogen-aggregator.git
+    :push_to: git@github.com:/rock-core/drivers-orogen-aggregator.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/drivers-orogen-aggregator.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/drivers/orogen/aggregator"
+  importdir: "/home/alveena/workspace/drivers/orogen/aggregator"
+  builddir: "/home/alveena/workspace/drivers/orogen/aggregator/build"
+  logdir: "/home/alveena/workspace/install/drivers/orogen/aggregator/log"
+  prefix: "/home/alveena/workspace/install/drivers/orogen/aggregator"
+  dependencies:
+  - tools/orogen_metadata
+  - drivers/aggregator
+  - base/orogen/types
+  - tools/logger
+  - base/orogen/std
+  - tools/service_discovery
+- name: drivers/aggregator
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/drivers-aggregator.git
+    :push_to: git@github.com:/rock-core/drivers-aggregator.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/drivers-aggregator.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/drivers/aggregator"
+  importdir: "/home/alveena/workspace/drivers/aggregator"
+  builddir: "/home/alveena/workspace/drivers/aggregator/build"
+  logdir: "/home/alveena/workspace/install/drivers/aggregator/log"
+  prefix: "/home/alveena/workspace/install/drivers/aggregator"
+  dependencies:
+  - base/types
+- name: base/types
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/base-types.git
+    :push_to: git@github.com:/rock-core/base-types.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/base-types.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/base/types"
+  importdir: "/home/alveena/workspace/base/types"
+  builddir: "/home/alveena/workspace/base/types/build"
+  logdir: "/home/alveena/workspace/install/base/types/log"
+  prefix: "/home/alveena/workspace/install/base/types"
+  dependencies:
+  - base/cmake
+  - base/logging
+  - external/sisl
+  - gui/vizkit3d
+- name: base/logging
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/base-logging.git
+    :push_to: git@github.com:/rock-core/base-logging.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/base-logging.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/base/logging"
+  importdir: "/home/alveena/workspace/base/logging"
+  builddir: "/home/alveena/workspace/base/logging/build"
+  logdir: "/home/alveena/workspace/install/base/logging/log"
+  prefix: "/home/alveena/workspace/install/base/logging"
+  dependencies:
+  - base/cmake
+- name: external/sisl
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/SINTEF-Geometry/SISL.git
+    :push_to: git@github.com:/SINTEF-Geometry/SISL.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/SINTEF-Geometry/SISL.git
+  srcdir: "/home/alveena/workspace/external/sisl"
+  importdir: "/home/alveena/workspace/external/sisl"
+  builddir: "/home/alveena/workspace/external/sisl/build"
+  logdir: "/home/alveena/workspace/install/external/sisl/log"
+  prefix: "/home/alveena/workspace/install/external/sisl"
+  dependencies: []
+- name: gui/vizkit3d
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/gui-vizkit3d.git
+    :push_to: git@github.com:/rock-core/gui-vizkit3d.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/gui-vizkit3d.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/gui/vizkit3d"
+  importdir: "/home/alveena/workspace/gui/vizkit3d"
+  builddir: "/home/alveena/workspace/gui/vizkit3d/build"
+  logdir: "/home/alveena/workspace/install/gui/vizkit3d/log"
+  prefix: "/home/alveena/workspace/install/gui/vizkit3d"
+  dependencies:
+  - base/cmake
+  - gui/osgviz
+- name: gui/osgviz
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/gui-osgviz.git
+    :push_to: git@github.com:/rock-core/gui-osgviz.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/gui-osgviz.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/gui/osgviz"
+  importdir: "/home/alveena/workspace/gui/osgviz"
+  builddir: "/home/alveena/workspace/gui/osgviz/build"
+  logdir: "/home/alveena/workspace/install/gui/osgviz/log"
+  prefix: "/home/alveena/workspace/install/gui/osgviz"
+  dependencies:
+  - base/cmake
+- name: base/orogen/types
+  type: Autobuild::Orogen
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/base-orogen-types.git
+    :push_to: git@github.com:/rock-core/base-orogen-types.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/base-orogen-types.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/base/orogen/types"
+  importdir: "/home/alveena/workspace/base/orogen/types"
+  builddir: "/home/alveena/workspace/base/orogen/types/build"
+  logdir: "/home/alveena/workspace/install/base/orogen/types/log"
+  prefix: "/home/alveena/workspace/install/base/orogen/types"
+  dependencies:
+  - tools/orogen_metadata
+  - base/types
+  - external/sisl
+  - base/orogen/std
+  - orogen
+  - rtt
+  - tools/service_discovery
+- name: base/orogen/std
+  type: Autobuild::Orogen
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/base-orogen-std.git
+    :push_to: git@github.com:/rock-core/base-orogen-std.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/base-orogen-std.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/base/orogen/std"
+  importdir: "/home/alveena/workspace/base/orogen/std"
+  builddir: "/home/alveena/workspace/base/orogen/std/build"
+  logdir: "/home/alveena/workspace/install/base/orogen/std/log"
+  prefix: "/home/alveena/workspace/install/base/orogen/std"
+  dependencies:
+  - tools/orogen_metadata
+  - orogen
+  - tools/service_discovery
+- name: orogen
+  type: Autobuild::Ruby
+  vcs:
+    :type: git
+    :url: git@github.com:/orocos-toolchain/orogen.git
+    :push_to: git@github.com:/orocos-toolchain/orogen.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/orocos-toolchain/orogen.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/orogen"
+  importdir: "/home/alveena/workspace/tools/orogen"
+  builddir: 
+  logdir: "/home/alveena/workspace/install/orogen/log"
+  prefix: "/home/alveena/workspace/tools/orogen"
+  dependencies:
+  - rtt
+  - typelib
+  - rtt_typelib
+  - utilrb
+  - tools/metaruby
+- name: rtt
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/orocos-toolchain/rtt.git
+    :push_to: git@github.com:/orocos-toolchain/rtt.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/orocos-toolchain/rtt.git
+    :branch: master
+    :commit: baaea5022bc79f94770a962e2e16cc0cb28cde0b
+  srcdir: "/home/alveena/workspace/tools/rtt"
+  importdir: "/home/alveena/workspace/tools/rtt"
+  builddir: "/home/alveena/workspace/tools/rtt/build"
+  logdir: "/home/alveena/workspace/install/rtt/log"
+  prefix: "/home/alveena/workspace/install/rtt"
+  dependencies: []
+- name: rtt_typelib
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/orocos-toolchain/rtt_typelib.git
+    :push_to: git@github.com:/orocos-toolchain/rtt_typelib.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/orocos-toolchain/rtt_typelib.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/rtt_typelib"
+  importdir: "/home/alveena/workspace/tools/rtt_typelib"
+  builddir: "/home/alveena/workspace/tools/rtt_typelib/build"
+  logdir: "/home/alveena/workspace/install/rtt_typelib/log"
+  prefix: "/home/alveena/workspace/install/rtt_typelib"
+  dependencies:
+  - rtt
+  - typelib
+- name: tools/metaruby
+  type: Autobuild::Ruby
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/tools-metaruby.git
+    :push_to: git@github.com:/rock-core/tools-metaruby.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/tools-metaruby.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/metaruby"
+  importdir: "/home/alveena/workspace/tools/metaruby"
+  builddir: 
+  logdir: "/home/alveena/workspace/install/tools/metaruby/log"
+  prefix: "/home/alveena/workspace/tools/metaruby"
+  dependencies:
+  - utilrb
+- name: tools/service_discovery
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/tools-service_discovery.git
+    :push_to: git@github.com:/rock-core/tools-service_discovery.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/tools-service_discovery.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/service_discovery"
+  importdir: "/home/alveena/workspace/tools/service_discovery"
+  builddir: "/home/alveena/workspace/tools/service_discovery/build"
+  logdir: "/home/alveena/workspace/install/tools/service_discovery/log"
+  prefix: "/home/alveena/workspace/install/tools/service_discovery"
+  dependencies:
+  - base/logging
+- name: tools/logger
+  type: Autobuild::Orogen
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/tools-logger.git
+    :push_to: git@github.com:/rock-core/tools-logger.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/tools-logger.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/logger"
+  importdir: "/home/alveena/workspace/tools/logger"
+  builddir: "/home/alveena/workspace/tools/logger/build"
+  logdir: "/home/alveena/workspace/install/tools/logger/log"
+  prefix: "/home/alveena/workspace/install/tools/logger"
+  dependencies:
+  - tools/orogen_metadata
+  - base/orogen/types
+  - orogen
+  - typelib
+  - base/orogen/std
+  - tools/service_discovery
+- name: drivers/transformer
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/drivers-transformer.git
+    :push_to: git@github.com:/rock-core/drivers-transformer.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/drivers-transformer.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/drivers/transformer"
+  importdir: "/home/alveena/workspace/drivers/transformer"
+  builddir: "/home/alveena/workspace/drivers/transformer/build"
+  logdir: "/home/alveena/workspace/install/drivers/transformer/log"
+  prefix: "/home/alveena/workspace/install/drivers/transformer"
+  dependencies:
+  - drivers/aggregator
+- name: tools/orocos.rb
+  type: Autobuild::Ruby
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/tools-orocosrb.git
+    :push_to: git@github.com:/rock-core/tools-orocosrb.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/tools-orocosrb.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/orocos.rb"
+  importdir: "/home/alveena/workspace/tools/orocos.rb"
+  builddir: 
+  logdir: "/home/alveena/workspace/install/tools/orocos.rb/log"
+  prefix: "/home/alveena/workspace/tools/orocos.rb"
+  dependencies:
+  - base/orogen/std
+  - orogen
+  - tools/pocolog
+- name: tools/pocolog
+  type: Autobuild::Ruby
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/tools-pocolog.git
+    :push_to: git@github.com:/rock-core/tools-pocolog.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/tools-pocolog.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/pocolog"
+  importdir: "/home/alveena/workspace/tools/pocolog"
+  builddir: 
+  logdir: "/home/alveena/workspace/install/tools/pocolog/log"
+  prefix: "/home/alveena/workspace/tools/pocolog"
+  dependencies:
+  - typelib
+  - utilrb
+- name: gui/rock_widget_collection
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/gui-rock_widget_collection.git
+    :push_to: git@github.com:/rock-core/gui-rock_widget_collection.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/gui-rock_widget_collection.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/gui/rock_widget_collection"
+  importdir: "/home/alveena/workspace/gui/rock_widget_collection"
+  builddir: "/home/alveena/workspace/gui/rock_widget_collection/build"
+  logdir: "/home/alveena/workspace/install/gui/rock_widget_collection/log"
+  prefix: "/home/alveena/workspace/install/gui/rock_widget_collection"
+  dependencies:
+  - base/types
+  - perception/frame_helper
+  - drivers/aggregator
+- name: perception/frame_helper
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/perception-frame_helper.git
+    :push_to: git@github.com:/rock-core/perception-frame_helper.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/perception-frame_helper.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/perception/frame_helper"
+  importdir: "/home/alveena/workspace/perception/frame_helper"
+  builddir: "/home/alveena/workspace/perception/frame_helper/build"
+  logdir: "/home/alveena/workspace/install/perception/frame_helper/log"
+  prefix: "/home/alveena/workspace/install/perception/frame_helper"
+  dependencies:
+  - base/types
+  - perception/jpeg_conversion
+  - typelib
+  - rtt_typelib
+- name: perception/jpeg_conversion
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/perception-jpeg_conversion.git
+    :push_to: git@github.com:/rock-core/perception-jpeg_conversion.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/perception-jpeg_conversion.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/perception/jpeg_conversion"
+  importdir: "/home/alveena/workspace/perception/jpeg_conversion"
+  builddir: "/home/alveena/workspace/perception/jpeg_conversion/build"
+  logdir: "/home/alveena/workspace/install/perception/jpeg_conversion/log"
+  prefix: "/home/alveena/workspace/install/perception/jpeg_conversion"
+  dependencies:
+  - base/types
+- name: base/scripts
+  type: Autobuild::Ruby
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/base-scripts.git
+    :push_to: git@github.com:/rock-core/base-scripts.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/base-scripts.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/base/scripts"
+  importdir: "/home/alveena/workspace/base/scripts"
+  builddir: 
+  logdir: "/home/alveena/workspace/install/base/scripts/log"
+  prefix: "/home/alveena/workspace/base/scripts"
+  dependencies:
+  - tools/roby
+- name: tools/roby
+  type: Autobuild::Ruby
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/tools-roby.git
+    :push_to: git@github.com:/rock-core/tools-roby.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/tools-roby.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/tools/roby"
+  importdir: "/home/alveena/workspace/tools/roby"
+  builddir: 
+  logdir: "/home/alveena/workspace/install/tools/roby/log"
+  prefix: "/home/alveena/workspace/tools/roby"
+  dependencies:
+  - utilrb
+  - tools/metaruby
+- name: gui/vizkit
+  type: Autobuild::Ruby
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-core/gui-vizkit.git
+    :push_to: git@github.com:/rock-core/gui-vizkit.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-core/gui-vizkit.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/gui/vizkit"
+  importdir: "/home/alveena/workspace/gui/vizkit"
+  builddir: 
+  logdir: "/home/alveena/workspace/install/gui/vizkit/log"
+  prefix: "/home/alveena/workspace/gui/vizkit"
+  dependencies:
+  - base/cmake
+  - drivers/orogen/transformer
+  - tools/orocos.rb
+  - gui/rock_widget_collection
+  - base/scripts
+  - gui/vizkit3d
+- name: gui/vizkit3d_debug_drawings
+  type: Autobuild::CMake
+  vcs:
+    :type: git
+    :url: git@github.com:/rock-gui/gui-vizkit3d_debug_drawings.git
+    :push_to: git@github.com:/rock-gui/gui-vizkit3d_debug_drawings.git
+    :interactive: false
+    :retry_count: 10
+    :repository_id: github:/rock-gui/gui-vizkit3d_debug_drawings.git
+    :branch: master
+  srcdir: "/home/alveena/workspace/gui/vizkit3d_debug_drawings"
+  importdir: "/home/alveena/workspace/gui/vizkit3d_debug_drawings"
+  builddir: "/home/alveena/workspace/gui/vizkit3d_debug_drawings/build"
+  logdir: "/home/alveena/workspace/install/gui/vizkit3d_debug_drawings/log"
+  prefix: "/home/alveena/workspace/install/gui/vizkit3d_debug_drawings"
+  dependencies:
+  - base/cmake
+  - gui/vizkit3d
+  - gui/osgviz
+  - rtt

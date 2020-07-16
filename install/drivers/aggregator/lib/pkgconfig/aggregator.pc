@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/drivers/aggregator
+exec_prefix=/home/alveena/workspace/install/drivers/aggregator
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: aggregator
+Description: 
+Version: 0.1
+Requires:  base-types base-lib
+Libs: -L${libdir} -laggregator
+Cflags: -I${includedir}
+

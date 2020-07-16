@@ -1,0 +1,16 @@
+prefix=/home/alveena/workspace/install/drivers/orogen/transformer
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos
+includedir=${prefix}/include/orocos
+binfile=${prefix}/bin/orogen_default_transformer__Task
+
+project_name=transformer
+deffile=${prefix}/share/orogen/transformer.orogen
+typekits=transformer base logger std
+deployed_tasks=orogen_default_transformer__Task,orogen_default_transformer__Task_Logger
+deployed_tasks_with_models=orogen_default_transformer__Task,transformer::Task,orogen_default_transformer__Task_Logger,logger::Logger
+
+Name: orogen_default_transformer__Task
+Version: 0.0
+Description: the static deployment defined for the orogen_default_transformer__Task deployment
+

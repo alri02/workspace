@@ -1,0 +1,7 @@
+extdir=/home/alveena/workspace/install/tools/service_discovery/lib/ruby/2.5.0/x86_64-linux
+
+Name: servicediscovery_ruby
+Description: Service discovery based on AVAHI
+Libs: -L${extdir}
+Version: 1.0
+Cflags: -I${extdir}

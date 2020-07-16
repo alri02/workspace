@@ -1,0 +1,18 @@
+# Generated from orogen/lib/orogen/templates/typekit/corba/transport-corba.pc
+
+prefix=/home/alveena/workspace/install/tools/logger
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos/types
+includedir=${prefix}/include/orocos
+
+project_name=logger
+deffile=${prefix}/share/orogen/logger.orogen
+type_registry=${prefix}/share/orogen/logger.tlb
+corba_idl_requires=base,std
+
+Name: loggerCorbaTransport
+Version: 0.0
+Description: logger types support for the Orocos type system
+Libs: -L${libdir} -llogger-transport-corba-gnulinux
+Cflags: -I${includedir}
+

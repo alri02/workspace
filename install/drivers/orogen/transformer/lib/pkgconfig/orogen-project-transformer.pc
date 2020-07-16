@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/drivers/orogen/transformer
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos
+includedir=${prefix}/include/orocos
+
+project_name=transformer
+deffile=${prefix}/share/orogen/transformer.orogen
+type_registry=${prefix}/share/orogen/transformer.tlb
+
+Name: transformer
+Version: 0.0
+Description: the definition file for the orogen project itself

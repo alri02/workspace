@@ -1,0 +1,12 @@
+prefix=/home/arifat/workspace/install/gui/vizkit3d
+exec_prefix=/home/arifat/workspace/install/gui/vizkit3d
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: vizkit3d-viz
+Description: Vizkit3D plugins from Vizkit itself
+Version: 1.0
+Requires: vizkit3d
+Libs: -L${libdir} -lvizkit3d-viz
+Cflags: -I${includedir}
+

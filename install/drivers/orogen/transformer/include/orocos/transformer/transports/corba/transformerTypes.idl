@@ -1,0 +1,73 @@
+/* Generated from orogen/lib/orogen/templates/typekit/corba/Types.idl */
+
+#ifndef __OROGEN_TYPEKIT_TRANSFORMER_IDL__
+#define __OROGEN_TYPEKIT_TRANSFORMER_IDL__
+
+#include <base/transports/corba/baseTypes.idl>
+#include <std/transports/corba/stdTypes.idl>
+
+module orogen {
+    module transformer {
+        module Corba {
+            struct PortFrameAssociation {
+                string task;
+                string port;
+                string frame;
+            };
+            struct PortTransformationAssociation {
+                string task;
+                string port;
+                string from_frame;
+                string to_frame;
+            };
+            enum Task_STATES { Task_EXCEPTION, Task_FATAL_ERROR, Task_INIT, Task_PRE_OPERATIONAL, Task_RUNNING, Task_RUNTIME_ERROR, Task_STOPPED };
+            typedef sequence<::orogen::transformer::Corba::PortFrameAssociation> vector__transformer_PortFrameAssociation_;
+            typedef sequence<::orogen::transformer::Corba::PortTransformationAssociation> vector__transformer_PortTransformationAssociation_;
+            struct TransformationStatus {
+                string source_local;
+                string target_local;
+                string source_global;
+                string target_global;
+                ::orogen::base::Corba::Time last_generated_value;
+                long chain_length;
+                unsigned long long generated_transformations;
+                unsigned long long failed_no_chain;
+                unsigned long long failed_no_sample;
+                unsigned long long failed_interpolation_impossible;
+            };
+            typedef sequence<::orogen::transformer::Corba::TransformationStatus> vector__transformer_TransformationStatus_;
+            struct TransformerStatus {
+                ::orogen::base::Corba::Time time;
+                ::orogen::transformer::Corba::vector__transformer_TransformationStatus_ transformations;
+            };
+
+        };
+
+    };
+    module base {
+        module samples {
+            module Corba {
+                typedef sequence<::orogen::base::samples::Corba::RigidBodyState_m> vector__base_samples_RigidBodyState_m_;
+
+            };
+
+        };
+
+    };
+    module transformer {
+        module Corba {
+            struct ConfigurationState_m {
+                ::orogen::transformer::Corba::vector__transformer_PortFrameAssociation_ port_frame_associations;
+                ::orogen::transformer::Corba::vector__transformer_PortTransformationAssociation_ port_transformation_associations;
+                ::orogen::base::samples::Corba::vector__base_samples_RigidBodyState_m_ static_transformations;
+            };
+
+        };
+
+    };
+
+};
+
+
+#endif
+

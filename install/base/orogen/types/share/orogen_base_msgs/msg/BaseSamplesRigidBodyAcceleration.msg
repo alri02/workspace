@@ -1,0 +1,6 @@
+time time
+BaseVector3d acceleration
+BaseMatrix3d cov_acceleration
+BaseVector3d angular_acceleration
+BaseMatrix3d cov_angular_acceleration
+

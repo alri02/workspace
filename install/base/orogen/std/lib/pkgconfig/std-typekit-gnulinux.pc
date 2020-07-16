@@ -1,0 +1,18 @@
+# Generated from orogen/lib/orogen/templates/typekit/typekit.pc
+
+prefix=/home/alveena/workspace/install/base/orogen/std
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos/types
+includedir=${prefix}/include/orocos
+
+project_name=std
+deffile=${prefix}/share/orogen/std.orogen
+type_registry=${prefix}/share/orogen/std.tlb
+
+Name: stdTypekit
+Version: 1.0
+Requires: orogen_metadata
+Description: std types support for the Orocos type system
+Libs: -L${libdir} -lstd-typekit-gnulinux
+Cflags: -I${includedir} -I${includedir}/std/types -I/home/alveena/workspace/install/tools/orogen_metadata/include "-DOROCOS_TARGET=gnulinux" "-I/home/alveena/workspace/install/rtt/include" "-I/home/alveena/workspace/install/tools/orogen_metadata/include"
+

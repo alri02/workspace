@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<typelib>
+  <numeric category='sint' name='/int32_t' size='4'>
+  <metadata key='orogen_include'><![CDATA[boost/cstdint.hpp]]></metadata>
+
+  </numeric>
+  <numeric category='sint' name='/int64_t' size='8'>
+  <metadata key='cxxname'><![CDATA[::int64_t]]></metadata>
+<metadata key='orogen_include'><![CDATA[boost/cstdint.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:27]]></metadata>
+
+  </numeric>
+  <numeric category='sint' name='/int8_t' size='1'>
+  <metadata key='orogen_include'><![CDATA[boost/cstdint.hpp]]></metadata>
+
+  </numeric>
+  <compound name='/base/Time' size='8'>
+    <field name='microseconds' offset='0' type='/int64_t'>
+    <metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/base/types/include/base/Time.hpp:17]]></metadata>
+
+    </field>
+  <metadata key='cxxname'><![CDATA[::base::Time]]></metadata>
+<metadata key='orogen_include'><![CDATA[base:base/Time.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/install/base/types/include/base/Time.hpp:11]]></metadata>
+
+  </compound>
+  <enum name='/logger/Logger_STATES'>
+    <value symbol='Logger_EXCEPTION' value='3'/>
+    <value symbol='Logger_FATAL_ERROR' value='2'/>
+    <value symbol='Logger_INIT' value='0'/>
+    <value symbol='Logger_PRE_OPERATIONAL' value='1'/>
+    <value symbol='Logger_RUNNING' value='5'/>
+    <value symbol='Logger_RUNTIME_ERROR' value='6'/>
+    <value symbol='Logger_STOPPED' value='4'/>
+  <metadata key='cxxname'><![CDATA[::logger::Logger_STATES]]></metadata>
+<metadata key='orogen_defining_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_exporting_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_include'><![CDATA[logger:logger/TaskStates.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/.orogen/typekit/types/logger/TaskStates.hpp:9]]></metadata>
+
+  </enum>
+  <enum name='/logger/MarkerType'>
+    <value symbol='SingleEvent' value='0'/>
+    <value symbol='Start' value='2'/>
+    <value symbol='Stop' value='1'/>
+  <metadata key='cxxname'><![CDATA[::logger::MarkerType]]></metadata>
+<metadata key='doc'><![CDATA[DEPRECATED. This predated the annotation / metadata system ]]></metadata>
+<metadata key='orogen_defining_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_exporting_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_include'><![CDATA[logger:logger/LoggerTypes.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:8]]></metadata>
+
+  </enum>
+  <container kind='/std/string' name='/std/string' of='/int8_t' size='32'>
+  <metadata key='cxxname'><![CDATA[::std::string]]></metadata>
+<metadata key='doc'><![CDATA[A string of @c char]]></metadata>
+<metadata key='orogen_include'><![CDATA[:boost/cstdint.hpp]]></metadata>
+<metadata key='orogen_include'><![CDATA[:string]]></metadata>
+<metadata key='source_file_line'><![CDATA[/usr/include/c++/7/bits/stringfwd.h:74]]></metadata>
+
+  </container>
+  <compound name='/logger/Annotations' size='104'>
+    <field name='time' offset='0' type='/base/Time'>
+    <metadata key='doc'><![CDATA[The time of this annotation. Assign to a null type (base::Time()) if
+no specific time is associated]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:37]]></metadata>
+
+    </field>
+    <field name='stream_name' offset='8' type='/std/string'>
+    <metadata key='doc'><![CDATA[If the annotation applies to a particular stream, the name of the
+stream. Can be left empty for general information]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:41]]></metadata>
+
+    </field>
+    <field name='key' offset='40' type='/std/string'>
+    <metadata key='doc'><![CDATA[The application-specific key. See
+http://rock.opendfki.de/wiki/WikiStart/OngoingWork/LogMetadata for
+some standard annotations]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:46]]></metadata>
+
+    </field>
+    <field name='value' offset='72' type='/std/string'>
+    <metadata key='doc'><![CDATA[The application-specific value. See
+http://rock.opendfki.de/wiki/WikiStart/OngoingWork/LogMetadata for
+some standard annotations]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:51]]></metadata>
+
+    </field>
+  <metadata key='cxxname'><![CDATA[::logger::Annotations]]></metadata>
+<metadata key='doc'><![CDATA[Structure used to store metadata information / events in log files. It
+is used by creating a new log port, usually called "annotations", with
+the metadata rock_stream_type=annotations and this type
+
+When metadata is associated with a particular stream, this scheme assumes
+that stream names are unique in a single file after discussion, we
+decided that it is a sane constraint, as most of the tooling would be
+made a lot more complex otherwise. Moreover, the stream index is not
+stable if you extract data out of a file.]]></metadata>
+<metadata key='orogen_defining_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_exporting_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_include'><![CDATA[logger:logger/LoggerTypes.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:32]]></metadata>
+
+  </compound>
+  <compound name='/logger/Marker' size='48'>
+    <field name='id' offset='0' type='/int32_t'>
+    <metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:16]]></metadata>
+
+    </field>
+    <field name='type' offset='4' type='/logger/MarkerType'>
+    <metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:17]]></metadata>
+
+    </field>
+    <field name='comment' offset='8' type='/std/string'>
+    <metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:18]]></metadata>
+
+    </field>
+    <field name='time' offset='40' type='/base/Time'>
+    <metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:19]]></metadata>
+
+    </field>
+  <metadata key='cxxname'><![CDATA[::logger::Marker]]></metadata>
+<metadata key='doc'><![CDATA[DEPRECATED. This predated the annotation / metadata system ]]></metadata>
+<metadata key='orogen_defining_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_exporting_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_include'><![CDATA[logger:logger/LoggerTypes.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:15]]></metadata>
+
+  </compound>
+  <compound name='/logger/StreamMetadata' size='64'>
+    <field name='key' offset='0' type='/std/string'>
+    <metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:58]]></metadata>
+
+    </field>
+    <field name='value' offset='32' type='/std/string'>
+    <metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:59]]></metadata>
+
+    </field>
+  <metadata key='cxxname'><![CDATA[::logger::StreamMetadata]]></metadata>
+<metadata key='doc'><![CDATA[Structure passed to createLoggingPort to add metadata to streams]]></metadata>
+<metadata key='orogen_defining_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_exporting_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_include'><![CDATA[logger:logger/LoggerTypes.hpp]]></metadata>
+<metadata key='source_file_line'><![CDATA[/home/alveena/workspace/tools/logger/LoggerTypes.hpp:56]]></metadata>
+
+  </compound>
+  <container kind='/std/vector' name='/std/vector&lt;/logger/StreamMetadata&gt;' of='/logger/StreamMetadata' size='24'>
+  <metadata key='orogen_defining_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_exporting_typekits'><![CDATA[logger]]></metadata>
+<metadata key='orogen_include'><![CDATA[:vector]]></metadata>
+<metadata key='orogen_include'><![CDATA[logger:logger/LoggerTypes.hpp]]></metadata>
+
+  </container>
+</typelib>

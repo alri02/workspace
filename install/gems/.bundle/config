@@ -1,0 +1,4 @@
+---
+BUNDLE_PATH: "/home/alveena/.local/share/autoproj/gems"
+BUNDLE_BIN: "/home/alveena/workspace/install/gems/bin"
+BUNDLE_SHEBANG: "/home/alveena/.rbenv/versions/2.5.1/bin/ruby"

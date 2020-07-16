@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/base/types
+exec_prefix=/home/alveena/workspace/install/base/types
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: base-viz
+Description: base types Vizkit3D plugins
+Version: 1.0
+Requires: vizkit3d
+Libs: -L${libdir} -lbase-viz
+Cflags: -I${includedir}
+

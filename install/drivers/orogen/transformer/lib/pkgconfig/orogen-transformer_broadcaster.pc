@@ -1,0 +1,16 @@
+prefix=/home/alveena/workspace/install/drivers/orogen/transformer
+exec_prefix=${prefix}
+libdir=${prefix}/lib/orocos
+includedir=${prefix}/include/orocos
+binfile=${prefix}/bin/transformer_broadcaster
+
+project_name=transformer
+deffile=${prefix}/share/orogen/transformer.orogen
+typekits=transformer base logger std
+deployed_tasks=transformer_broadcaster,transformer_broadcaster_Logger
+deployed_tasks_with_models=transformer_broadcaster,transformer::Task,transformer_broadcaster_Logger,logger::Logger
+
+Name: transformer_broadcaster
+Version: 0.0
+Description: the static deployment defined for the transformer_broadcaster deployment
+

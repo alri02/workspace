@@ -1,0 +1,12 @@
+prefix=/home/alveena/workspace/install/base/logging
+exec_prefix=/home/alveena/workspace/install/base/logging
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: base-logging
+Description: 
+Version: 0.1
+Requires:  
+Libs: -L${libdir} -lbase-logging   
+Cflags: -I${includedir}  
+

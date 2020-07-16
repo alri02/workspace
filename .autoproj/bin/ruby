@@ -1,0 +1,2 @@
+#! /bin/sh
+exec /home/alveena/.rbenv/versions/2.5.1/bin/ruby "$@"

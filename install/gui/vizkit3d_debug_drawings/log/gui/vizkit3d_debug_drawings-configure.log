@@ -1,0 +1,156 @@
+
+2020-04-05 02:57:13 +0200: running
+    cmake -DCMAKE_INSTALL_PREFIX=/home/alveena/workspace/install/gui/vizkit3d_debug_drawings -DCMAKE_MODULE_PATH= -DCMAKE_PREFIX_PATH=/home/alveena/workspace/install/base/cmake;/home/alveena/workspace/install/gui/vizkit3d;/home/alveena/workspace/install/gui/osgviz;/home/alveena/workspace/install/rtt -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Debug -DROCK_TEST_ENABLED=OFF /home/alveena/workspace/gui/vizkit3d_debug_drawings
+with environment:
+  'AUTOPROJ_CURRENT_ROOT'='/home/alveena/workspace'
+  'BUNDLER_ORIG_BUNDLER_VERSION'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_BIN_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_BUNDLE_GEMFILE'='/home/alveena/workspace/.autoproj/Gemfile'
+  'BUNDLER_ORIG_GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'BUNDLER_ORIG_GEM_PATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_MANPATH'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_PATH'='/home/alveena/workspace/install/gui/vizkit3d_debug_drawings/bin:/home/alveena/workspace/gui/vizkit/bin:/home/alveena/workspace/tools/roby/bin:/home/alveena/workspace/base/scripts/bin:/home/alveena/workspace/install/perception/jpeg_conversion/bin:/home/alveena/workspace/install/gui/rock_widget_collection/bin:/home/alveena/workspace/tools/pocolog/bin:/home/alveena/workspace/tools/orocos.rb/bin:/home/alveena/workspace/install/tools/logger/bin:/home/alveena/workspace/install/tools/service_discovery/bin:/home/alveena/workspace/tools/metaruby/bin:/home/alveena/workspace/tools/orogen/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/drivers/orogen/transformer/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'BUNDLER_ORIG_RB_USER_INSTALL'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYLIB'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLER_ORIG_RUBYOPT'='BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL'
+  'BUNDLE_BIN_PATH'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/exe/bundle'
+  'BUNDLE_GEMFILE'='/home/alveena/workspace/install/gems/Gemfile'
+  'CLUTTER_IM_MODULE'='xim'
+  'CMAKE_PREFIX_PATH'='/home/alveena/workspace/install/gui/vizkit3d:/home/alveena/workspace/install/gui/osgviz:/home/alveena/workspace/install/base/cmake:/home/alveena/workspace/install/rtt'
+  'COLORTERM'='truecolor'
+  'DBUS_SESSION_BUS_ADDRESS'='unix:path=/run/user/1000/bus'
+  'DESKTOP_AUTOSTART_ID'='10dfe9161934af1e71158603229250837100000017470007'
+  'DESKTOP_SESSION'='ubuntu'
+  'DISPLAY'=':0'
+  'GDMSESSION'='ubuntu'
+  'GEM_HOME'='/home/alveena/.local/share/autoproj/gems/ruby/2.5.0'
+  'GNOME_DESKTOP_SESSION_ID'='this-is-deprecated'
+  'GNOME_SHELL_SESSION_MODE'='ubuntu'
+  'GNOME_TERMINAL_SCREEN'='/org/gnome/Terminal/screen/a0218bd4_ac28_42dc_9972_43b7d3dd511f'
+  'GNOME_TERMINAL_SERVICE'=':1.297'
+  'GPG_AGENT_INFO'='/run/user/1000/gnupg/S.gpg-agent:0:1'
+  'GTK_IM_MODULE'='ibus'
+  'GTK_MODULES'='gail:atk-bridge'
+  'HOME'='/home/alveena'
+  'IM_CONFIG_PHASE'='2'
+  'LANG'='en_US.UTF-8'
+  'LC_ADDRESS'='de_DE.UTF-8'
+  'LC_IDENTIFICATION'='de_DE.UTF-8'
+  'LC_MEASUREMENT'='de_DE.UTF-8'
+  'LC_MONETARY'='de_DE.UTF-8'
+  'LC_NAME'='de_DE.UTF-8'
+  'LC_NUMERIC'='de_DE.UTF-8'
+  'LC_PAPER'='de_DE.UTF-8'
+  'LC_TELEPHONE'='de_DE.UTF-8'
+  'LC_TIME'='de_DE.UTF-8'
+  'LD_LIBRARY_PATH'='/home/alveena/workspace/install/gui/vizkit3d_debug_drawings/lib:/home/alveena/workspace/install/rtt/lib:/home/alveena/workspace/install/gui/osgviz/lib:/home/alveena/workspace/install/gui/vizkit3d/lib'
+  'LESSCLOSE'='/usr/bin/lesspipe %s %s'
+  'LESSOPEN'='| /usr/bin/lesspipe %s'
+  'LOGNAME'='alveena'
+  'LS_COLORS'='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+  'OLDPWD'='/home/alveena/workspace/Grid-visual/build'
+  'ORBInitRef'='NameService=corbaname::127.0.0.1'
+  'OROCOS_TARGET'='gnulinux'
+  'OROGEN_PLUGIN_PATH'='/home/alveena/workspace/install/drivers/transformer/share/orogen/plugins:/home/alveena/workspace/install/drivers/orogen/aggregator/share/orogen/plugins:/home/alveena/workspace/install/tools/orogen_metadata/share/orogen/plugins:/home/alveena/workspace/install/drivers/orogen/transformer/share/orogen/plugins'
+  'OSG_FILE_PATH'=''
+  'PATH'='/home/alveena/workspace/install/gui/vizkit3d_debug_drawings/bin:/home/alveena/workspace/install/gui/osgviz/bin:/home/alveena/workspace/install/bin:/home/alveena/workspace/install/pip/bin:/home/alveena/workspace/.autoproj/bin:/home/alveena/workspace/install/gems/bin:/usr/local/bin:/usr/bin:/bin'
+  'PKG_CONFIG_PATH'='/home/alveena/workspace/install/gui/vizkit3d_debug_drawings/lib/pkgconfig:/home/alveena/workspace/install/rtt/lib/pkgconfig:/home/alveena/workspace/install/gui/osgviz/lib/pkgconfig:/home/alveena/workspace/install/gui/vizkit3d/lib/pkgconfig'
+  'PWD'='/home/alveena/workspace/Grid-visual'
+  'PYTHONUSERBASE'='/home/alveena/workspace/install/pip'
+  'QT4_IM_MODULE'='xim'
+  'QT_ACCESSIBILITY'='1'
+  'QT_IM_MODULE'='ibus'
+  'QT_PLUGIN_PATH'='/home/alveena/workspace/install/gui/vizkit3d_debug_drawings/lib/qt:/home/alveena/workspace/install/gui/vizkit3d/lib/qt'
+  'RBENV_SHELL'='bash'
+  'ROBY_PLUGIN_PATH'='/home/alveena/workspace/base/scripts/lib/rock/roby_plugin.rb'
+  'ROCK_BUNDLE_PATH'=''
+  'ROCK_PREFIX'='/home/alveena/workspace/install/base/orogen/types/share/rock'
+  'RUBYLIB'='/home/alveena/workspace/install/gui/vizkit3d_debug_drawings/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-12.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/i18n-1.8.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/minitest-5.14.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thread_safe-0.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tzinfo-1.2.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/zeitwerk-2.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/activesupport-6.0.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/equatable-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-color-0.4.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/pastel-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-cursor-0.5.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/necromancer-0.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timers-4.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-screen-0.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/wisper-2.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-reader-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-prompt-0.15.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/standard:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/facets-3.1.0/lib/core:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/utilrb-3.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autobuild-1.20.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/backports-3.17.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/ffi-1.12.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ffi-1.12.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-inotify-0.10.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thor-0.20.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-spinner-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xdg-2.2.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autoproj-2.12.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/uber-0.0.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hooks-0.4.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/autorespawn-0.6.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/debug_inspector-0.0.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/debug_inspector-0.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/binding_of_caller-0.8.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/binding_of_caller-0.8.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/builder-3.2.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/concurrent-ruby-ext-1.0.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/concurrent-ruby-ext-1.0.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/daemons-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/unf_ext-0.0.7.6:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf_ext-0.0.7.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unf-0.1.4/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/domain_name-0.5.20190701/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-core-0.4.9/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-equalizer-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-configurable-0.11.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-container-0.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-inflector-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-logic-1.0.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/dry-types-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/eventmachine-1.2.7:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/eventmachine-1.2.7/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/fakefs-1.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/flexmock-2.3.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/ruby2_keywords-0.0.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-1.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mustermann-grape-1.0.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-2.2.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rack-accept-0.4.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/grape-1.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-3.22.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/yard-0.9.24/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/hoe-yard-0.1.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-accept-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/http-cookie-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/kramdown-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/lazy_priority_queue-0.1.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-data-3.2019.1009/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/mime-types-3.3.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/msgpack-1.3.3:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/msgpack-1.3.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/netrc-0.11.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/optimist-3.0.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/qtbindings-4.8.6.5:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/qtbindings-4.8.6.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rake-compiler-0.8.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rb-readline-0.5.5/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rbtrace-0.4.12:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/ext:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rbtrace-0.4.12/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rest-client-2.1.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stream-0.5.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rgl-0.5.6/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/rice-2.2.0:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/rice-2.2.0/ruby/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/stackprof-0.2.15:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/stackprof-0.2.15/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/state_machine-1.0.3/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-ansi-0.2.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode-display_width-1.7.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/unicode_utils-1.4.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/strings-0.1.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/extensions/x86_64-linux/2.5.0/thin-1.7.2:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/thin-1.7.2/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/timecop-0.9.1/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/tty-table-0.10.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/websocket-1.2.8/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/xmlrpc-0.3.0/lib:/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib'
+  'RUBYOPT'='-r/home/alveena/.local/share/autoproj/gems/ruby/2.5.0/gems/bundler-2.1.4/lib/bundler/setup'
+  'SESSION_MANAGER'='local/alveena-HP-ENVY:@/tmp/.ICE-unix/1747,unix/alveena-HP-ENVY:/tmp/.ICE-unix/1747'
+  'SHELL'='/bin/bash'
+  'SHLVL'='1'
+  'SSH_AGENT_PID'='1840'
+  'SSH_AUTH_SOCK'='/run/user/1000/keyring/ssh'
+  'TERM'='xterm-256color'
+  'TEXTDOMAIN'='im-config'
+  'TEXTDOMAINDIR'='/usr/share/locale/'
+  'TYPELIB_CXX_LOADER'='castxml'
+  'TYPELIB_PLUGIN_PATH'='/home/alveena/workspace/install/typelib/lib/typelib'
+  'TYPELIB_RUBY_PLUGIN_PATH'=''
+  'USER'='alveena'
+  'USERNAME'='alveena'
+  'VIZKIT_PLUGIN_RUBY_PATH'='/home/alveena/workspace/install/gui/vizkit3d_debug_drawings/lib:/home/alveena/workspace/install/gui/vizkit3d/lib'
+  'VTE_VERSION'='5202'
+  'WINDOWPATH'='1'
+  'XAUTHORITY'='/run/user/1000/gdm/Xauthority'
+  'XDG_CONFIG_DIRS'='/etc/xdg/xdg-ubuntu:/etc/xdg'
+  'XDG_CURRENT_DESKTOP'='ubuntu:GNOME'
+  'XDG_DATA_DIRS'='/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+  'XDG_MENU_PREFIX'='gnome-'
+  'XDG_RUNTIME_DIR'='/run/user/1000'
+  'XDG_SEAT'='seat0'
+  'XDG_SESSION_DESKTOP'='ubuntu'
+  'XDG_SESSION_ID'='1'
+  'XDG_SESSION_TYPE'='x11'
+  'XDG_VTNR'='1'
+  'XMODIFIERS'='@im=ibus'
+  '_'='/home/alveena/workspace/.autoproj/bin/amake'
+
+2020-04-05 02:57:13 +0200: running
+    cmake -DCMAKE_INSTALL_PREFIX=/home/alveena/workspace/install/gui/vizkit3d_debug_drawings -DCMAKE_MODULE_PATH= -DCMAKE_PREFIX_PATH=/home/alveena/workspace/install/base/cmake;/home/alveena/workspace/install/gui/vizkit3d;/home/alveena/workspace/install/gui/osgviz;/home/alveena/workspace/install/rtt -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Debug -DROCK_TEST_ENABLED=OFF /home/alveena/workspace/gui/vizkit3d_debug_drawings
+in directory /home/alveena/workspace/gui/vizkit3d_debug_drawings/build
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Performing Test CXX_SUPPORTS_Wall
+-- Performing Test CXX_SUPPORTS_Wall - Success
+-- Performing Test CXX_SUPPORTS_Wno_unused_local_typedefs
+-- Performing Test CXX_SUPPORTS_Wno_unused_local_typedefs - Success
+-- Looking for Q_WS_X11
+-- Looking for Q_WS_X11 - found
+-- Looking for Q_WS_WIN
+-- Looking for Q_WS_WIN - not found
+-- Looking for Q_WS_QWS
+-- Looking for Q_WS_QWS - not found
+-- Looking for Q_WS_MAC
+-- Looking for Q_WS_MAC - not found
+-- Found Qt4: /usr/bin/qmake (found version "4.8.7") 
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Export include dir: '/home/alveena/workspace/gui/vizkit3d_debug_drawings/build/include/_vizkit3d_debug_drawings_/vizkit3d_debug_drawings' already exists
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   serialization
+--   system
+Building with port support
+-- Checking for module 'vizkit3d'
+--   Found vizkit3d, version 1.0
+-- Checking for module 'osgViz'
+--   Found osgViz, version 0.1
+-- Checking for module 'PrimitivesFactory'
+--   Found PrimitivesFactory, version 0.1
+-- Checking for module 'orocos-rtt-gnulinux'
+--   Found orocos-rtt-gnulinux, version 2.8.3
+-- Performing Test CXX_SUPPORTS_Wnon_virtual_dtor
+-- Performing Test CXX_SUPPORTS_Wnon_virtual_dtor - Success
+-- Checking for module 'vizkit3d'
+--   Found vizkit3d, version 1.0
+-- vizkit3d found ... building the vizkit3d plugin
+-- Export include dir: '/home/alveena/workspace/gui/vizkit3d_debug_drawings/build/include/_vizkit3d_/vizkit3d' already exists
+-- unit tests disabled as ROCK_TEST_ENABLED is set to OFF
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alveena/workspace/gui/vizkit3d_debug_drawings/build
+Exit: pid 17229 exit 0

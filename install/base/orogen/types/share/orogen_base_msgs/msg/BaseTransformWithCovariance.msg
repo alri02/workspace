@@ -1,0 +1,4 @@
+BaseVector3d translation
+BaseQuaterniond orientation
+BaseMatrix6d cov
+
