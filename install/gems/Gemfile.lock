@@ -85,7 +85,8 @@ GEM
       domain_name (~> 0.5)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    kramdown (2.1.0)
+    kramdown (2.3.1)
+      rexml
     lazy_priority_queue (0.1.1)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
@@ -121,6 +122,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    rexml (3.2.4)
     rgl (0.5.6)
       lazy_priority_queue (~> 0.1.0)
       stream (~> 0.5.2)
